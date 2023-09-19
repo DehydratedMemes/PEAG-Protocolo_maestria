@@ -1,0 +1,215 @@
+%arara: lualatex: { branch: developer, interaction: errorstopmode,
+%arara: --> shell: yes, synctex: yes }
+%arara: makeglossaries if found('aux', '@istfilename')
+%arara: biber: { options: [ '--wraplines' ] }
+
+% \DocumentMetadata{testphase=phase-III}
+% \DocumentMetadata{lang=es-MX}
+
+% NOTA: [<+->] se usa comio overlay para hacer que los bullets aparezcan uno por uno.
+
+\documentclass[spanish,mexico]{scrartcl}
+% \listfiles
+
+\KOMAoptions{abstract=true}
+\usepackage[spanish,mexico]{babel}
+
+\usepackage[math,toc,bible]{blindtext}
+
+\usepackage{fontspec}
+    \setmainfont{TeX Gyre Pagella}
+    \setsansfont{TeX Gyre Heros}
+
+\usepackage{csquotes}
+% \MakeAutoQuote{"}{"}
+
+\usepackage{microtype}
+\usepackage{tabularray}
+\UseTblrLibrary{booktabs}
+\UseTblrLibrary{siunitx}
+
+\usepackage{siunitx}
+\sisetup{separate-uncertainty,per-mode=symbol,detect-all,range-phrase=--}
+\usepackage{chemmacros}
+\usepackage[eps,librsvg]{chemobabel}
+\usepackage{glossaries}
+    \makeglossaries{}
+
+\usepackage[style=science,backend=biber,url=false]{biblatex}
+    \addbibresource[location=remote]{http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex}
+
+\usepackage[skins]{tcolorbox}
+\usepackage{paralist}
+\usepackage{cleveref}
+\usepackage{subcaption}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{newfloat}
+\DeclareFloatingEnvironment[
+   fileext=los,
+   listname={List of Schemes},
+   name=Scheme,
+   placement=tbp,
+   within=none % don't reset numbering
+]{scheme}
+\DeclareCaptionSubType{scheme}
+
+
+
+\begin{filecontents}[force]{abreviaturas.tex}
+    \newacronym{DFT}{DFT}{Teoría del funcional de la densidad \textit{(del inglés "Density Functional Theory")}}
+    \newacronym{TDDFT}{TDDFT}{Teoría del funcional de la densidad tiempo-dependiente \textit{(del inglés "Time-Dependant Density Functional Theory")}}
+    \newacronym{FMR}{FMR}{Rotores Moleculares Fluorescentes \textit{(Del inglés Flurescent Molecular Rotor)}}
+    \newacronym{BOSCHIBA}{BOSCHIBA}{Bases de Schiff de Boro \textit{(del inglés "\textsc{Bo}ron \textsc{Schi}ff \textsc{Ba}ses")}}
+    \newacronym{BODIPY}{BODIPY}{\textsc{bo}ron-\textsc{di}\textsc{py}rromethene}
+    \newacronym{TICT}{TICT}{transferencia de carga intramolecular retorcida \textit{(del inglés "twsited intramolecular charge transfer")}}
+    \newacronym{LE}{LE}{local excitado \textit{(del inglés "locally exited")}}
+\end{filecontents}
+
+\begin{filecontents}[force]{comandos.tex}
+    % \newcommand{\invitro}{\textit{in-vitro}}
+\end{filecontents}
+
+\begin{filecontents}[force]{quimica.tex}
+    \DeclareChemReactant{BO1}{name={BO1}, short={THF}}
+    \DeclareChemReactant{BO-trp}{name={triptófano}, short={BO-trp}}
+    \DeclareChemReactant{BO-phe}{name={fenilalanina}, short={BO-phe}}
+    \DeclareChemReactant{BO-tyr}{name={tirosina}, short={BO-tyr}}
+    \DeclareChemReactant{BO-gly}{name={glicina}, short={BO-gly}}
+    \NewChemLatin\invitro{in vitro}
+    \NewChemLatin\insilico{in silico}
+    \DeclareChemTranslation{scheme-name}{spanish}{Esquema}
+    \DeclareChemTranslation{scheme-list}{spanish}{Lista de esquemas}
+    \DeclareChemTranslation{scheme}{spanish}{esquema}
+    \DeclareChemTranslation{schemes}{spanish}{esquemas}
+    \DeclareChemTranslation{Scheme}{spanish}{Esquema}
+    \DeclareChemTranslation{Schemes}{spanish}{Esquemas}
+    \renewcommand{\schemename}{Esquema}
+\end{filecontents}
+
+\input{abreviaturas}
+\input{comandos}
+\input{quimica}
+
+\title{Síntesis sustentable, caracterización química-fotofísica, y por {DFT} de {BOSCHIBA} derivadas de aminoácidos y su aplicación in vitro}
+\subject{Protocolo de tesis de maestría}
+\date{\today}
+\author{Pablo E. Alanis González}
+\publishers{Universidad Autónoma de Nuevo León, División de Posgrado}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant{BO-trp}, \reactant{BO-phe}, \reactant{BO-tyr} y \reactant{BO-gly}. Se caracterizarán por métodos espectroscópicos. Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminisencia en dichos compuestos así como estudios de topológicos sobre estos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
+\end{abstract}
+
+\tableofcontents
+% \listoffigures
+% \listoftables
+% \listofschemes
+
+\section{Introducción}
+
+Recientemente, se ha acrecentado el interés por los compuestos fluorescentes de boro debido a su amplio campo de aplicaciones; \autocite{ibarra-rodriguezOrganoboronSchiffBases2019} ya sea en sensores, como en tintas de seguridad, o bien los \gls{BODIPY} comercialmente disponibles utilizados como agentes para la tinción celular, ER-Tracker™ Green y ER-Tracker™ Red (ver \cref{ER-Trackers}).
+
+\begin{scheme}
+\centering
+\begin{subscheme}{0.45\linewidth}
+\includegraphics[width=\linewidth]{ER-Tracker_Blue.pdf}
+\caption{ER-Tracker™ Blue}
+\label{ER-Tracker_Blue}
+\end{subscheme}
+\hfill
+\begin{subscheme}{0.45\linewidth}
+\includegraphics[width=\linewidth]{ER-Tracker_Green.pdf}
+\caption{ER-Tracker™ Green}
+\label{ER-Tracker_Green}
+\end{subscheme}
+\caption{Los ER-Tracker™ Green y ER-Tracker™ Red de Thermo Fischer Scientific™ son \gls{BODIPY} comerciales utilizados como agentes para la tinción celular.}
+\label{ER-Trackers}
+\end{scheme}
+
+Los \gls{FMR} son fluoróforos sensibles a la viscosidad que presentan una rotación libre que se vuelven fluorescentes, o en su defecto, aumentan la fluorescencia solo si su rotación se ve restringida.\todo{Citar} Algunas interacciones de carácter intramolecular para detener la rotación de los \gls{FMR} son \begin{inparaenum}[i.]
+    \item formar interacciones de hidrógeno,\autocite{wuMultistageRotationalSpeed2018}
+    \item a través del impedimento estérico,\autocite{faulknerAllostericRegulationRotational2016} o
+    \item por la formación de complejos estables con iones metálicos.\autocite{yadavViscochromicMechanochromicUnsymmetrical2019}
+\end{inparaenum}
+
+Se ha determinado que la polarización del solvente y la viscosidad del mismo afectan considerablemente la fluorescencia de los \gls{FMR}. Esto es porque se limita la tasa de formación del complejo \gls{TICT}, el cual se de-exita de forma \emph{no-radiativa,} y se promueve la formación del complejo \gls{LE}, el cual fluórese. El efecto que tiene la polarización del solvente, aunque se sabe que es importante, no se ha logrado elucidar de forma aislada a la viscosidad.\cite{haidekkerEffectsSolventPolarity2005}
+
+Diferentes estrategias para el diseño de \gls{FMR} se han propuesto para realizar sensores de viscosidad altamente sensibles, por ejemplo, incorporando grupos rotacionales asimétricos,\autocite{leePyrrolicMolecularRotors2016} rotadores con alta capacidad rotacional,\autocite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados \emph{push-pull},\autocite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\autocite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores con diferentes capacidades rotacionales y electrondonantes.\autocite{rautTriazinebasedBODIPYTrimer2016}
+
+Therefore, obtaining both high fluorescence efficiency and fluorescent contrast simultaneously is very difficult, due to, in many cases molecules high quantum yield has poor contrast capacity. Quantum yield and fluorescence contrast of the FMRs are inversely correlated, a relationship called the “fluorescence intensity-contrast trade-off”.5 Nowadays exist a wide variety FMRs derived from boron compounds, where BODIPYs and dioxaborines are the protagonists due to their lofty quantum yield, however, their show some disadvantages as synthesis in several steps, anhydrous atmosphere conditions, and in many times low contrast ability, sparingly increasing the quantum yield of the initial value.7,11–13
+
+Por lo que, obtener tanto una alta eficiencia de fluorescencia como un contraste fluorescente simultáneamente es muy difícil, debido a que, en muchos casos, las moléculas de alto rendimiento cuántico tienen una capacidad de contraste deficiente. 
+El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada "intensidad de fluorescencia---contraste".\autocite{leeFrontCoverFluorescent2018}
+En la actualidad existe una amplia variedad de \gls{FMR} derivados de compuestos de boro, donde los \gls{BODIPY} y los dioxaborinos son los protagonistas debido a su elevado rendimiento cuántico, sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja, aumentando escasamente el rendimiento cuántico del valor inicial.\autocite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
+Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de bases de Schiff de boro (\gls{BOSCHIBA}) y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\autocite{ibarra-rodriguezFluorescentMolecularRotors2017} 
+Los resultados encontrados indican que los \gls{BOSCHIBA} pueden aumentar hasta 34 veces su valor de rendimiento cuántico en medios de alta viscosidad, sin embargo, a pesar de teñir selectivamente el citoplasma en las células de melanoma, presentaron un bajo teñido atribuido principalmente a la baja solubilidad de los compuestos.
+
+Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se diseñó una serie de \gls{BOSCHIBA} derivados de aminoácidos (ver \cref{sch:marcha}), donde las moléculas presentan rotación libre a través del anillo fenilborónico, y el aminoácido podría dar una mayor compatibilidad y solubilidad en medios celulares. Los compuestos de boro fluorescentes \textbf{1-4} se obtuvieron por irradiación ultrasónica en combinación con una reacción multicomponente con altos rendimientos químicos (\qty{>90}{\percent}) y un tiempo de reacción corto de \qty{20}{\minute} a \qty{50}{\degreeCelsius}. Este método resulta más eficiente y rápido en comparación con moléculas similares reportadas en la literatura.
+
+\begin{scheme}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Marcha.pdf}
+    \caption{Compuestos que se sintetizarán en esta investigación.}
+    \label{sch:marcha}
+\end{scheme}
+
+Todos los compuestos fueron caracterizados completamente, tanto estructural como fotofísicamente. Las estructuras cristalinas obtenidas para los compuestos 2 y 4 muestran átomos de boro tetracoordinados con geometría tetraédrica ligeramente distorsionada y la formación de dos heterociclos fusionados de cinco y seis miembros debido a la coordinación N→B (ver \cref{sch:estructuras}). Las longitudes N→B, 2=1.569 Å y 4=1.566Å, sugieren una fuerte coordinación del nitrógeno con los átomos de boro porque son menores que la distancia covalente N→B estimada; esto se confirma por el carácter tetraédrico del 91.33 y 93.07\%, respectivamente.
+
+Otra evidencia confiable de la unión de coordinación N→B fue una señal ancha alrededor de \begin{experimental} \NMR{11,B} \val{5.80}; \end{experimental} para todos los compuestos, indicativo de un átomo de boro tetracoordinado. El HRMS de los compuestos de boro mostró que el pico base corresponde al pico del ion molecular, y la primera fragmentación resulta en su ligando por pérdida del segmento fenilborónico (ver ESI).\note{Conseguir ESI}
+
+
+\section{Antecedentes}\todo{Hacer!}
+
+\Blindtext[2]
+\section{Análisis crítico de los antecedentes}\todo{Hacer!}
+\Blindtext
+\section{Aporte científico}\todo{Hacer!}
+\blindtext
+\section{Hipótesis}\todo{Hacer!}
+\blindtext
+\section{Objetivos}\todo{Hacer!}
+\blindlist{enumerate}
+\subsection{Objetivo general}\todo{Hacer!}
+\blindtext
+\subsection{Objetivos específicos}\todo{Hacer!}
+\blindlist{enumerate}
+\section{Metodología}\todo{Hacer!}
+\Blindtext[1]
+\subsection{Síntesis}\todo{Hacer!}
+\Blindtext
+\subsection{Determinación de propiedades ópticas}\todo{Hacer!}
+\blindmathtrue
+\Blindtext
+\subsection{Determinación de citotoxicidad}\todo{Hacer!}
+\Blindtext
+\subsection{Modelado molecular}\todo{Hacer!}
+\blindmathtrue
+\Blindtext
+\subsubsection{Selección del funcional}\todo{Hacer!}
+\Blindtext
+\subsubsection{Optimización}\todo{Hacer!}
+\blindmathtrue
+\Blindtext
+\subsubsection{Obtención de espectro de emisión}\todo{Hacer!}
+\Blindtext
+\section{Residuos}\todo{Hacer!}
+\blindtext
+\section{Análisis de costos}\todo{Hacer!}
+\blindmathtrue
+\blindtext
+\section{Procedimiento experimental}\todo{Hacer!}
+\blindmathtrue
+\blindtext
+\section{Planificación}\todo{Hacer!}
+\blindtext
+
+\printreactants{}
+\printglossaries{}
+\printbibliography{}
+
+\listoftodos[Pendientes]
+
+\end{document}

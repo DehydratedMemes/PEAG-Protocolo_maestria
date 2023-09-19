@@ -1,0 +1,1358 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ibarra-rodriguezOrganoboronSchiffBases2019}{article}{}
+      \name{author}{9}{}{%
+        {{hash=ff91dffb2ee27e9961f83b01b34bb1a0}{%
+           family={Ibarra-Rodríguez},
+           familyi={I\bibinithyphendelim R\bibinitperiod},
+           given={Marisol},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d47ffc69c26f296d1ee2c069764af0e}{%
+           family={Muñoz-Flores},
+           familyi={M\bibinithyphendelim F\bibinitperiod},
+           given={Blanca\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=67d4d627c6461f851ad48bb40d8d648b}{%
+           family={Gómez-Treviño},
+           familyi={G\bibinithyphendelim T\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4c9345d28c2119fcf0800a07c22af370}{%
+           family={Chan-Navarro},
+           familyi={C\bibinithyphendelim N\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c726f54f8c5718d571992a72aa34bbd9}{%
+           family={Berrones-Reyes},
+           familyi={B\bibinithyphendelim R\bibinitperiod},
+           given={Jessica\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=441b87833b8339ee235862636ac828a6}{%
+           family={Chávez-Reyes},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=180c8856e21007a11327af6fdb735ef0}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={H.V.\bibnamedelimi Rasika},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=49ac62f7d4f8e293eb7a6251eb230b52}{%
+           family={Sánchez\bibnamedelima Vázquez},
+           familyi={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=feea24ced8567eac9c12a0ba9701c8ec}{%
+           family={Jiménez-Pérez},
+           familyi={J\bibinithyphendelim P\bibinitperiod},
+           given={Víctor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{fullhash}{2e4b3e446b344fa1a69e81391a83723a}
+      \strng{bibnamehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{authorbibnamehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{authornamehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{authorfullhash}{2e4b3e446b344fa1a69e81391a83723a}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{02682605}
+      \field{journaltitle}{Applied Organometallic Chemistry}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{Appl Organometal Chem}
+      \field{shorttitle}{Organoboron {{Schiff}} Bases as Cell-Staining
+      Fluorescent Probes}
+      \field{title}{%
+      Organoboron {{Schiff}} Bases as Cell-Staining Fluorescent Probes:
+      {{Synthesis}}, {{Chemio-photophysical}} Characterization, {{DFT}}, and
+      {{X-ray}} Structures: {{BOSCHIBAs}}, {{Low}} Cytotoxicity, {{High}}
+      Photostability, {{Bioimaging}}%
+      }
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e4718}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10/gskz78
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/FCKBXCWH/Ibarra-Rodríguez et al. - 2019 - Organoboron Schiff bases as cell-staining fluoresc.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/aoc.4718
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/aoc.4718
+      \endverb
+    \endentry
+    \entry{wuMultistageRotationalSpeed2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b47adfd13bc62453333dadc2d0e188f8}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yingying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=37c4d2c45cbec7247039ccbc66de7fc5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Guangxia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9aabde0ce319836da23b44f0c107d12e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiaolian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d2455ee5cf3448efb679c8336a0c97f4}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Junfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5366edd25c6d4e9a4041a4783f719c78}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod}}}%
+        {{hash=330e18fb499a5fa7fa598125962993f7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{63292e098dada0655bed2a981950e305}
+      \strng{fullhash}{142a71553bc68baecd5647a2bf7be05e}
+      \strng{bibnamehash}{63292e098dada0655bed2a981950e305}
+      \strng{authorbibnamehash}{63292e098dada0655bed2a981950e305}
+      \strng{authornamehash}{63292e098dada0655bed2a981950e305}
+      \strng{authorfullhash}{142a71553bc68baecd5647a2bf7be05e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      Abstract Despite having significant applications in building
+      nanomachines, molecular rotors with the rotational speed modulations to
+      multiple stages in a wide range of frequency have not yet been well
+      established. Here, we report the discovery of a stimuli-responsive
+      molecular rotor, the rotational speed of which in the slow-to-fast range
+      could be modulated to at least four stages triggered by acid/base and
+      metal cations. The rotor itself rotates rapidly at ambient or elevated
+      temperature but displays a restricted rotation after deprotonation due to
+      the produced intramolecular electrostatic repulsion. Subsequent addition
+      of Li + or Na + cations introduces an electrostatic bridge to stabilize
+      the transition state of the deprotonated rotor, thus giving a
+      cation-radius-dependent acceleration of the rotation to render the rotor
+      running at a mid-speed. All the stimuli are highly reversible. Our
+      studies provide a conceptual approach for constructing multistage
+      rotational-speed-changing molecular~rotors, and further, the practical
+      nanomachines.%
+      }
+      \field{day}{16}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{Nat Commun}
+      \field{title}{A Multistage Rotational Speed Changing Molecular Rotor
+      Regulated by {{pH}} and Metal Cations}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1953}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10/gdkpwz
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/FMJNGSWC/Wu et al. - 2018 - A multistage rotational speed changing molecular r.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41467-018-04323-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41467-018-04323-4
+      \endverb
+    \endentry
+    \entry{faulknerAllostericRegulationRotational2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=66dac5c86b89421dbf60a1000f2e6052}{%
+           family={Faulkner},
+           familyi={F\bibinitperiod},
+           given={Adele},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e234d49c6b14080ee14b6634df27ef4f}{%
+           family={Van\bibnamedelima Leeuwen},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3286282ba7086f83bec7bd1afd3ccabf}{%
+           family={Feringa},
+           familyi={F\bibinitperiod},
+           given={Ben\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=76eb5d0d21b0c67f4635c63a5e45b01f}{%
+           family={Wezenberg},
+           familyi={W\bibinitperiod},
+           given={Sander\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f4fa6e9f83be4aed8d645d1f4b8213e}
+      \strng{fullhash}{09445ce0a6469bfb431eaab0a9982805}
+      \strng{bibnamehash}{09445ce0a6469bfb431eaab0a9982805}
+      \strng{authorbibnamehash}{09445ce0a6469bfb431eaab0a9982805}
+      \strng{authornamehash}{2f4fa6e9f83be4aed8d645d1f4b8213e}
+      \strng{authorfullhash}{09445ce0a6469bfb431eaab0a9982805}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{issn}{0002-7863, 1520-5126}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{41}
+      \field{shortjournal}{J. Am. Chem. Soc.}
+      \field{title}{Allosteric {{Regulation}} of the {{Rotational Speed}} in a
+      {{Light-Driven Molecular Motor}}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{138}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{13597\bibrangedash 13603}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10/gsqwpr
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/jacs.6b06467
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/jacs.6b06467
+      \endverb
+    \endentry
+    \entry{yadavViscochromicMechanochromicUnsymmetrical2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a2c841a7e7950811cb63115b88dbdd06}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Richa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=529d2a809964cfbb7cc385e2657bc87a}{%
+           family={Rai},
+           familyi={R\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fdc47b11b8c82ed51d76e4d3bd151047}{%
+           family={Sonkar},
+           familyi={S\bibinitperiod},
+           given={Avinash\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=926446c9001da7ba3ad137f739acde32}{%
+           family={Rai},
+           familyi={R\bibinitperiod},
+           given={Vipin},
+           giveni={V\bibinitperiod}}}%
+        {{hash=64b01741648ae151117ca2e833ebd709}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Subash\bibnamedelima Chandra},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6f3a5d1263401b338ca61f979d53e70f}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Lallan},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{fullhash}{906688d0d8f0df432a6a6c46a03b1f4c}
+      \strng{bibnamehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{authorbibnamehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{authornamehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{authorfullhash}{906688d0d8f0df432a6a6c46a03b1f4c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      A mechanoresponsive, viscochromic, and unsymmetrical azine NDEA probes Al
+      3+ and Cu 2+ ions and also co-localizes in the mitochondria of C6 glioma
+      cell lines. , A hydrazone obtained by the reaction of
+      2-hydroxynaphthaldehyde with hydrazine hydrate was allowed to react
+      further with 4-diethylamino-2-hdroxybenzaldehyde to provide an
+      unsymmetrical azine derivative ( NDEA ). The azine has been characterized
+      using spectroscopic techniques and single crystal X-ray crystallography.
+      It selectively detects Al 3+ and Cu 2+ ions in aqueous methanol
+      (DMSO\,:\,H 2 O\,:\,MeOH = 0.1\,:\,1.9\,:\,8.0, v/v, HEPES buffer, pH
+      7.4) and exhibits naked eye visible color changes from greenish yellow to
+      bright yellow and brown on the addition of Al 3+ and Cu 2+ ions,
+      respectively, with concomitant changes in their absorption spectra. The
+      corresponding solutions containing Al 3+ and Cu 2+ ions also display
+      changes in their emission spectra via “TURN ON” and “TURN OFF” pathways
+      with a detection limit of 1.65 × 10 −7 M and 1.52 × 10 −7 M,
+      respectively. NDEA works as a reversible probe towards Al 3+ ions and Cu
+      2+ ions by the addition of F − ions and EDTA 2− ions, respectively. The
+      complexes of NDEA , separately with Al 3+ and Cu 2+ ions, have been
+      optimized by DFT (density functional theory). It also exhibits
+      viscochromic and mechanochromic properties. Most importantly, NDEA
+      significantly detects these ions in rat C6 glioma cell lines and displays
+      good cell permeability. It also co-localizes with the commercially
+      available Mitotracker Red and exhibits a unique application as a live
+      cell mitochondrial tracker. Practically, NDEA detects Al 3+ and Cu 2+
+      ions in real water samples and blood serum with a high accuracy.%
+      }
+      \field{issn}{1144-0546, 1369-9261}
+      \field{journaltitle}{New Journal of Chemistry}
+      \field{langid}{english}
+      \field{number}{18}
+      \field{shortjournal}{New J. Chem.}
+      \field{title}{%
+      A Viscochromic, Mechanochromic, and Unsymmetrical Azine for Selective
+      Detection of {{Al}} {\textsuperscript{3+}} and {{Cu}}
+      {\textsuperscript{2+}} Ions and Its Mitotracking Studies%
+      }
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{43}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7109\bibrangedash 7119}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10/gsqwps
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C8NJ06413J
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C8NJ06413J
+      \endverb
+    \endentry
+    \entry{haidekkerEffectsSolventPolarity2005}{article}{}
+      \name{author}{4}{}{%
+        {{hash=72df08db3f2f1f7ee4701c2c90d3e6da}{%
+           family={Haidekker},
+           familyi={H\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f234a94c80cf49718d258977a7559a60}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={T.P.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=be6c10c08edc62055c88f518eb9be20d}{%
+           family={Lichlyter},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4345b201b4194b7993d3884afa27d635}{%
+           family={Theodorakis},
+           familyi={T\bibinitperiod},
+           given={E.A.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b49e5a2e87509bf9ac55387e0a551540}
+      \strng{fullhash}{cf516b33161c1ac1a63145995649c0ff}
+      \strng{bibnamehash}{cf516b33161c1ac1a63145995649c0ff}
+      \strng{authorbibnamehash}{cf516b33161c1ac1a63145995649c0ff}
+      \strng{authornamehash}{b49e5a2e87509bf9ac55387e0a551540}
+      \strng{authorfullhash}{cf516b33161c1ac1a63145995649c0ff}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      Fluorescent molecular rotors belong to a group of twisted intramolecular
+      charge transfer complexes (TICT) whose photophysical characteristics
+      depend on their environment. In this study, the influence of solvent
+      polarity and viscosity on several representative TICT compounds (three
+      Coumarin derivatives, 4,4-dimethylaminobenzonitrile DMABN,
+      9-(dicyanovinyl)-julolidine DCVJ), was examined. While solvent polarity
+      caused a bathochromic shift of peak emission in all compounds, this shift
+      was lowest in the case of molecular rotors. Peak intensity was influenced
+      strongly by solvent viscosity in DMABN and the molecular rotors, but
+      polarity and viscosity influences cannot be separated with DMABN.
+      Coumarins, on the other hand, did not show viscosity sensitivity. This
+      study shows the unique suitability of molecular rotors as fluorescent
+      viscosity sensors.%
+      }
+      \field{issn}{00452068}
+      \field{journaltitle}{Bioorganic Chemistry}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shortjournal}{Bioorganic Chemistry}
+      \field{title}{Effects of Solvent Polarity and Solvent Viscosity on the
+      Fluorescent Properties of Molecular Rotors and Related Probes}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{33}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{415\bibrangedash 425}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10/dhw8f2
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/QSGCZIMF/Haidekker et al. - 2005 - Effects of solvent polarity and solvent viscosity .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045206805000763
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045206805000763
+      \endverb
+    \endentry
+    \entry{leePyrrolicMolecularRotors2016}{article}{}
+      \name{author}{9}{}{%
+        {{hash=8b9f29b8081f68942f825a888256f3c7}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seung-Chul},
+           giveni={S\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=97fe3b0b2e2b70b09fc8a5ec54b07a09}{%
+           family={Heo},
+           familyi={H\bibinitperiod},
+           given={Jeongyun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bbef562307037c1691a3e633b0ac6e3b}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={Jong-Wan},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=099de9b45e13dac9fafc30093a7576d4}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chang-Lyoul},
+           giveni={C\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=faeabf11d1a7a5d933680f8e5a503098}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sehoon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=94d74daab28e9d27a631fb8be873ab28}{%
+           family={Tae},
+           familyi={T\bibinitperiod},
+           given={Joon-Sung},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=25d6d8cc669f9fa10c73fb0bf93841bf}{%
+           family={Rhee},
+           familyi={R\bibinitperiod},
+           given={Byung-Ohk},
+           giveni={B\bibinithyphendelim O\bibinitperiod}}}%
+        {{hash=4d89bed9ec3b4b7c5937c8dcba26af34}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sang-Wook},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=b2434fd4df8b94fb54bbabe925b5d9a1}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={O-Pil},
+           giveni={O\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6e1d16216324ec3c15da54e1443d91e}
+      \strng{fullhash}{680899bdb2e0857b373bfb946422eeae}
+      \strng{bibnamehash}{d6e1d16216324ec3c15da54e1443d91e}
+      \strng{authorbibnamehash}{d6e1d16216324ec3c15da54e1443d91e}
+      \strng{authornamehash}{d6e1d16216324ec3c15da54e1443d91e}
+      \strng{authorfullhash}{680899bdb2e0857b373bfb946422eeae}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      Pyrrolic viscosity sensors exhibit one order of magnitude higher
+      fluorescence contrast compared to that of the conventional phenolic
+      analogues due to the viscosity-sensitive rotation of the rotational
+      pyrrole group. , New pyrrolic viscosity sensors exhibit one order of
+      magnitude higher fluorescence contrast compared to that of the
+      conventional phenolic analogues due to the viscosity-sensitive rotation
+      of the asymmetric pyrrole group and successfully demonstrate mapping of
+      intracellular viscosity by fluorescence lifetime imaging microscopy.%
+      }
+      \field{issn}{1359-7345, 1364-548X}
+      \field{journaltitle}{Chemical Communications}
+      \field{langid}{english}
+      \field{number}{94}
+      \field{shortjournal}{Chem. Commun.}
+      \field{title}{Pyrrolic Molecular Rotors Acting as Viscosity Sensors with
+      High Fluorescence Contrast}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{52}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{13695\bibrangedash 13698}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10/gsqwpt
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C6CC06521J
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C6CC06521J
+      \endverb
+    \endentry
+    \entry{karpenkoPushPullDioxaborine2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6c95e4c7e92d985ad90c15ffc388f988}{%
+           family={Karpenko},
+           familyi={K\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=12843e0862e08edcb6cad146687361da}{%
+           family={Niko},
+           familyi={N\bibinitperiod},
+           given={Yosuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0211ae614d463860fd8ebe32fc568c06}{%
+           family={Yakubovskyi},
+           familyi={Y\bibinitperiod},
+           given={Viktor\bibnamedelima P.},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=051374d4156b8888ec3bb092e35d725e}{%
+           family={Gerasov},
+           familyi={G\bibinitperiod},
+           given={Andriy\bibnamedelima O.},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=abcf39400d5a066fd10a7c9bbf283604}{%
+           family={Bonnet},
+           familyi={B\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ef25f91401bdf283b3b4da2b926a2d9e}{%
+           family={Kovtun},
+           familyi={K\bibinitperiod},
+           given={Yuriy\bibnamedelima P.},
+           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=359a54007f19d7b66e78b211e50fe169}{%
+           family={Klymchenko},
+           familyi={K\bibinitperiod},
+           given={Andrey\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9cffaf31eed109fc47f59033260c6f70}
+      \strng{fullhash}{bf10c319784829d1131e04b8dfb9cd05}
+      \strng{bibnamehash}{9cffaf31eed109fc47f59033260c6f70}
+      \strng{authorbibnamehash}{9cffaf31eed109fc47f59033260c6f70}
+      \strng{authornamehash}{9cffaf31eed109fc47f59033260c6f70}
+      \strng{authorfullhash}{bf10c319784829d1131e04b8dfb9cd05}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{%
+      Fluorescent solvatochromic dyes and molecular rotors have attracted
+      considerable attention as fluorogenic probes because of background-free
+      detection of biomolecules in live cells in no-wash conditions. ,
+      Fluorescent solvatochromic dyes and molecular rotors have attracted
+      considerable attention as fluorogenic probes because of background-free
+      detection of biomolecules in live cells in no-wash conditions. Herein, we
+      introduce a push–pull boron-containing (dioxaborine) dye that presents
+      unique spectroscopic behavior combining solvatochromism and molecular
+      rotor properties. Indeed, in organic solvents, it shows strong red shifts
+      in the absorption and fluorescence spectra upon increase in solvent
+      polarity, which is typical for push–pull dyes. On the other hand, in
+      polar solvents, where it probably undergoes twisted intramolecular charge
+      transfer (TICT), the dye displays strong dependence of its quantum yield
+      on solvent viscosity, in accordance with the Förster–Hoffmann equation.
+      In comparison to solvatochromic and molecular rotor dyes, the dioxaborine
+      derivative shows an exceptional extinction coefficient (120\,000 M −1 cm
+      −1 ), high fluorescence quantum yields and a red/far-red operating
+      spectral range. It also displays much higher photostability in apolar
+      media as compared to Nile Red, a fluorogenic dye of similar color. Its
+      reactive carboxyl derivative has been successfully grafted to carbetocin,
+      a ligand of the oxytocin G protein-coupled receptor. This conjugate
+      exhibits a {$>$}1000-fold turn on between apolar 1,4-dioxane and water.
+      It targets specifically the oxytocin receptor at the cell surface, which
+      enables receptor imaging with excellent signal-to-background ratio
+      ({$>$}130). We believe that the presented push–pull dioxaborine dye opens
+      a new page in the development of fluorogenic probes for bioimaging
+      applications.%
+      }
+      \field{issn}{2050-7526, 2050-7534}
+      \field{journaltitle}{Journal of Materials Chemistry C}
+      \field{langid}{english}
+      \field{number}{14}
+      \field{shortjournal}{J. Mater. Chem. C}
+      \field{shorttitle}{Push–Pull Dioxaborine as Fluorescent Molecular Rotor}
+      \field{title}{Push–Pull Dioxaborine as Fluorescent Molecular Rotor:
+      Far-Red Fluorogenic Probe for Ligand–Receptor Interactions}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3002\bibrangedash 3009}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10/gsqwpv
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C5TC03411F
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C5TC03411F
+      \endverb
+    \endentry
+    \entry{kimballBODIPYBODIPYDyad2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0471637c008e82173e51c2ef5abb5aaa}{%
+           family={Kimball},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=29bfb23699e7f63b9cc012c2475f87a9}{%
+           family={Raut},
+           familyi={R\bibinitperiod},
+           given={Sangram},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ec8a41ba174409faa2f7eb11b012f5be}{%
+           family={Jameson},
+           familyi={J\bibinitperiod},
+           given={Laramie\bibnamedelima P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=a8f57e350700fdeaf2b4a6c88192d532}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Nicholas\bibnamedelima W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=aac425c5bd4683719dcde926a25656a7}{%
+           family={Gryczynski},
+           familyi={G\bibinitperiod},
+           given={Zygmunt},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a5ab36ed1b1392e7573d9615bcf1cbd5}{%
+           family={Dzyuba},
+           familyi={D\bibinitperiod},
+           given={Sergei\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{aec9e57fb38c350b9e1e4f8a4f7c5722}
+      \strng{fullhash}{602b934359806362307a2d7e5c9f7aa0}
+      \strng{bibnamehash}{aec9e57fb38c350b9e1e4f8a4f7c5722}
+      \strng{authorbibnamehash}{aec9e57fb38c350b9e1e4f8a4f7c5722}
+      \strng{authornamehash}{aec9e57fb38c350b9e1e4f8a4f7c5722}
+      \strng{authorfullhash}{602b934359806362307a2d7e5c9f7aa0}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{%
+      The fluorescent lifetimes of the BODIPY–BODIPY dyad appear to correlate
+      with the viscosity of the media, thus making this rotor a suitable small
+      molecule viscometer. , A symmetrical BODIPY–BODIPY dyad with a diyne
+      linker was prepared in two steps; the lifetime decay of this rotor
+      appeared to correlate with the viscosity of the media, thus making this
+      dyad a suitable small molecule viscometer for molecular solvents. The
+      potential of using the rotor to probe the viscosity of ionic liquids was
+      also investigated.%
+      }
+      \field{issn}{2046-2069}
+      \field{journaltitle}{RSC Advances}
+      \field{langid}{english}
+      \field{number}{25}
+      \field{shortjournal}{RSC Adv.}
+      \field{shorttitle}{{{BODIPY}}–{{BODIPY}} Dyad}
+      \field{title}{{{BODIPY}}–{{BODIPY}} Dyad: Assessing the Potential as a
+      Viscometer for Molecular and Ionic Liquids}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{19508\bibrangedash 19511}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10/gsqwpw
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C4RA09757B
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C4RA09757B
+      \endverb
+    \endentry
+    \entry{rautTriazinebasedBODIPYTrimer2016}{article}{}
+      \name{author}{11}{}{%
+        {{hash=1737fec3622436693bdda405d2debeed}{%
+           family={Raut},
+           familyi={R\bibinitperiod},
+           given={Sangram\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0471637c008e82173e51c2ef5abb5aaa}{%
+           family={Kimball},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=91ba140a1dc3268c770e6403ab5346c2}{%
+           family={Fudala},
+           familyi={F\bibinitperiod},
+           given={Rafal},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5c87dc1a9b77ee38e573da55c17e0f5b}{%
+           family={Bora},
+           familyi={B\bibinitperiod},
+           given={Ilkay},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1b1b9b95d017d05dddff8bf1cbd88353}{%
+           family={Chib},
+           familyi={C\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8eb216e20f9464e51ea781bad9b1509a}{%
+           family={Jaafari},
+           familyi={J\bibinitperiod},
+           given={Hana},
+           giveni={H\bibinitperiod}}}%
+        {{hash=713fcebbc9d3b445ac55a8fa9e0c6ed9}{%
+           family={Castillo},
+           familyi={C\bibinitperiod},
+           given={Marlius\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=a8f57e350700fdeaf2b4a6c88192d532}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Nicholas\bibnamedelima W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8d365bfca94b27b2e872a7041b090052}{%
+           family={Gryczynski},
+           familyi={G\bibinitperiod},
+           given={Ignacy},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a5ab36ed1b1392e7573d9615bcf1cbd5}{%
+           family={Dzyuba},
+           familyi={D\bibinitperiod},
+           given={Sergei\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=aac425c5bd4683719dcde926a25656a7}{%
+           family={Gryczynski},
+           familyi={G\bibinitperiod},
+           given={Zygmunt},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd4ef3160dac5f29b1db4de86c3d902b}
+      \strng{fullhash}{fbffc4473f3a4e4f33ff50aa8225f8c4}
+      \strng{bibnamehash}{bd4ef3160dac5f29b1db4de86c3d902b}
+      \strng{authorbibnamehash}{bd4ef3160dac5f29b1db4de86c3d902b}
+      \strng{authornamehash}{bd4ef3160dac5f29b1db4de86c3d902b}
+      \strng{authorfullhash}{fbffc4473f3a4e4f33ff50aa8225f8c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      Photophysical behaviour of a novel trimeric BODIPY rotor with a high
+      extinction coefficient is reported. , Photophysical behaviour of a novel
+      trimeric BODIPY rotor with a high extinction coefficient is reported.
+      Steady state and time resolved fluorescence measurements established that
+      the trimer could be used as a viscometer for molecular solvents,
+      membrane-like environments and several cancer cell lines.%
+      }
+      \field{issn}{1463-9076, 1463-9084}
+      \field{journaltitle}{Physical Chemistry Chemical Physics}
+      \field{langid}{english}
+      \field{number}{6}
+      \field{shortjournal}{Phys. Chem. Chem. Phys.}
+      \field{title}{A Triazine-Based {{BODIPY}} Trimer as a Molecular
+      Viscometer}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4535\bibrangedash 4540}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10/gsqwpx
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C5CP07214J
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C5CP07214J
+      \endverb
+    \endentry
+    \entry{leeFrontCoverFluorescent2018}{article}{}
+      \name{author}{8}{}{%
+        {{hash=03a5ed13194323d9ad2202177fce5125}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seung‐Chul},
+           giveni={S\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=97fe3b0b2e2b70b09fc8a5ec54b07a09}{%
+           family={Heo},
+           familyi={H\bibinitperiod},
+           given={Jeongyun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=51e353059d172360af34a338463a649a}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Hee\bibnamedelima Chul},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7962030b687090b46fd038d501485404}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Ji‐Ah},
+           giveni={J\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=c72aa8f98328203a7167904b12086c6e}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={Young\bibnamedelima Hun},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f43f1a365eb5ff07b05ac476c9f5d9b2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chang‐Lyoul},
+           giveni={C\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=faeabf11d1a7a5d933680f8e5a503098}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sehoon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=401da92220fc09c15f7966f7f995170e}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={O‐Pil},
+           giveni={O\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{81edd1141755a4050efceee49a4489fa}
+      \strng{fullhash}{6208147bdd45ed9c2e79ebdb594c68bb}
+      \strng{bibnamehash}{81edd1141755a4050efceee49a4489fa}
+      \strng{authorbibnamehash}{81edd1141755a4050efceee49a4489fa}
+      \strng{authornamehash}{81edd1141755a4050efceee49a4489fa}
+      \strng{authorfullhash}{6208147bdd45ed9c2e79ebdb594c68bb}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{18}
+      \field{issn}{0947-6539, 1521-3765}
+      \field{journaltitle}{Chemistry – A European Journal}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{52}
+      \field{shortjournal}{Chemistry A European J}
+      \field{shorttitle}{Front {{Cover}}}
+      \field{title}{Front {{Cover}}: {{Fluorescent Molecular Rotors}} for
+      {{Viscosity Sensors}} ({{Chem}}. {{Eur}}. {{J}}. 52/2018)}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{24}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{13688\bibrangedash 13688}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10/gsqwpz
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/H36KR9IG/Lee et al. - 2018 - Front Cover Fluorescent Molecular Rotors for Visc.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201803968
+      \endverb
+      \verb{url}
+      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201803968
+      \endverb
+    \endentry
+    \entry{guptaBodipyBasedFluorescent2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b7600980c188d10c6172487074861b8c}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3581a450a92d8a732bff3ef60bfcf062}{%
+           family={Reja},
+           familyi={R\bibinitperiod},
+           given={Shahi\bibnamedelima Imam},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=6ea548618679dbf6ebc346cda67c1862}{%
+           family={Bhalla},
+           familyi={B\bibinitperiod},
+           given={Vandana},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4916492a441b03a6d76f53b0a2ba1954}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Muskan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bebd1f0507ce2a216c34ce595b07dfaa}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Gurcharan},
+           giveni={G\bibinitperiod}}}%
+        {{hash=939a07ef95f263a77489acec648a3070}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2423e656d869610a9c48d42b8330d04b}
+      \strng{fullhash}{153c2d97d056186b81a801f3a911d1b6}
+      \strng{bibnamehash}{2423e656d869610a9c48d42b8330d04b}
+      \strng{authorbibnamehash}{2423e656d869610a9c48d42b8330d04b}
+      \strng{authornamehash}{2423e656d869610a9c48d42b8330d04b}
+      \strng{authorfullhash}{153c2d97d056186b81a801f3a911d1b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      A bodipy based probe 1 has been explored for the identification of
+      diseased cell population out of normal cells on the basis of changes in
+      intracellular viscosity. , The applications of a bodipy based probe 1 for
+      the identification of diseased cell population out of normal cells on the
+      basis of changes in intracellular viscosity have been explored. Probe 1
+      works on the principle of restriction of rotation in viscous medium and
+      the molecular rotor nature of probe 1 is supported by low temperature 1 H
+      NMR and variable dihedral angle DFT and TD-DFT studies. More importantly,
+      probe 1 is the first probe which shows its practical application in
+      monitoring micro-viscosity changes in a cell based model system of
+      undifferentiated, differentiated and apoptotic C6 glial cells. Further,
+      probe 1 can effectively monitor the apoptosis pathway by showing an
+      increase in fluorescence intensity from cancerous cells to apoptotic
+      cells via real time live-cell video imaging. Moreover, the viscosity
+      changes in living cells were proved by fluorescence lifetime imaging
+      (FLIM) studies, flow cytometry using Annexin-V and Bcl-xl expression by
+      immunocytofluorescence (ICC) and western blot analysis.%
+      }
+      \field{issn}{2050-750X, 2050-7518}
+      \field{journaltitle}{Journal of Materials Chemistry B}
+      \field{langid}{english}
+      \field{number}{11}
+      \field{shortjournal}{J. Mater. Chem. B}
+      \field{title}{%
+      A Bodipy Based Fluorescent Probe for Evaluating and Identifying Cancer,
+      Normal and Apoptotic {{C6}} Cells on the Basis of Changes in
+      Intracellular Viscosity%
+      }
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1968\bibrangedash 1977}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10/gsqwp2
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C5TB02476E
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C5TB02476E
+      \endverb
+    \endentry
+    \entry{liBODIPYBasedTwoPhotonFluorescent2018}{article}{}
+      \name{author}{10}{}{%
+        {{hash=7841e360ce376f31b28f3575a401a712}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ling-Ling},
+           giveni={L\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=7112bd5b38def4a55168243f6bc5e41b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=13fb5911d62bf2761b7e9eff4bc46e44}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Meng-Yang},
+           giveni={M\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=a3a6ddf32b96c99874c9f76d86efa2cf}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d4b57b0876913e4aa131fb788538f752}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yan-Hong},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=5c197210ea3c3cd10b35ad3c6922e157}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cc2f5890671c44e7c312324c95a236a5}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Sheng-Lin},
+           giveni={S\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=a766f0e2c24e1cc8e05b56d8e9d180c4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=71cf700e28df678ceb5f10761a14c76c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=31949509cace40027363f07c578d9422}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Xiao-Qi},
+           giveni={X\bibinithyphendelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{5879e999f93309b1f8f62b088761b596}
+      \strng{fullhash}{15d9c54945c44b2710fd919bb314e3e4}
+      \strng{bibnamehash}{5879e999f93309b1f8f62b088761b596}
+      \strng{authorbibnamehash}{5879e999f93309b1f8f62b088761b596}
+      \strng{authornamehash}{5879e999f93309b1f8f62b088761b596}
+      \strng{authorfullhash}{15d9c54945c44b2710fd919bb314e3e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0003-2700, 1520-6882}
+      \field{journaltitle}{Analytical Chemistry}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{9}
+      \field{shortjournal}{Anal. Chem.}
+      \field{title}{%
+      {{BODIPY-Based Two-Photon Fluorescent Probe}} for {{Real-Time
+      Monitoring}} of {{Lysosomal Viscosity}} with {{Fluorescence Lifetime
+      Imaging Microscopy}}%
+      }
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{90}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5873\bibrangedash 5878}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10/gdj33m
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/acs.analchem.8b00590
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/acs.analchem.8b00590
+      \endverb
+    \endentry
+    \entry{kimBorondifluorideComplexesHemicurcuminoids2016}{article}{}
+      \name{author}{16}{}{%
+        {{hash=22f53f42c1f46b99944adb4bf7e516b5}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Eunsun},
+           giveni={E\bibinitperiod}}}%
+        {{hash=17eb866249abda2f410222d0b4fcb240}{%
+           family={Felouat},
+           familyi={F\bibinitperiod},
+           given={Abdellah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c944b3d4368569a84f906c2ea6239b27}{%
+           family={Zaborova},
+           familyi={Z\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e626d317f2ceac146229b37c2d9528b0}{%
+           family={Ribierre},
+           familyi={R\bibinitperiod},
+           given={Jean-Charles},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=0de8c8c72b5869683eda02b0e28d1ab1}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jeong\bibnamedelima Weon},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5a218916237f725a18d7d25fe73d4f4c}{%
+           family={Senatore},
+           familyi={S\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=620bb8a1991ff5c343195a5e38806072}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Cédric},
+           giveni={C\bibinitperiod}}}%
+        {{hash=19ddbc0005e2b4c14681d05571926f18}{%
+           family={Lenne},
+           familyi={L\bibinitperiod},
+           given={Pierre-François},
+           giveni={P\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=daf4ee217fa8363d55cb033d4e356aa9}{%
+           family={Baffert},
+           familyi={B\bibinitperiod},
+           given={Carole},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4175cab5654fdb1af949ea9b74358251}{%
+           family={Karapetyan},
+           familyi={K\bibinitperiod},
+           given={Artak},
+           giveni={A\bibinitperiod}}}%
+        {{hash=214594df197ec3996cae9c445b953260}{%
+           family={Giorgi},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9c00dc8e80c91c41d921cda6bb60d83c}{%
+           family={Jacquemin},
+           familyi={J\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=442c784902830efc1718575a231da71b}{%
+           family={Ponce-Vargas},
+           familyi={P\bibinithyphendelim V\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9b68f58c1ac2935888717241a513d5bf}{%
+           family={Guennic},
+           familyi={G\bibinitperiod},
+           given={Boris\bibnamedelima Le},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=5a81f23608670e28a6962e9b71a64158}{%
+           family={Fages},
+           familyi={F\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+        {{hash=362db5e32da761df22606a1974a04510}{%
+           family={D'Aléo},
+           familyi={D\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f1160e46dc7dfa6663f58bcf293f36f}
+      \strng{fullhash}{5f45b099df5b29f2f1039993c6972066}
+      \strng{bibnamehash}{6f1160e46dc7dfa6663f58bcf293f36f}
+      \strng{authorbibnamehash}{6f1160e46dc7dfa6663f58bcf293f36f}
+      \strng{authornamehash}{6f1160e46dc7dfa6663f58bcf293f36f}
+      \strng{authorfullhash}{5f45b099df5b29f2f1039993c6972066}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      Synthesis, properties and biological imaging of hemicurcuminoid are
+      presented. , Hemicurcuminoids are based on half of the π-conjugated
+      backbone of curcuminoids. The synthesis of a series of such systems and
+      their borondifluoride complexes is described. The electrochemical and
+      photophysical properties of difluorodioxaborine species were investigated
+      as a function of the nature of electron donor and acceptor groups
+      appended at either terminal positions of the molecular backbone. The
+      emissive character of these dipolar dyes was attributed to an intraligand
+      charge transfer process, leading to fluorescence emission that is
+      strongly dependent on solvent polarity. Quasi-quantitative quenching of
+      fluorescence in high polarity solvents was attributed to photoinduced
+      electron transfer. These dyes were shown to behave as versatile
+      fluorophores. Indeed, they display efficient two-photon excited
+      fluorescence emission leading to high two-photon brightness values.
+      Furthermore, they form nanoparticles in water whose fluorescence emission
+      quantum yield is less than that of the dye in solution, owing to
+      aggregation-induced fluorescence quenching. When cos7 living cells were
+      exposed to these weakly-emitting nanoparticles, one- and two-photon
+      excited fluorescence spectra showed a strong emission within the
+      cytoplasm that originated from the individual molecules. Dye uptake thus
+      involved a disaggregation mechanism at the cell membrane which restored
+      fluorescence emission. This off–on fluorescence switching allows a
+      selective optical monitoring of those molecules that do enter the cell,
+      which offers improved sensitivity and selectivity of detection for
+      bioimaging purposes.%
+      }
+      \field{issn}{1477-0520, 1477-0539}
+      \field{journaltitle}{Organic \& Biomolecular Chemistry}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{shortjournal}{Org. Biomol. Chem.}
+      \field{title}{Borondifluoride Complexes of Hemicurcuminoids as
+      Bio-Inspired Push–Pull Dyes for Bioimaging}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{14}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1311\bibrangedash 1324}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10/gsqwp3
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C5OB02295A
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C5OB02295A
+      \endverb
+    \endentry
+    \entry{ibarra-rodriguezFluorescentMolecularRotors2017}{article}{}
+      \name{author}{8}{}{%
+        {{hash=ff91dffb2ee27e9961f83b01b34bb1a0}{%
+           family={Ibarra-Rodríguez},
+           familyi={I\bibinithyphendelim R\bibinitperiod},
+           given={Marisol},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d47ffc69c26f296d1ee2c069764af0e}{%
+           family={Muñoz-Flores},
+           familyi={M\bibinithyphendelim F\bibinitperiod},
+           given={Blanca\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=180c8856e21007a11327af6fdb735ef0}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={H.\bibnamedelimi V.\bibnamedelimi Rasika},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=830a0a939f3b938bdf76b408ebaf3ce1}{%
+           family={Sánchez},
+           familyi={S\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6df58eb7f0dbecb346f9caa5b8258bd0}{%
+           family={Gomez-Treviño},
+           familyi={G\bibinithyphendelim T\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4523dc7d706c709253df79a60bb8fd35}{%
+           family={Santillan},
+           familyi={S\bibinitperiod},
+           given={Rosa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=60883d3fa0629272a195150fc4e98ea7}{%
+           family={Farfán},
+           familyi={F\bibinitperiod},
+           given={Norberto},
+           giveni={N\bibinitperiod}}}%
+        {{hash=feea24ced8567eac9c12a0ba9701c8ec}{%
+           family={Jiménez-Pérez},
+           familyi={J\bibinithyphendelim P\bibinitperiod},
+           given={Víctor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{fullhash}{32ac0b94b992b270f210f4f8ae444421}
+      \strng{bibnamehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{authorbibnamehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{authornamehash}{e50b5586a95416a8b5fb4925c5f8428a}
+      \strng{authorfullhash}{32ac0b94b992b270f210f4f8ae444421}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{%
+      We report the design, synthesis, and characterization of two new
+      fluorescent molecular rotors of boron derived from Schiff bases:
+      (2,4,8,10-tetra-tert-butyl-6-phenyldibenzo[d,h][1,3,6,2]dioxazaboronine
+      (3) and
+      1,4-bis(2,4,8,10-tetra-tert-butyldibenzo[d,h][1,3,6,2]dioxazaboronin-6-yl
+      )benzene (4), as well as the free ligand
+      2[[(3,5-di-tert-butyl-2-hydroxyphenyl)imino]methyl]-4,6-di-tert-butylphen
+      ol 1. All compounds were fully characterized by NMR (1H, 11B, and 13C),
+      IR, UV/vis, fluorescence spectroscopy, and high-resolution mass
+      spectrometry. The crystal structures of 3 and 4 showed tetracoordinated
+      boron atoms with semiplanar skeleton ligands. The free rotation of the
+      fluorescent molecular rotor, only observed in the binuclear compound, was
+      decreased with increasing viscosity, while the quantum yield was
+      increased. Interestingly, the property of reversible thermochromism was
+      found in organoboron 4 in the solid state. DFT calculations to determine
+      the both complexes have free rotation around the CPh−B1 bond. The boron
+      compounds 3 and 4 have shown low cytotoxicity activity in cell line A-431
+      and low green staining in cells.%
+      }
+      \field{day}{3}
+      \field{issn}{0022-3263, 1520-6904}
+      \field{journaltitle}{The Journal of Organic Chemistry}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{5}
+      \field{shortjournal}{J. Org. Chem.}
+      \field{shorttitle}{Fluorescent {{Molecular Rotors}} of {{Organoboron
+      Compounds}} from {{Schiff Bases}}}
+      \field{title}{%
+      Fluorescent {{Molecular Rotors}} of {{Organoboron Compounds}} from
+      {{Schiff Bases}}: {{Synthesis}}, {{Viscosity}}, {{Reversible
+      Thermochromism}}, {{Cytotoxicity}}, and {{Bioimaging Cells}}%
+      }
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{82}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2375\bibrangedash 2385}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10/gskz74
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Zotero/Ibarra-Rodrı́guez et al_2017_Fluorescent Molecular Rotors of Organoboron Compounds from Schiff Bases.pdf;/Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Zotero/Ibarra-Rodrı́guez et al_2017_Fluorescent Molecular Rotors of Organoboron Compounds from Schiff Bases2.pdf;/Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Zotero/Ibarra-Rodrı́guez et al_2017_Fluorescent Molecular Rotors of Organoboron Compounds from Schiff Bases3.pdf;/Users/pabloalanis/Zotero/storage/Y2D5RFAG/Ibarra-Rodrı́guez et al. - 2017 - Fluorescent Molecular Rotors of Organoboron Compou.cif
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/acs.joc.6b02802
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/acs.joc.6b02802
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
