@@ -14,7 +14,6 @@
 \KOMAoptions{abstract=true}
 \usepackage[spanish,mexico]{babel}
 
-\usepackage[math,toc,bible]{blindtext}
 
 \usepackage{fontspec}
     \setmainfont{TeX Gyre Pagella}
@@ -30,6 +29,7 @@
 
 \usepackage{siunitx}
 \sisetup{separate-uncertainty,per-mode=symbol,detect-all,range-phrase=--}
+\DeclareSIUnit{\angstrom}{\textup{\AA}}
 \usepackage{chemmacros}
 \usepackage[eps,librsvg]{chemobabel}
 \usepackage{glossaries}
@@ -62,7 +62,14 @@
     \newacronym{BOSCHIBA}{BOSCHIBA}{Bases de Schiff de Boro \textit{(del inglés "\textsc{Bo}ron \textsc{Schi}ff \textsc{Ba}ses")}}
     \newacronym{BODIPY}{BODIPY}{\textsc{bo}ron-\textsc{di}\textsc{py}rromethene}
     \newacronym{TICT}{TICT}{transferencia de carga intramolecular retorcida \textit{(del inglés "twsited intramolecular charge transfer")}}
-    \newacronym{LE}{LE}{local excitado \textit{(del inglés "locally exited")}}
+    \newacronym{LE}{LE}{Local Excitado \textit{(del inglés "locally exited")}}
+    \newacronym{PES}{PES}{Superficie de Energía Potencial \textit{(del inglés "Potential Energy Surface")}}
+    \newacronym{NBO}{NBO}{Orbitales Naturales de Enlace \textit{(del inglés "Natural Bond Orbitals")}}
+    \newacronym{ICT}{ICT}{Transferencia de Carga Intramolecular \textit{(del inglés "Intramolecular Charge Transfer")}}
+    \newacronym{VEE}{VEE}{Energía de Emisión Vertical \textit{(del inglés "Vertical Emission Energy")}}
+    \newacronym{FMO}{FMO}{Orbitales Moleculares de Frontera \textit{(del inglés "Frontier Molecular Orbitals")}}
+    \newacronym{HOMO}{HOMO}{Orbital Molecular de mas alta energía \textit{(del inglés "Highest Occupied Molecular Orbital")}}
+    \newacronym{LUMO}{LUMO}{Orbital Molecular no ocupado de más baja energía \textit{(del inglés "Lowest Unoccupied Molecular Orbital")}}
 \end{filecontents}
 
 \begin{filecontents}[force]{comandos.tex}
@@ -139,13 +146,12 @@ Se ha determinado que la polarización del solvente y la viscosidad del mismo af
 
 Diferentes estrategias para el diseño de \gls{FMR} se han propuesto para realizar sensores de viscosidad altamente sensibles, por ejemplo, incorporando grupos rotacionales asimétricos,\autocite{leePyrrolicMolecularRotors2016} rotadores con alta capacidad rotacional,\autocite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados \emph{push-pull},\autocite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\autocite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores con diferentes capacidades rotacionales y electrondonantes.\autocite{rautTriazinebasedBODIPYTrimer2016}
 
-Therefore, obtaining both high fluorescence efficiency and fluorescent contrast simultaneously is very difficult, due to, in many cases molecules high quantum yield has poor contrast capacity. Quantum yield and fluorescence contrast of the FMRs are inversely correlated, a relationship called the “fluorescence intensity-contrast trade-off”.5 Nowadays exist a wide variety FMRs derived from boron compounds, where BODIPYs and dioxaborines are the protagonists due to their lofty quantum yield, however, their show some disadvantages as synthesis in several steps, anhydrous atmosphere conditions, and in many times low contrast ability, sparingly increasing the quantum yield of the initial value.7,11–13
-
 Por lo que, obtener tanto una alta eficiencia de fluorescencia como un contraste fluorescente simultáneamente es muy difícil, debido a que, en muchos casos, las moléculas de alto rendimiento cuántico tienen una capacidad de contraste deficiente. 
 El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada "intensidad de fluorescencia---contraste".\autocite{leeFrontCoverFluorescent2018}
+
 En la actualidad existe una amplia variedad de \gls{FMR} derivados de compuestos de boro, donde los \gls{BODIPY} y los dioxaborinos son los protagonistas debido a su elevado rendimiento cuántico, sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja, aumentando escasamente el rendimiento cuántico del valor inicial.\autocite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
-Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de bases de Schiff de boro (\gls{BOSCHIBA}) y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\autocite{ibarra-rodriguezFluorescentMolecularRotors2017} 
-Los resultados encontrados indican que los \gls{BOSCHIBA} pueden aumentar hasta 34 veces su valor de rendimiento cuántico en medios de alta viscosidad, sin embargo, a pesar de teñir selectivamente el citoplasma en las células de melanoma, presentaron un bajo teñido atribuido principalmente a la baja solubilidad de los compuestos.
+
+Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de \gls{BOSCHIBA} y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\autocite{ibarra-rodriguezFluorescentMolecularRotors2017} Los resultados encontrados indican que los \gls{BOSCHIBA} pueden aumentar hasta 34 veces su valor de rendimiento cuántico en medios de alta viscosidad, sin embargo, a pesar de teñir selectivamente el citoplasma en las células de melanoma, presentaron un bajo teñido atribuido principalmente a la baja solubilidad de los compuestos.
 
 Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se diseñó una serie de \gls{BOSCHIBA} derivados de aminoácidos (ver \cref{sch:marcha}), donde las moléculas presentan rotación libre a través del anillo fenilborónico, y el aminoácido podría dar una mayor compatibilidad y solubilidad en medios celulares. Los compuestos de boro fluorescentes \textbf{1-4} se obtuvieron por irradiación ultrasónica en combinación con una reacción multicomponente con altos rendimientos químicos (\qty{>90}{\percent}) y un tiempo de reacción corto de \qty{20}{\minute} a \qty{50}{\degreeCelsius}. Este método resulta más eficiente y rápido en comparación con moléculas similares reportadas en la literatura.
 
@@ -156,55 +162,59 @@ Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se dis
     \label{sch:marcha}
 \end{scheme}
 
-Todos los compuestos fueron caracterizados completamente, tanto estructural como fotofísicamente. Las estructuras cristalinas obtenidas para los compuestos 2 y 4 muestran átomos de boro tetracoordinados con geometría tetraédrica ligeramente distorsionada y la formación de dos heterociclos fusionados de cinco y seis miembros debido a la coordinación N→B (ver \cref{sch:estructuras}). Las longitudes N→B, 2=1.569 Å y 4=1.566Å, sugieren una fuerte coordinación del nitrógeno con los átomos de boro porque son menores que la distancia covalente N→B estimada; esto se confirma por el carácter tetraédrico del 91.33 y 93.07\%, respectivamente.
+Todos los compuestos fueron caracterizados completamente, tanto estructural como fotofísicamente. Las estructuras cristalinas obtenidas para los compuestos \reactant{BO-tyr} y \reactant{BO-trp} muestran átomos de boro tetracoordinados con geometría tetraédrica ligeramente distorsionada y la formación de dos heterociclos fusionados de cinco y seis miembros debido a la coordinación N→B (ver \cref{sch:estructuras}). Las longitudes N→B, \reactant{BO-tyr} de \qty{1.569}{\angstrom} y para \reactant{BO-trp} \qty{1.566}{\angstrom} sugieren una fuerte coordinación del nitrógeno con los átomos de boro porque son menores que la distancia covalente N→B estimada; esto se confirma por el carácter tetraédrico del \qty{91.33}{\percent} y \qty{93.07}{\percent}, respectivamente.
 
-Otra evidencia confiable de la unión de coordinación N→B fue una señal ancha alrededor de \begin{experimental} \NMR{11,B} \val{5.80}; \end{experimental} para todos los compuestos, indicativo de un átomo de boro tetracoordinado. El HRMS de los compuestos de boro mostró que el pico base corresponde al pico del ion molecular, y la primera fragmentación resulta en su ligando por pérdida del segmento fenilborónico (ver ESI).\note{Conseguir ESI}
+Otra evidencia confiable de la unión de coordinación N→B fue una señal ancha alrededor de \begin{experimental} \NMR{11,B} \val{5.80}; \end{experimental} para todos los compuestos, indicativo de un átomo de boro tetracoordinado. El HRMS de los compuestos de boro mostró que el pico base corresponde al pico del ion molecular, y la primera fragmentación resulta en su ligando por pérdida del segmento fenilborónico (ver ESI). \todo{Conseguir ESI}
 
+
+Con el proposito de determinar la capacidad de detección de viscosidad, se midieron los espectros de fluorescencia de 1-4 en mezclas de metanol/glicerol a diferentes fracciones, donde, el compuesto 2 muestra que la intensidad de fluorescencia aumenta significativamente con un aumento de la fracción de glicerol (ver \cref{fig:fluorescencia-glicerol}), mientras que el resto de los compuestos no muestran un cambio significativo en su intensidad de fluorescencia (ver ESI).\todo{Conseguir ESI} En el medio sin glicerol, el rendimiento cuántico de 2 es menor que \qty{0.04}{\percent} y aumenta alrededor de 100 veces en alta fracción de glicerol con \qty{0.40}{\percent} de rendimiento cuántico. Hasta hoy no había un alto sensibilizador de viscosidad.
+
+\begin{figure}
+    \centering
+    \missingfigure[figheight=10cm,figwidth=10cm]{Espectro de fluoresencia con diferentes viscosidades. Ya existe pero se ocupa de calidad más alta.}
+    \label{fig:fluorescencia-glicerol}
+    \caption{Espectro de fluoresencia del \reactant{BO-phe} con glicerol en diferentes proporciones. A mayor viscosidad se observa un aumento en la fluorescencia.}
+\end{figure}
+
+Para lograr comprender mejor las propiedades fotofísicas en solución, se desarrollaron estudios \insilico{} para las moléculas, utilizando el método \texttt{B3LYP/6-31G(d,p),} implementado en Gaussian 09. Explorando las estructuras de energía mínima de 1-4, obtenidas por \gls{PES}, el fragmento de triptófano en la molécula 2 genera una obstrucción estérica significativa en el anillo fenilborónico, causando un ángulo de torsión diédrico de \qty{73.5}{\degree}, a diferencia del resto de las estructuras (1, 3 y 4),\todo{poner con comando \texttt{reactant}} donde el fragmento de aminoácido no causa ninguna obstrucción estérica y los ángulos de torsión diédricos están cerca de \qty{55}{\degree} (ver ESI).\todo{Conseguir ESI} Además, se calcularon los \gls{NBO} para las estructuras optimizadas.
+Las principales transferencias de carga en todas las moléculas se dan por N→B, O1→B y O2→B, donde, los átomos de nitrógeno y oxígenos actúan como donadores de electrones y el átomo central de boro actúa como aceptor de electrones. En el caso de las moléculas 1, 3 y 4,\todo{poner con comando \texttt{reactant}} que no tienen obstrucción estérica, se observan mayores transferencias de carga por grupos donador-aceptor debido a una mejor superposición de orbitales, en comparación con el compuesto 2 derivado del triptófano. Sin embargo, cuando el ángulo de torsión diédrico se modifica a \qty{55}{\degree} y se calculan los \gls{NBO}, se recupera la superposición óptima de orbitales y se obtienen valores de transferencia de carga similares.
+
+En un medio de alta viscosidad, la molecula 2\todo{poner con comando \texttt{reactant}} no puede tener flexibilidad estructural o la obstrucción estérica podría suprimirse, permitiendo que la superposición orbital no se vea afectada. Este comportamiento del compuesto 2\todo{poner con comando \texttt{reactant}} podría explicar la disminución significativa del rendimiento cuántico experimental en solución y sugiere que el mecanismo de detección de viscosidad ocurre a través de la modificación de las propiedades de transferencia de carga intramolecular por la obstrucción estérica del triptófano.
+
+Subsecuentemente, se calcularon las \gls{VEE} para el primer estado excitado, al mismo nivel de teoría. Los valores de \gls{VEE} obtenidos para 1-4\todo{poner con comando \texttt{reactant}} fueron \qtylist[list-units = bracket]{60.15;41.83;52.65;60.52}{\kilo\cal\per\mol}, respectivamente, mostrando valores de 2\todo{poner con comando \texttt{reactant}} inferiores al resto de los compuestos y coincidiendo con lo observado experimentalmente. 
+
+En la \cref{fig:FMO} se muestran los \gls{FMO} involucrados para todos los compuestos sintetizados
+
+\begin{figure}
+    \centering
+    \missingfigure[figheight=10cm,figwidth=10cm]{FMO de los compuestos. Rehacer con el funcional final}
+    \label{fig:FMO}
+    \caption{\gls{FMO} de los compuestos sintetizados}
+\end{figure}
+
+HOMO for 2 shows an electronic delocalization on the amino acid fragment and outside the fluorophore, unlike the rest of structures, where the HOMO shows an electronic delocalization across the naphthyl group and the new rings formed with boron atom. The LUMOs of all molecules are completely delocalized across the naphthyl and boron rings, without influence of the different amino acids. However, exploring the HOMO-1 it has similar electronic delocalization distribution that rest of compounds (see ESI), this behaviour could also explain the significant decrease of experimental quantum yield in the molecule derived from tryptophan and suggest HOMO-LUMO transition is responsible for fluorescence, nevertheless, even though HOMO-LUMO of 2 have highest energy value, the energy of these orbitals being the closest, suggesting greater mobility of the π electrons in conjugated system and better molecular stability.
+
+El \gls{HOMO} para el compuesto 2, muestra deslocalización en el fragmento de aminoacido fuera del fluoróforo 
 
 \section{Antecedentes}\todo{Hacer!}
-
-\Blindtext[2]
 \section{Análisis crítico de los antecedentes}\todo{Hacer!}
-\Blindtext
 \section{Aporte científico}\todo{Hacer!}
-\blindtext
 \section{Hipótesis}\todo{Hacer!}
-\blindtext
 \section{Objetivos}\todo{Hacer!}
-\blindlist{enumerate}
 \subsection{Objetivo general}\todo{Hacer!}
-\blindtext
 \subsection{Objetivos específicos}\todo{Hacer!}
-\blindlist{enumerate}
 \section{Metodología}\todo{Hacer!}
-\Blindtext[1]
 \subsection{Síntesis}\todo{Hacer!}
-\Blindtext
 \subsection{Determinación de propiedades ópticas}\todo{Hacer!}
-\blindmathtrue
-\Blindtext
 \subsection{Determinación de citotoxicidad}\todo{Hacer!}
-\Blindtext
 \subsection{Modelado molecular}\todo{Hacer!}
-\blindmathtrue
-\Blindtext
 \subsubsection{Selección del funcional}\todo{Hacer!}
-\Blindtext
 \subsubsection{Optimización}\todo{Hacer!}
-\blindmathtrue
-\Blindtext
 \subsubsection{Obtención de espectro de emisión}\todo{Hacer!}
-\Blindtext
 \section{Residuos}\todo{Hacer!}
-\blindtext
 \section{Análisis de costos}\todo{Hacer!}
-\blindmathtrue
-\blindtext
 \section{Procedimiento experimental}\todo{Hacer!}
-\blindmathtrue
-\blindtext
 \section{Planificación}\todo{Hacer!}
-\blindtext
 
 \printreactants{}
 \printglossaries{}

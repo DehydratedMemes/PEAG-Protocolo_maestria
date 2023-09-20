@@ -1,22 +1,22 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{2}{}%
-\contentsline {section}{\numberline {2}Antecedentes}{4}{}%
+\contentsline {section}{\numberline {1}Introducción}{1}{}%
+\contentsline {section}{\numberline {2}Antecedentes}{5}{}%
 \contentsline {section}{\numberline {3}Análisis crítico de los antecedentes}{5}{}%
-\contentsline {section}{\numberline {4}Aporte científico}{6}{}%
-\contentsline {section}{\numberline {5}Hipótesis}{6}{}%
+\contentsline {section}{\numberline {4}Aporte científico}{5}{}%
+\contentsline {section}{\numberline {5}Hipótesis}{7}{}%
 \contentsline {section}{\numberline {6}Objetivos}{7}{}%
 \contentsline {subsection}{\numberline {6.1}Objetivo general}{7}{}%
 \contentsline {subsection}{\numberline {6.2}Objetivos específicos}{7}{}%
-\contentsline {section}{\numberline {7}Metodología}{8}{}%
-\contentsline {subsection}{\numberline {7.1}Síntesis}{8}{}%
-\contentsline {subsection}{\numberline {7.2}Determinación de propiedades ópticas}{9}{}%
-\contentsline {subsection}{\numberline {7.3}Determinación de citotoxicidad}{10}{}%
-\contentsline {subsection}{\numberline {7.4}Modelado molecular}{11}{}%
-\contentsline {subsubsection}{\numberline {7.4.1}Selección del funcional}{12}{}%
-\contentsline {subsubsection}{\numberline {7.4.2}Optimización}{13}{}%
-\contentsline {subsubsection}{\numberline {7.4.3}Obtención de espectro de emisión}{14}{}%
-\contentsline {section}{\numberline {8}Residuos}{15}{}%
-\contentsline {section}{\numberline {9}Análisis de costos}{16}{}%
-\contentsline {section}{\numberline {10}Procedimiento experimental}{16}{}%
-\contentsline {section}{\numberline {11}Planificación}{16}{}%
+\contentsline {section}{\numberline {7}Metodología}{7}{}%
+\contentsline {subsection}{\numberline {7.1}Síntesis}{7}{}%
+\contentsline {subsection}{\numberline {7.2}Determinación de propiedades ópticas}{7}{}%
+\contentsline {subsection}{\numberline {7.3}Determinación de citotoxicidad}{7}{}%
+\contentsline {subsection}{\numberline {7.4}Modelado molecular}{7}{}%
+\contentsline {subsubsection}{\numberline {7.4.1}Selección del funcional}{7}{}%
+\contentsline {subsubsection}{\numberline {7.4.2}Optimización}{7}{}%
+\contentsline {subsubsection}{\numberline {7.4.3}Obtención de espectro de emisión}{7}{}%
+\contentsline {section}{\numberline {8}Residuos}{7}{}%
+\contentsline {section}{\numberline {9}Análisis de costos}{7}{}%
+\contentsline {section}{\numberline {10}Procedimiento experimental}{8}{}%
+\contentsline {section}{\numberline {11}Planificación}{8}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
