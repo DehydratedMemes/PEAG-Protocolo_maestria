@@ -1352,6 +1352,407 @@
       \verb https://pubs.acs.org/doi/10.1021/acs.joc.6b02802
       \endverb
     \endentry
+    \entry{lopez-espejelOrganotinSchiffBases2021}{article}{}
+      \name{author}{8}{}{%
+        {{hash=2d75861091fa7ae01cdb4590df5e865e}{%
+           family={López-Espejel},
+           familyi={L\bibinithyphendelim E\bibinitperiod},
+           given={Margarita},
+           giveni={M\bibinitperiod}}}%
+        {{hash=67d4d627c6461f851ad48bb40d8d648b}{%
+           family={Gómez-Treviño},
+           familyi={G\bibinithyphendelim T\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d47ffc69c26f296d1ee2c069764af0e}{%
+           family={Muñoz-Flores},
+           familyi={M\bibinithyphendelim F\bibinitperiod},
+           given={Blanca\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1fb9c4320ed3b58feaf3b5e6b8d2d82f}{%
+           family={Treto-Suarez},
+           familyi={T\bibinithyphendelim S\bibinitperiod},
+           given={Manuel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7c4d9f91f21674daeaf409dfe4f89e33}{%
+           family={Schott},
+           familyi={S\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9d122bd7bc16e3190a32aecb84f48496}{%
+           family={Páez-Hernández},
+           familyi={P\bibinithyphendelim H\bibinitperiod},
+           given={Dayán},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7a8f958ca3bf3e46de77fe3583001b93}{%
+           family={Zarate},
+           familyi={Z\bibinitperiod},
+           given={Ximena},
+           giveni={X\bibinitperiod}}}%
+        {{hash=feea24ced8567eac9c12a0ba9701c8ec}{%
+           family={Jiménez-Pérez},
+           familyi={J\bibinithyphendelim P\bibinitperiod},
+           given={Víctor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c8655cc75ab6bc8e5c4c1d24b72c814}
+      \strng{fullhash}{cf79b9d4fae53f6adf96925e48badbfb}
+      \strng{bibnamehash}{1c8655cc75ab6bc8e5c4c1d24b72c814}
+      \strng{authorbibnamehash}{1c8655cc75ab6bc8e5c4c1d24b72c814}
+      \strng{authornamehash}{1c8655cc75ab6bc8e5c4c1d24b72c814}
+      \strng{authorfullhash}{cf79b9d4fae53f6adf96925e48badbfb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{%
+      A series of eight fluorescent organotin compounds show photophysical
+      properties, and two of them (6 and 7) show hypochromic behavior in
+      solution, which might help distinguish cancer from normal cells. ,
+      Fluorescent bioimaging is an excellent tool in cellular biology, and it
+      will be a powerful technique in modern medicine as a noninvasive imaging
+      technology where tumoral and normal cells must be distinguished. One of
+      the differences between normal and cancer cells is the intracellular pH.
+      Therefore, the design and synthesis of pH-responsive fluorescent
+      materials are required. Organotin Schiff bases showed halofluorochromic
+      behavior in solution. Microwave-assisted synthesis showed better reaction
+      times and chemical yields compared with conventional heating. All
+      compounds were fully characterized by spectroscopic and spectrometric
+      techniques. The halofluorochromism study showed that some molecules in
+      acidic media have the maximum luminescence intensity due to protonation.
+      All the fluorescent tin complexes showed cell staining on hepatocyte and
+      MCF-7 cells by confocal microscopy. The theoretical study has enabled us
+      to rationalize the optical properties and the halofluorochromism for
+      compounds 1 and 2 synthesized in this work. Our results showed that the
+      emission decrease, in the acid and basic media for compounds 1 and 2,
+      respectively, is caused by intramolecular charge transfer (ICT)
+      deactivation.%
+      }
+      \field{issn}{2050-750X, 2050-7518}
+      \field{journaltitle}{Journal of Materials Chemistry B}
+      \field{langid}{english}
+      \field{number}{37}
+      \field{shortjournal}{J. Mater. Chem. B}
+      \field{shorttitle}{Organotin {{Schiff}} Bases as Halofluorochromic Dyes}
+      \field{title}{%
+      Organotin {{Schiff}} Bases as Halofluorochromic Dyes: Green Synthesis,
+      Chemio-Photophysical Characterization, {{DFT}}, and Their Fluorescent
+      Bioimaging {\emph{in Vitro}}%
+      }
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7698\bibrangedash 7712}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10/gskz8c
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/ALFJXZTZ/López-Espejel et al. - 2021 - Organotin Schiff bases as halofluorochromic dyes .pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=D1TB01405F
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=D1TB01405F
+      \endverb
+    \endentry
+    \entry{corona-lopezFarRedInfrared2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=1837a8f6101a39cbcdb454e01d6094cb}{%
+           family={Corona‐López},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={María\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a32450feac86671082ba041ef9f4a635}{%
+           family={Muñoz‐Flores},
+           familyi={M\bibinithyphendelim F\bibinitperiod},
+           given={Blanca\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f3ff0eddfb991edee7637a5e7d01a802}{%
+           family={Chaari},
+           familyi={C\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0c90cd9d003a66c516d3341b3d260d0a}{%
+           family={Nuñez},
+           familyi={N\bibinitperiod},
+           given={Rosario},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2d4efae1cd38f2017daa534d257a3058}{%
+           family={Jiménez‐Pérez},
+           familyi={J\bibinithyphendelim P\bibinitperiod},
+           given={Víctor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7efc431a6a32fae7a0e4f63a907dc3a}
+      \strng{fullhash}{4d7178f2dc65b0794c54e7a0eb662995}
+      \strng{bibnamehash}{4d7178f2dc65b0794c54e7a0eb662995}
+      \strng{authorbibnamehash}{4d7178f2dc65b0794c54e7a0eb662995}
+      \strng{authornamehash}{c7efc431a6a32fae7a0e4f63a907dc3a}
+      \strng{authorfullhash}{4d7178f2dc65b0794c54e7a0eb662995}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{issn}{1434-1948, 1099-0682}
+      \field{journaltitle}{European Journal of Inorganic Chemistry}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{21}
+      \field{shortjournal}{Eur. J. Inorg. Chem.}
+      \field{title}{Far‐{{Red}} and {{Near}}‐{{Infrared Boron Schiff Bases}}
+      ({{BOSCHIBAs}}) {{Dyes Bearing Anionic Boron Clusters}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2047\bibrangedash 2054}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10/gj3k76
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Zotero/Corona‐López et al_2021_Far‐Red and Near‐Infrared Boron Schiff Bases (BOSCHIBAs) Dyes Bearing Anionic.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/ejic.202100144
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/ejic.202100144
+      \endverb
+    \endentry
+    \entry{canton-diazOnepotMicrowaveassistedSynthesis2018}{article}{}
+      \name{author}{9}{}{%
+        {{hash=d3683e042da845d84ea0d82fc2ca63c8}{%
+           family={Cantón-Díaz},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Arelly\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5d47ffc69c26f296d1ee2c069764af0e}{%
+           family={Muñoz-Flores},
+           familyi={M\bibinithyphendelim F\bibinitperiod},
+           given={Blanca\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d325c0ca2f0b7c8e60a6f2493546a98a}{%
+           family={Moggio},
+           familyi={M\bibinitperiod},
+           given={Ivana},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5f308cd2af73465477184af298f36fe3}{%
+           family={Arias},
+           familyi={A\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9b8c4c5d315f72df991e1b86cc55d0e2}{%
+           family={De\bibnamedelima León},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Arxel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6754a51e3f06080e9a8bc26bf4f75100}{%
+           family={García-López},
+           familyi={G\bibinithyphendelim L\bibinitperiod},
+           given={María\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b3dff118b77c80257ad72b307937cb6a}{%
+           family={Santillán},
+           familyi={S\bibinitperiod},
+           given={Rosa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=00b3cecfc1d970e12032d544cba23bd3}{%
+           family={Ochoa},
+           familyi={O\bibinitperiod},
+           given={María\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=feea24ced8567eac9c12a0ba9701c8ec}{%
+           family={Jiménez-Pérez},
+           familyi={J\bibinithyphendelim P\bibinitperiod},
+           given={Víctor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b455c24353eb7e9f96eb92ab5e7ec421}
+      \strng{fullhash}{f905e355e414d94b28ff6fc16be7227f}
+      \strng{bibnamehash}{b455c24353eb7e9f96eb92ab5e7ec421}
+      \strng{authorbibnamehash}{b455c24353eb7e9f96eb92ab5e7ec421}
+      \strng{authornamehash}{b455c24353eb7e9f96eb92ab5e7ec421}
+      \strng{authorfullhash}{f905e355e414d94b28ff6fc16be7227f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{%
+      One-pot microwave synthesized organotin compound has been employed as
+      good electro-acceptor (EA) and cheap for organic photovoltaic (OPV) solar
+      cells. , Four organotin compounds bearing Schiff bases were prepared via
+      a multicomponent microwave-assisted reaction among
+      2-hydroxy-1-naphthaldehyde, 2-aminophenol derivatives and the
+      corresponding diorganotin oxide (R 2 SnO, R = n Bu or Ph), with high
+      yields and a low economic/environmental impact. All of the compounds were
+      fully characterized by NMR ( 1 H, 13 C, and 119 Sn) spectroscopy,
+      high-resolution mass spectrometry, X-ray diffraction, cyclic voltammetry,
+      UV/Vis spectroscopy, and fluorescence spectroscopy. All of the compounds
+      absorb in the visible region around 480–490 nm, close to the maximum
+      solar emission, with an optical band gap of around 2.3 eV and low
+      fluorescence quantum yields. According to the electrochemical study, they
+      present LUMO values close to that of [6,6]-phenyl-C 61 -butyric acid
+      methyl ester (PCBM-C 60 ), a typical electron acceptor organic
+      photovoltaic material. Based on this combined optical/electrochemical
+      study and as it allows the preparation of homogeneous spun films, the n
+      -butyltin complex with carboxylic acid was selected for the investigation
+      of its possible photovoltaic properties in organic solar cells. Charge
+      photogeneration was obtained only using this organotin compound as an
+      electron acceptor material with poly(3-hexylthiophene, P3HT) (typical
+      electron donor material) with an open circuit voltage of 300 mV, a
+      short-circuit current density of 0.11 mA cm −2 and an efficiency of 5.2 ×
+      10 −3 \%. Despite the fact that the efficiency is much lower with respect
+      to the reference device P3HT/PCBM-C 60 , this preliminary result suggests
+      that, after chemical and device processing optimization, tin complexes
+      with Schiff bases could be applied as electron acceptor materials in
+      organic photovoltaic devices.%
+      }
+      \field{issn}{1144-0546, 1369-9261}
+      \field{journaltitle}{New Journal of Chemistry}
+      \field{langid}{english}
+      \field{number}{17}
+      \field{shortjournal}{New J. Chem.}
+      \field{shorttitle}{One-Pot Microwave-Assisted Synthesis of Organotin
+      {{Schiff}} Bases}
+      \field{title}{%
+      One-Pot Microwave-Assisted Synthesis of Organotin {{Schiff}} Bases: An
+      Optical and Electrochemical Study towards Their Effects in Organic Solar
+      Cells%
+      }
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{42}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{14586\bibrangedash 14596}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10/gskz76
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/8D9A96LD/Cantón-Díaz et al. - 2018 - One-pot microwave-assisted synthesis of organotin .pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C8NJ02998A
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C8NJ02998A
+      \endverb
+    \endentry
+    \entry{corona-lopezSynthesisCharacterizationPhotophysical2017}{article}{}
+      \name{author}{7}{}{%
+        {{hash=057597d6f690caebfe63c6e972619a6d}{%
+           family={Corona-López},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={María\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ab74691de3da9af4e674abb6497bed9a}{%
+           family={Jiménez\bibnamedelima Pérez},
+           familyi={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Víctor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4c9345d28c2119fcf0800a07c22af370}{%
+           family={Chan-Navarro},
+           familyi={C\bibinithyphendelim N\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff91dffb2ee27e9961f83b01b34bb1a0}{%
+           family={Ibarra-Rodríguez},
+           familyi={I\bibinithyphendelim R\bibinitperiod},
+           given={Marisol},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2327adc539bb8ef3c0d496d226de6cc1}{%
+           family={Rasika\bibnamedelima Dias},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={H.V.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=441b87833b8339ee235862636ac828a6}{%
+           family={Chávez-Reyes},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d47ffc69c26f296d1ee2c069764af0e}{%
+           family={Muñoz-Flores},
+           familyi={M\bibinithyphendelim F\bibinitperiod},
+           given={Blanca\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd137a1c6c70578bdf30fc63e10f9270}
+      \strng{fullhash}{9eb3413d4eb4cc318c64529f4a688cd2}
+      \strng{bibnamehash}{bd137a1c6c70578bdf30fc63e10f9270}
+      \strng{authorbibnamehash}{bd137a1c6c70578bdf30fc63e10f9270}
+      \strng{authornamehash}{bd137a1c6c70578bdf30fc63e10f9270}
+      \strng{authorfullhash}{9eb3413d4eb4cc318c64529f4a688cd2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      In this paper, we report a series of Schiff bases synthesized by the
+      condensation reaction between 2hydroxy-1-naphthaldehyde with aniline
+      derivatives as well as their further coordination with diphenylborinic
+      acid for giving the corresponding boron Schiff bases (BOSCHIBAs)
+      (E)-N-((2-((di-phenylboryl) oxy)naphthalen-1-yl)methylene)pyridin-3-amine
+      (1a), (E)-N-((2-((di-phenylboryl)oxy)naphthalen-1-yl)
+      methylene)-2,6-di-methylaniline (2a), and
+      (E)-N-((2-((di-phenylboryl)oxy)naphthalen-1-yl)methylene)2,6-di-isopropyl
+      aniline (3a). The resulting BOSCHIBAs were characterized by NMR (1H, 13C,
+      and 11B), FTIR, and atmospheric pressure ionization time-of-flight mass
+      spectrometry. BOSCHIBA1a was structurally characterized by
+      single-crystal. Structure analysis indicates that the boron atom adopts a
+      tetrahedral molecular geometry into a six-membered ring with a half-chair
+      conformation. BOSCHIBAs 1a-3a and their ligands 1-3 exhibit relatively
+      low quantum yields in a range from 1 to 3\%. In a bioimaging study by
+      using the BOSCHIBAs 2a, and 3a as fluorescent staining dyes, those
+      materials showed enhanced features in terms of low cytotoxicity, simple
+      synthesis, photostability, hydrolytic stability and specific staining for
+      cytoplasm structures.%
+      }
+      \field{issn}{0022328X}
+      \field{journaltitle}{Journal of Organometallic Chemistry}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{shortjournal}{Journal of Organometallic Chemistry}
+      \field{title}{%
+      Synthesis, Characterization, Photophysical Properties of New Fluorescent
+      Boron {{Schiff}} Bases ({{BOSCHIBAs}}) and Their Application as Cytoplasm
+      Staining Dyes in Vitro%
+      }
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{852}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{64\bibrangedash 73}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10/gcq7h8
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/V3ZNQN5K/Corona-López et al. - 2017 - Synthesis, characterization, photophysical propert.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022328X1730579X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022328X1730579X
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

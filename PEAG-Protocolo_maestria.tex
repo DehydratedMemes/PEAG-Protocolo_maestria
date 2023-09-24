@@ -23,6 +23,7 @@
 % \MakeAutoQuote{"}{"}
 
 \usepackage{microtype}
+\setlength{\parskip}{1em}
 \usepackage{tabularray}
 \UseTblrLibrary{booktabs}
 \UseTblrLibrary{siunitx}
@@ -43,6 +44,8 @@
 \usepackage{cleveref}
 \usepackage{subcaption}
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage{lineno}
+\usepackage{rotating}
 \usepackage{newfloat}
 \DeclareFloatingEnvironment[
    fileext=los,
@@ -52,8 +55,7 @@
    within=none % don't reset numbering
 ]{scheme}
 \DeclareCaptionSubType{scheme}
-
-
+\setcounter{secnumdepth}{5}
 
 \begin{filecontents}[force]{abreviaturas.tex}
     \newacronym{DFT}{DFT}{Teoría del funcional de la densidad \textit{(del inglés "Density Functional Theory")}}
@@ -70,18 +72,39 @@
     \newacronym{FMO}{FMO}{Orbitales Moleculares de Frontera \textit{(del inglés "Frontier Molecular Orbitals")}}
     \newacronym{HOMO}{HOMO}{Orbital Molecular de mas alta energía \textit{(del inglés "Highest Occupied Molecular Orbital")}}
     \newacronym{LUMO}{LUMO}{Orbital Molecular no ocupado de más baja energía \textit{(del inglés "Lowest Unoccupied Molecular Orbital")}}
+    \newacronym{NMR}{NMR}{Resonancia Magnética Nuclear \textit{(del inglés "Nuclear Magnetic Resonance")}}
 \end{filecontents}
 
 \begin{filecontents}[force]{comandos.tex}
     % \newcommand{\invitro}{\textit{in-vitro}}
 \end{filecontents}
 
+\begin{filecontents}[force]{gantt.tex}
+    \def\pgfcalendarweekdayletter#1{% \ifcase#1M\or T\or W\or T\or F\or S\or S\fi%
+}
+\begin{ganttchart}[
+hgrid,
+  vgrid,
+  x unit=18mm,
+  time slot format=little-endian
+]{7.1.2013}{13.1.2013}
+\gantttitlecalendar*{7.1.2013}{13.1.2013}{
+month, month=name, month=shortname, weekday,
+    weekday=name, weekday=shortname, weekday=letter
+  }
+\end{ganttchart}
+\end{filecontents}
+
 \begin{filecontents}[force]{quimica.tex}
-    \DeclareChemReactant{BO1}{name={BO1}, short={THF}}
-    \DeclareChemReactant{BO-trp}{name={triptófano}, short={BO-trp}}
-    \DeclareChemReactant{BO-phe}{name={fenilalanina}, short={BO-phe}}
-    \DeclareChemReactant{BO-tyr}{name={tirosina}, short={BO-tyr}}
-    \DeclareChemReactant{BO-gly}{name={glicina}, short={BO-gly}}
+    \DeclareChemReactant{BO-H}{name={BO-H}}
+    \DeclareChemReactant{BO-trp}{name={BO-Trp}}
+    \DeclareChemReactant{BO-phe}{name={BO-Phe}}
+    \DeclareChemReactant{BO-tyr}{name={Bo-Tyr}}
+    \DeclareChemReactant{BO-gly}{name={BO-Gly}}
+    \DeclareChemReactant{trp}{name={triptófano}, short={trp}}
+    \DeclareChemReactant{phe}{name={fenilalanina}, short={phe}}
+    \DeclareChemReactant{tyr}{name={tirosina}, short={tyr}}
+    \DeclareChemReactant{gly}{name={glicina}, short={gly}}
     \NewChemLatin\invitro{in vitro}
     \NewChemLatin\insilico{in silico}
     \DeclareChemTranslation{scheme-name}{spanish}{Esquema}
@@ -104,36 +127,38 @@
 \publishers{Universidad Autónoma de Nuevo León, División de Posgrado}
 
 \begin{document}
+\linenumbers{}
 \maketitle
 
 \begin{abstract}
-    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant{BO-trp}, \reactant{BO-phe}, \reactant{BO-tyr} y \reactant{BO-gly}. Se caracterizarán por métodos espectroscópicos. Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminisencia en dichos compuestos así como estudios de topológicos sobre estos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
+    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant*{trp}, \reactant*{phe}, \reactant*{tyr} y \reactant*{gly}. Se caracterizarán por métodos espectroscópicos. Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminisencia en dichos compuestos así como estudios de topológicos sobre estos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
 \end{abstract}
 
+\newpage
 \tableofcontents
-% \listoffigures
-% \listoftables
-% \listofschemes
+\listoffigures
+\listoftables
+\listofschemes
 
 \section{Introducción}
 
 Recientemente, se ha acrecentado el interés por los compuestos fluorescentes de boro debido a su amplio campo de aplicaciones; \autocite{ibarra-rodriguezOrganoboronSchiffBases2019} ya sea en sensores, como en tintas de seguridad, o bien los \gls{BODIPY} comercialmente disponibles utilizados como agentes para la tinción celular, ER-Tracker™ Green y ER-Tracker™ Red (ver \cref{ER-Trackers}).
 
 \begin{scheme}
-\centering
-\begin{subscheme}{0.45\linewidth}
-\includegraphics[width=\linewidth]{ER-Tracker_Blue.pdf}
-\caption{ER-Tracker™ Blue}
-\label{ER-Tracker_Blue}
-\end{subscheme}
-\hfill
-\begin{subscheme}{0.45\linewidth}
-\includegraphics[width=\linewidth]{ER-Tracker_Green.pdf}
-\caption{ER-Tracker™ Green}
-\label{ER-Tracker_Green}
-\end{subscheme}
-\caption{Los ER-Tracker™ Green y ER-Tracker™ Red de Thermo Fischer Scientific™ son \gls{BODIPY} comerciales utilizados como agentes para la tinción celular.}
-\label{ER-Trackers}
+    \centering
+    \begin{subscheme}{0.45\linewidth}
+        \includegraphics[width=\linewidth]{ER-Tracker_Blue.pdf}
+        \caption{ER-Tracker™ Blue}
+        \label{ER-Tracker_Blue}
+    \end{subscheme}
+    \hfill
+    \begin{subscheme}{0.45\linewidth}
+        \includegraphics[width=\linewidth]{ER-Tracker_Green.pdf}
+        \caption{ER-Tracker™ Green}
+        \label{ER-Tracker_Green}
+    \end{subscheme}
+    \caption{Los ER-Tracker™ Green y ER-Tracker™ Red de Thermo Fischer Scientific™ son \gls{BODIPY} comerciales utilizados como agentes para la tinción celular.}
+    \label{ER-Trackers}
 \end{scheme}
 
 Los \gls{FMR} son fluoróforos sensibles a la viscosidad que presentan una rotación libre que se vuelven fluorescentes, o en su defecto, aumentan la fluorescencia solo si su rotación se ve restringida.\todo{Citar} Algunas interacciones de carácter intramolecular para detener la rotación de los \gls{FMR} son \begin{inparaenum}[i.]
@@ -146,7 +171,7 @@ Se ha determinado que la polarización del solvente y la viscosidad del mismo af
 
 Diferentes estrategias para el diseño de \gls{FMR} se han propuesto para realizar sensores de viscosidad altamente sensibles, por ejemplo, incorporando grupos rotacionales asimétricos,\autocite{leePyrrolicMolecularRotors2016} rotadores con alta capacidad rotacional,\autocite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados \emph{push-pull},\autocite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\autocite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores con diferentes capacidades rotacionales y electrondonantes.\autocite{rautTriazinebasedBODIPYTrimer2016}
 
-Por lo que, obtener tanto una alta eficiencia de fluorescencia como un contraste fluorescente simultáneamente es muy difícil, debido a que, en muchos casos, las moléculas de alto rendimiento cuántico tienen una capacidad de contraste deficiente. 
+Por lo que, obtener tanto una alta eficiencia de fluorescencia como un contraste fluorescente simultáneamente es muy difícil, debido a que, en muchos casos, las moléculas de alto rendimiento cuántico tienen una capacidad de contraste deficiente.
 El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada "intensidad de fluorescencia---contraste".\autocite{leeFrontCoverFluorescent2018}
 
 En la actualidad existe una amplia variedad de \gls{FMR} derivados de compuestos de boro, donde los \gls{BODIPY} y los dioxaborinos son los protagonistas debido a su elevado rendimiento cuántico, sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja, aumentando escasamente el rendimiento cuántico del valor inicial.\autocite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
@@ -161,65 +186,102 @@ Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se dis
     \caption{Compuestos que se sintetizarán en esta investigación.}
     \label{sch:marcha}
 \end{scheme}
+\todo{Esta figura no corresponde a los compuestos que se plantean en la introducción del proyecto.}
 
-Todos los compuestos fueron caracterizados completamente, tanto estructural como fotofísicamente. Las estructuras cristalinas obtenidas para los compuestos \reactant{BO-tyr} y \reactant{BO-trp} muestran átomos de boro tetracoordinados con geometría tetraédrica ligeramente distorsionada y la formación de dos heterociclos fusionados de cinco y seis miembros debido a la coordinación N→B (ver \cref{sch:estructuras}). Las longitudes N→B, \reactant{BO-tyr} de \qty{1.569}{\angstrom} y para \reactant{BO-trp} \qty{1.566}{\angstrom} sugieren una fuerte coordinación del nitrógeno con los átomos de boro porque son menores que la distancia covalente N→B estimada; esto se confirma por el carácter tetraédrico del \qty{91.33}{\percent} y \qty{93.07}{\percent}, respectivamente.
+\section{Antecedentes}\todo{Hacer!} %Puede ser una tabla con resumen de lo que se ha hecho
+\SetTblrInner{fontsize}{\fontsize{10}{12}\selectfont}
+\begin{longtblr}[
+        caption={Antecedentes de la investigación.},
+        label={tbl:antecedentes}
+    ]{
+        colspec = {X[2,c,m] X[2,c,m] X[c,m]},
+        rowhead = 1,
+        cells   = {font = \fontsize{8pt}{10pt}\selectfont},
+        row{1} = {font=\bfseries}
+    }
+    \toprule
+    Investigación                                                       & Aportación                                                       & Referencia                                                    \\ \midrule
+    \citetitle*{lopez-espejelOrganotinSchiffBases2021}                  & Sintesis de \gls{BOSCHIBA} con \ch{Sn}                           & \cite{lopez-espejelOrganotinSchiffBases2021}                  \\
+    \citetitle*{corona-lopezFarRedInfrared2021}                         & Síntesis de \gls{BOSCHIBA} con clusters de boro                  & \cite{corona-lopezFarRedInfrared2021}                         \\
+    \citetitle*{ibarra-rodriguezOrganoboronSchiffBases2019}             & Síntesis de \gls{BOSCHIBA} y su uso como sondas fluorescentes    & \cite{ibarra-rodriguezOrganoboronSchiffBases2019}             \\
+    \citetitle*{canton-diazOnepotMicrowaveassistedSynthesis2018}        & Sintesis \textit{one-pot} de \gls{BOSCHIBA}                      & \cite{canton-diazOnepotMicrowaveassistedSynthesis2018}        \\
+    \citetitle*{corona-lopezSynthesisCharacterizationPhotophysical2017} & Síntesis de \gls{BOSCHIBA} y su aplicación para teñir citoplasma & \cite{corona-lopezSynthesisCharacterizationPhotophysical2017} \\
+    \bottomrule
+\end{longtblr}
 
-Otra evidencia confiable de la unión de coordinación N→B fue una señal ancha alrededor de \begin{experimental} \NMR{11,B} \val{5.80}; \end{experimental} para todos los compuestos, indicativo de un átomo de boro tetracoordinado. El HRMS de los compuestos de boro mostró que el pico base corresponde al pico del ion molecular, y la primera fragmentación resulta en su ligando por pérdida del segmento fenilborónico (ver ESI). \todo{Conseguir ESI}
+\subsection{Análisis crítico de los antecedentes}\todo{Hacer!} % entrar en detalle de lo que se ha hecho.
 
+\section{Aportación científica}\todo{Verificar}
+Plantear una metodología para la sintesis de compuestos de boro fluorescentes, con un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la bioimagen de células. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
 
-Con el proposito de determinar la capacidad de detección de viscosidad, se midieron los espectros de fluorescencia de 1-4 en mezclas de metanol/glicerol a diferentes fracciones, donde, el compuesto 2 muestra que la intensidad de fluorescencia aumenta significativamente con un aumento de la fracción de glicerol (ver \cref{fig:fluorescencia-glicerol}), mientras que el resto de los compuestos no muestran un cambio significativo en su intensidad de fluorescencia (ver ESI).\todo{Conseguir ESI} En el medio sin glicerol, el rendimiento cuántico de 2 es menor que \qty{0.04}{\percent} y aumenta alrededor de 100 veces en alta fracción de glicerol con \qty{0.40}{\percent} de rendimiento cuántico. Hasta hoy no había un alto sensibilizador de viscosidad.
+\section{Hipótesis}\todo{Verificar}
+La incorporación de aminoácidos en la estructura de los \gls{BOSCHIBA} logrará una mejor penetración de las membranas celulares, además de que se espera que los compuestos presenten un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad.
 
-\begin{figure}
-    \centering
-    \missingfigure[figheight=10cm,figwidth=10cm]{Espectro de fluoresencia con diferentes viscosidades. Ya existe pero se ocupa de calidad más alta.}
-    \label{fig:fluorescencia-glicerol}
-    \caption{Espectro de fluoresencia del \reactant{BO-phe} con glicerol en diferentes proporciones. A mayor viscosidad se observa un aumento en la fluorescencia.}
-\end{figure}
+\section{Objetivos y metas}\todo{Verificar}
+\subsection{Objetivo general}\todo{Verificar!}
+Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación en tinción celular y estudiar sus propiedades fotofísicas por medio de cálculos \insilico{}.
 
-Para lograr comprender mejor las propiedades fotofísicas en solución, se desarrollaron estudios \insilico{} para las moléculas, utilizando el método \texttt{B3LYP/6-31G(d,p),} implementado en Gaussian 09. Explorando las estructuras de energía mínima de 1-4, obtenidas por \gls{PES}, el fragmento de triptófano en la molécula 2 genera una obstrucción estérica significativa en el anillo fenilborónico, causando un ángulo de torsión diédrico de \qty{73.5}{\degree}, a diferencia del resto de las estructuras (1, 3 y 4),\todo{poner con comando \texttt{reactant}} donde el fragmento de aminoácido no causa ninguna obstrucción estérica y los ángulos de torsión diédricos están cerca de \qty{55}{\degree} (ver ESI).\todo{Conseguir ESI} Además, se calcularon los \gls{NBO} para las estructuras optimizadas.
-Las principales transferencias de carga en todas las moléculas se dan por N→B, O1→B y O2→B, donde, los átomos de nitrógeno y oxígenos actúan como donadores de electrones y el átomo central de boro actúa como aceptor de electrones. En el caso de las moléculas 1, 3 y 4,\todo{poner con comando \texttt{reactant}} que no tienen obstrucción estérica, se observan mayores transferencias de carga por grupos donador-aceptor debido a una mejor superposición de orbitales, en comparación con el compuesto 2 derivado del triptófano. Sin embargo, cuando el ángulo de torsión diédrico se modifica a \qty{55}{\degree} y se calculan los \gls{NBO}, se recupera la superposición óptima de orbitales y se obtienen valores de transferencia de carga similares.
+\subsection{Objetivos específicos}\todo{Verificar!}
+\begin{itemize}
+    \item \textbf{Sintetizar} una serie de \gls{BOSCHIBA} derivadas de \reactant{trp}, \reactant{phe}, \reactant{tyr} y \reactant{gly};
+    \item \textbf{Elucidar} los mecanismos involucrados en el efecto supresor de la luminiscencia en \reactant{BO-trp};
+    \item \textbf{Caracterizar} los compuestos por métodos espectroscópicos;
+\end{itemize}
 
-En un medio de alta viscosidad, la molecula 2\todo{poner con comando \texttt{reactant}} no puede tener flexibilidad estructural o la obstrucción estérica podría suprimirse, permitiendo que la superposición orbital no se vea afectada. Este comportamiento del compuesto 2\todo{poner con comando \texttt{reactant}} podría explicar la disminución significativa del rendimiento cuántico experimental en solución y sugiere que el mecanismo de detección de viscosidad ocurre a través de la modificación de las propiedades de transferencia de carga intramolecular por la obstrucción estérica del triptófano.
-
-Subsecuentemente, se calcularon las \gls{VEE} para el primer estado excitado, al mismo nivel de teoría. Los valores de \gls{VEE} obtenidos para 1-4\todo{poner con comando \texttt{reactant}} fueron \qtylist[list-units = bracket]{60.15;41.83;52.65;60.52}{\kilo\cal\per\mol}, respectivamente, mostrando valores de 2\todo{poner con comando \texttt{reactant}} inferiores al resto de los compuestos y coincidiendo con lo observado experimentalmente. 
-
-\begin{figure}
-    \centering
-    \missingfigure[figheight=10cm,figwidth=10cm]{FMO de los compuestos. Rehacer con el funcional final}
-    \label{fig:FMO}
-    \caption{\gls{FMO} de los compuestos sintetizados}
-\end{figure}
-
-En la \cref{fig:FMO} se muestran los \gls{FMO} involucrados para todos los compuestos sintetizados
-
-HOMO for 2 shows an electronic delocalization on the amino acid fragment and outside the fluorophore, unlike the rest of structures, where the HOMO shows an electronic delocalization across the naphthyl group and the new rings formed with boron atom. The LUMOs of all molecules are completely delocalized across the naphthyl and boron rings, without influence of the different amino acids. However, exploring the HOMO-1 it has similar electronic delocalization distribution that rest of compounds (see ESI), this behaviour could also explain the significant decrease of experimental quantum yield in the molecule derived from tryptophan and suggest HOMO-LUMO transition is responsible for fluorescence, nevertheless, even though HOMO-LUMO of 2 have highest energy value, the energy of these orbitals being the closest, suggesting greater mobility of the π electrons in conjugated system and better molecular stability.
-
-El \gls{HOMO} para el compuesto 2 muestra una deslocalización hacia el fragmento de aminoácido y fuera del fluoróforo; a diferencia de las otras estructuras donde el \gls{HOMO} muestra deslocalización sobre el grupo naftilo y los anillos formados con el boro.
-Los \gls{LUMO} de todos los compuestos estan completamente deslocalizados sobre el grupo naftilo y los anillos que contien Boro, sin influencia de los diferentes aminoacidos. Sin embargo, al explorar el \gls{HOMO}-1 muestra 
-
-
-
-
-\section{Antecedentes}\todo{Hacer!}
-\section{Análisis crítico de los antecedentes}\todo{Hacer!}
-\section{Aporte científico}\todo{Hacer!}
-\section{Hipótesis}\todo{Hacer!}
-\section{Objetivos}\todo{Hacer!}
-\subsection{Objetivo general}\todo{Hacer!}
-\subsection{Objetivos específicos}\todo{Hacer!}
 \section{Metodología}\todo{Hacer!}
-\subsection{Síntesis}\todo{Hacer!}
-\subsection{Determinación de propiedades ópticas}\todo{Hacer!}
-\subsection{Determinación de citotoxicidad}\todo{Hacer!}
-\subsection{Modelado molecular}\todo{Hacer!}
-\subsubsection{Selección del funcional}\todo{Hacer!}
-\subsubsection{Optimización}\todo{Hacer!}
-\subsubsection{Obtención de espectro de emisión}\todo{Hacer!}
-\section{Residuos}\todo{Hacer!}
-\section{Análisis de costos}\todo{Hacer!}
-\section{Procedimiento experimental}\todo{Hacer!}
-\section{Planificación}\todo{Hacer!}
+\subsection{Materiales}
+\begin{longtblr}[
+        caption = {Equipos que se utilizarán para la caracterización de los compuestos de esta investigación.},
+        label = {tbl:equipos}
+    ]{
+        colspec = {X[2,c,m] X[c,m] X[c,m]},
+    }
+    \toprule
+    \textbf{Instrumento}                             & \textbf{ Marca y modelo} & \textbf{Locación}          \\ \midrule
+    Espectrofotómetro                                & {Perkin-Elmer,                                        \\Lambda 365} & FCQ \\
+    Espectrofluorímetro                              & {Horriba Scientificm,                                 \\Fluorolog-3} & FCQ \\
+    Sistema LC/MS/MS                                 & {EMAR,                                                \\AB Sciex API 2000} & CINVESTAV---IPN (DF) \\
+    Difractómetro de rayos X                         & {Bruker,                                              \\SMART APEX CCD} & CINVESTAV---IPN (DF) \\
+    \gls{NMR} (\NMR*{1,H}, \NMR*{11,B}, \NMR*{13,C}) & {Bruker,                                              \\Avance DPX 400} & Facultad de Medicina, UANL \\
+    Microscopio confocal                             & ---                      & Facultad de Biología, UANL \\
+    \bottomrule
+\end{longtblr}
 
+\subsection{Experimental}
+\subsubsection{Síntesis}\todo{Hacer!}
+\subsubsection{Determinación de propiedades ópticas}\todo{Hacer!}
+\subsubsection{Determinación de citotoxicidad}\todo{Hacer!}
+\subsubsection{Modelado molecular}\todo{Hacer!}
+\paragraph{Selección del funcional}\todo{Hacer!}
+\paragraph{Optimización geométrica}\todo{Hacer!}
+\paragraph{Obtención de espectro de emisión}\todo{Hacer!}
+\subsection{Disposición de resiudos}
+\begin{longtblr}[
+        caption = {Residuos que se generarán derivados de esta investigación.},
+        label = {tbl:residuos}
+    ]{
+        colspec = {X[2,c,m] X[2,c,m] X[c,m]},
+    }
+    \toprule
+    \textbf{Resiudo}  & \textbf{Tipo}                   & \textbf{Disposición} \\ \midrule
+    \ch{MeOH}, hexano & Solventes orgánicos             & C                    \\
+    DCM, Cloroformo   & Solventes orgánicos halogenados & C                    \\
+    Sales inorgánicas & Sales                           & A                    \\
+    \bottomrule
+\end{longtblr}
+
+\subsection{Costos}
+Se estima un costo aproximado de \num{70000} MXN para la realización de esta investigación, el cual se desglosa en la \cref{tbl:costos}.\todo{preguntar por costos de las tecnicas de caracterizacion y miscelanos}
+
+% \section{Residuos}\todo{Hacer!}
+% \section{Análisis de costos}\todo{Hacer!}
+% \section{Procedimiento experimental}\todo{Hacer!}
+\begin{sidewaysfigure}
+    \section{Planificación}
+    \includegraphics[width=0.9\linewidth]{gantt.pdf}
+    \caption{Diagrama de Gantt de la investigación.}
+    \label{fig:gantt}
+\end{sidewaysfigure}
 \printreactants{}
 \printglossaries{}
 \printbibliography{}

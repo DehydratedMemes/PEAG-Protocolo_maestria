@@ -1,22 +1,23 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{2}{}%
-\contentsline {section}{\numberline {2}Antecedentes}{8}{}%
-\contentsline {section}{\numberline {3}Análisis crítico de los antecedentes}{8}{}%
-\contentsline {section}{\numberline {4}Aporte científico}{8}{}%
-\contentsline {section}{\numberline {5}Hipótesis}{8}{}%
-\contentsline {section}{\numberline {6}Objetivos}{8}{}%
-\contentsline {subsection}{\numberline {6.1}Objetivo general}{8}{}%
-\contentsline {subsection}{\numberline {6.2}Objetivos específicos}{8}{}%
-\contentsline {section}{\numberline {7}Metodología}{8}{}%
-\contentsline {subsection}{\numberline {7.1}Síntesis}{8}{}%
-\contentsline {subsection}{\numberline {7.2}Determinación de propiedades ópticas}{8}{}%
-\contentsline {subsection}{\numberline {7.3}Determinación de citotoxicidad}{8}{}%
-\contentsline {subsection}{\numberline {7.4}Modelado molecular}{8}{}%
-\contentsline {subsubsection}{\numberline {7.4.1}Selección del funcional}{8}{}%
-\contentsline {subsubsection}{\numberline {7.4.2}Optimización}{9}{}%
-\contentsline {subsubsection}{\numberline {7.4.3}Obtención de espectro de emisión}{9}{}%
-\contentsline {section}{\numberline {8}Residuos}{9}{}%
-\contentsline {section}{\numberline {9}Análisis de costos}{9}{}%
-\contentsline {section}{\numberline {10}Procedimiento experimental}{9}{}%
-\contentsline {section}{\numberline {11}Planificación}{9}{}%
+\contentsline {section}{\numberline {1}Introducción}{3}{}%
+\contentsline {section}{\numberline {2}Antecedentes}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Análisis crítico de los antecedentes}{6}{}%
+\contentsline {section}{\numberline {3}Aportación científica}{6}{}%
+\contentsline {section}{\numberline {4}Hipótesis}{6}{}%
+\contentsline {section}{\numberline {5}Objetivos y metas}{6}{}%
+\contentsline {subsection}{\numberline {5.1}Objetivo general}{6}{}%
+\contentsline {subsection}{\numberline {5.2}Objetivos específicos}{6}{}%
+\contentsline {section}{\numberline {6}Metodología}{7}{}%
+\contentsline {subsection}{\numberline {6.1}Materiales}{7}{}%
+\contentsline {subsection}{\numberline {6.2}Experimental}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Síntesis}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Determinación de propiedades ópticas}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}Determinación de citotoxicidad}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.4}Modelado molecular}{7}{}%
+\contentsline {paragraph}{\numberline {6.2.4.1}Selección del funcional}{7}{}%
+\contentsline {paragraph}{\numberline {6.2.4.2}Optimización geométrica}{8}{}%
+\contentsline {paragraph}{\numberline {6.2.4.3}Obtención de espectro de emisión}{8}{}%
+\contentsline {subsection}{\numberline {6.3}Disposición de resiudos}{8}{}%
+\contentsline {subsection}{\numberline {6.4}Costos}{8}{}%
+\contentsline {section}{\numberline {7}Planificación}{9}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

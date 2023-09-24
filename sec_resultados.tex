@@ -1,0 +1,38 @@
+%Seccion que aun no se va a utilizar
+
+
+
+Todos los compuestos fueron caracterizados completamente, tanto estructural como fotofísicamente. Las estructuras cristalinas obtenidas para los compuestos \reactant{BO-tyr} y \reactant{BO-trp} muestran átomos de boro tetracoordinados con geometría tetraédrica ligeramente distorsionada y la formación de dos heterociclos fusionados de cinco y seis miembros debido a la coordinación N→B (ver \cref{sch:estructuras}). Las longitudes N→B, \reactant{BO-tyr} de \qty{1.569}{\angstrom} y para \reactant{BO-trp} \qty{1.566}{\angstrom} sugieren una fuerte coordinación del nitrógeno con los átomos de boro porque son menores que la distancia covalente N→B estimada; esto se confirma por el carácter tetraédrico del \qty{91.33}{\percent} y \qty{93.07}{\percent}, respectivamente.
+
+Otra evidencia confiable de la unión de coordinación N→B fue una señal ancha alrededor de \begin{experimental} \NMR{11,B} \val{5.80}; \end{experimental} para todos los compuestos, indicativo de un átomo de boro tetracoordinado. El HRMS de los compuestos de boro mostró que el pico base corresponde al pico del ion molecular, y la primera fragmentación resulta en su ligando por pérdida del segmento fenilborónico (ver ESI). \todo{Conseguir ESI}
+
+
+Con el proposito de determinar la capacidad de detección de viscosidad, se midieron los espectros de fluorescencia de 1-4 en mezclas de metanol/glicerol a diferentes fracciones, donde, el compuesto 2 muestra que la intensidad de fluorescencia aumenta significativamente con un aumento de la fracción de glicerol (ver \cref{fig:fluorescencia-glicerol}), mientras que el resto de los compuestos no muestran un cambio significativo en su intensidad de fluorescencia (ver ESI).\todo{Conseguir ESI} En el medio sin glicerol, el rendimiento cuántico de 2 es menor que \qty{0.04}{\percent} y aumenta alrededor de 100 veces en alta fracción de glicerol con \qty{0.40}{\percent} de rendimiento cuántico. Hasta hoy no había un alto sensibilizador de viscosidad.
+
+\begin{figure}
+    \centering
+    \missingfigure[figheight=10cm,figwidth=10cm]{Espectro de fluoresencia con diferentes viscosidades. Ya existe pero se ocupa de calidad más alta.}
+    \label{fig:fluorescencia-glicerol}
+    \caption{Espectro de fluoresencia del \reactant{BO-phe} con glicerol en diferentes proporciones. A mayor viscosidad se observa un aumento en la fluorescencia.}
+\end{figure}
+
+Para lograr comprender mejor las propiedades fotofísicas en solución, se desarrollaron estudios \insilico{} para las moléculas, utilizando el método \texttt{B3LYP/6-31G(d,p),} implementado en Gaussian 09. Explorando las estructuras de energía mínima de 1-4, obtenidas por \gls{PES}, el fragmento de triptófano en la molécula 2 genera una obstrucción estérica significativa en el anillo fenilborónico, causando un ángulo de torsión diédrico de \qty{73.5}{\degree}, a diferencia del resto de las estructuras (1, 3 y 4),\todo{poner con comando \texttt{reactant}} donde el fragmento de aminoácido no causa ninguna obstrucción estérica y los ángulos de torsión diédricos están cerca de \qty{55}{\degree} (ver ESI).\todo{Conseguir ESI} Además, se calcularon los \gls{NBO} para las estructuras optimizadas.
+Las principales transferencias de carga en todas las moléculas se dan por N→B, O1→B y O2→B, donde, los átomos de nitrógeno y oxígenos actúan como donadores de electrones y el átomo central de boro actúa como aceptor de electrones. En el caso de las moléculas 1, 3 y 4,\todo{poner con comando \texttt{reactant}} que no tienen obstrucción estérica, se observan mayores transferencias de carga por grupos donador-aceptor debido a una mejor superposición de orbitales, en comparación con el compuesto 2 derivado del triptófano. Sin embargo, cuando el ángulo de torsión diédrico se modifica a \qty{55}{\degree} y se calculan los \gls{NBO}, se recupera la superposición óptima de orbitales y se obtienen valores de transferencia de carga similares.
+
+En un medio de alta viscosidad, la molecula 2\todo{poner con comando \texttt{reactant}} no puede tener flexibilidad estructural o la obstrucción estérica podría suprimirse, permitiendo que la superposición orbital no se vea afectada. Este comportamiento del compuesto 2\todo{poner con comando \texttt{reactant}} podría explicar la disminución significativa del rendimiento cuántico experimental en solución y sugiere que el mecanismo de detección de viscosidad ocurre a través de la modificación de las propiedades de transferencia de carga intramolecular por la obstrucción estérica del triptófano.
+
+Subsecuentemente, se calcularon las \gls{VEE} para el primer estado excitado, al mismo nivel de teoría. Los valores de \gls{VEE} obtenidos para 1-4\todo{poner con comando \texttt{reactant}} fueron \qtylist[list-units = bracket]{60.15;41.83;52.65;60.52}{\kilo\cal\per\mol}, respectivamente, mostrando valores de 2\todo{poner con comando \texttt{reactant}} inferiores al resto de los compuestos y coincidiendo con lo observado experimentalmente. 
+
+\begin{figure}
+    \centering
+    \missingfigure[figheight=10cm,figwidth=10cm]{FMO de los compuestos. Rehacer con el funcional final}
+    \label{fig:FMO}
+    \caption{\gls{FMO} de los compuestos sintetizados}
+\end{figure}
+
+En la \cref{fig:FMO} se muestran los \gls{FMO} involucrados para todos los compuestos sintetizados
+
+HOMO for 2 shows an electronic delocalization on the amino acid fragment and outside the fluorophore, unlike the rest of structures, where the HOMO shows an electronic delocalization across the naphthyl group and the new rings formed with boron atom. The LUMOs of all molecules are completely delocalized across the naphthyl and boron rings, without influence of the different amino acids. However, exploring the HOMO-1 it has similar electronic delocalization distribution that rest of compounds (see ESI), this behaviour could also explain the significant decrease of experimental quantum yield in the molecule derived from tryptophan and suggest HOMO-LUMO transition is responsible for fluorescence, nevertheless, even though HOMO-LUMO of 2 have highest energy value, the energy of these orbitals being the closest, suggesting greater mobility of the π electrons in conjugated system and better molecular stability.
+
+El \gls{HOMO} para el compuesto 2 muestra una deslocalización hacia el fragmento de aminoácido y fuera del fluoróforo; a diferencia de las otras estructuras donde el \gls{HOMO} muestra deslocalización sobre el grupo naftilo y los anillos formados con el boro.
+Los \gls{LUMO} de todos los compuestos estan completamente deslocalizados sobre el grupo naftilo y los anillos que contien Boro, sin influencia de los diferentes aminoacidos. Sin embargo, al explorar el \gls{HOMO}-1 muestra 
