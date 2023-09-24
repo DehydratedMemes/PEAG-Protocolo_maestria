@@ -13,11 +13,11 @@
 \contentsline {subsubsection}{\numberline {6.2.1}Síntesis}{7}{}%
 \contentsline {subsubsection}{\numberline {6.2.2}Determinación de propiedades ópticas}{7}{}%
 \contentsline {subsubsection}{\numberline {6.2.3}Determinación de citotoxicidad}{7}{}%
-\contentsline {subsubsection}{\numberline {6.2.4}Modelado molecular}{7}{}%
-\contentsline {paragraph}{\numberline {6.2.4.1}Selección del funcional}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.4}Modelado molecular}{8}{}%
+\contentsline {paragraph}{\numberline {6.2.4.1}Preoptimización}{8}{}%
 \contentsline {paragraph}{\numberline {6.2.4.2}Optimización geométrica}{8}{}%
 \contentsline {paragraph}{\numberline {6.2.4.3}Obtención de espectro de emisión}{8}{}%
 \contentsline {subsection}{\numberline {6.3}Disposición de resiudos}{8}{}%
-\contentsline {subsection}{\numberline {6.4}Costos}{8}{}%
-\contentsline {section}{\numberline {7}Planificación}{9}{}%
+\contentsline {subsection}{\numberline {6.4}Costos}{9}{}%
+\contentsline {section}{\numberline {7}Planificación}{10}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

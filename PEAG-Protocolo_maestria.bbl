@@ -1753,6 +1753,155 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0022328X1730579X
       \endverb
     \endentry
+    \entry{prachtAutomatedExplorationLowenergy2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e0dcf8cd232c8e15bc5cf6b6c3401ebd}{%
+           family={Pracht},
+           familyi={P\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9f7147c98958fbb144fdf6e7bbc1b413}{%
+           family={Bohle},
+           familyi={B\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3a2585af369dbd4150db746c63177b0c}{%
+           family={Grimme},
+           familyi={G\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdb3dbf29ff1f8e8ca7e9e35eab8127e}
+      \strng{fullhash}{43124a9bb7f509c161a006a76f272d1c}
+      \strng{bibnamehash}{43124a9bb7f509c161a006a76f272d1c}
+      \strng{authorbibnamehash}{43124a9bb7f509c161a006a76f272d1c}
+      \strng{authornamehash}{fdb3dbf29ff1f8e8ca7e9e35eab8127e}
+      \strng{authorfullhash}{43124a9bb7f509c161a006a76f272d1c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      We propose and discuss an efficient scheme for the in silico sampling for
+      parts of the molecular low-energy chemical space by semiempirical
+      tight-binding methods combined with a meta-dynamics driven search
+      algorithm. , We propose and discuss an efficient scheme for the in silico
+      sampling for parts of the molecular chemical space by semiempirical
+      tight-binding methods combined with a meta-dynamics driven search
+      algorithm. The focus of this work is set on the generation of proper
+      thermodynamic ensembles at a quantum chemical level for conformers, but
+      similar procedures for protonation states, tautomerism and non-covalent
+      complex geometries are also discussed. The conformational ensembles
+      consisting of all significantly populated minimum energy structures
+      normally form the basis of further, mostly DFT computational work, such
+      as the calculation of spectra or macroscopic properties. By using basic
+      quantum chemical methods, electronic effects or possible bond
+      breaking/formation are accounted for and a very reasonable initial
+      energetic ranking of the candidate structures is obtained. Due to the
+      huge computational speedup gained by the fast low-cost quantum chemical
+      methods, overall short computation times even for systems with hundreds
+      of atoms (typically drug-sized molecules) are achieved. Furthermore,
+      specialized applications, such as sampling with implicit solvation models
+      or constrained conformational sampling for transition-states, metal-,
+      surface-, or noncovalently bound complexes are discussed, opening many
+      possible applications in modern computational chemistry and drug
+      discovery. The procedures have been implemented in a freely available
+      computer code called CREST, that makes use of the fast and reliable GFN n
+      -xTB methods.%
+      }
+      \field{issn}{1463-9076, 1463-9084}
+      \field{journaltitle}{Physical Chemistry Chemical Physics}
+      \field{langid}{english}
+      \field{number}{14}
+      \field{shortjournal}{Phys. Chem. Chem. Phys.}
+      \field{title}{Automated Exploration of the Low-Energy Chemical Space with
+      Fast Quantum Chemical Methods}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{22}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7169\bibrangedash 7192}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10/ghfvk8
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C9CP06869D
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C9CP06869D
+      \endverb
+    \endentry
+    \entry{gasevicOptimizationSCAN3cComposite2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=11b7a910f809dbdb19597450a2951c5e}{%
+           family={Gasevic},
+           familyi={G\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4f6b0cc4d5cb60670a448ffaa4b34f63}{%
+           family={Stückrath},
+           familyi={S\bibinitperiod},
+           given={Julius\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3a2585af369dbd4150db746c63177b0c}{%
+           family={Grimme},
+           familyi={G\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4ac9adbc3a33d7a781b033150362c7fe}{%
+           family={Bursch},
+           familyi={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{314d9de33efc80cbd867655523860806}
+      \strng{fullhash}{d0ee3eebd773164d0e08fcd55cc30aeb}
+      \strng{bibnamehash}{d0ee3eebd773164d0e08fcd55cc30aeb}
+      \strng{authorbibnamehash}{d0ee3eebd773164d0e08fcd55cc30aeb}
+      \strng{authornamehash}{314d9de33efc80cbd867655523860806}
+      \strng{authorfullhash}{d0ee3eebd773164d0e08fcd55cc30aeb}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{issn}{1089-5639, 1520-5215}
+      \field{journaltitle}{The Journal of Physical Chemistry A}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{23}
+      \field{shortjournal}{J. Phys. Chem. A}
+      \field{title}{%
+      Optimization of the r {\textsuperscript{2}} {{SCAN-3c Composite
+      Electronic-Structure Method}} for {{Use}} with {{Slater-Type Orbital
+      Basis Sets}}%
+      }
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{126}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3826\bibrangedash 3838}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10/gssfrf
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Zotero/Gasevic et al_2022_Optimization of the r sup2-sup SCAN-3c Composite Electronic-Structure.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/acs.jpca.2c02951
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/acs.jpca.2c02951
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

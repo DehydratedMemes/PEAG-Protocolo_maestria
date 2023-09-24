@@ -2421,6 +2421,8 @@
     <bcf:citekey order="51" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
     <bcf:citekey order="52" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
     <bcf:citekey order="53" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -73,10 +73,12 @@
     \newacronym{HOMO}{HOMO}{Orbital Molecular de mas alta energía \textit{(del inglés "Highest Occupied Molecular Orbital")}}
     \newacronym{LUMO}{LUMO}{Orbital Molecular no ocupado de más baja energía \textit{(del inglés "Lowest Unoccupied Molecular Orbital")}}
     \newacronym{NMR}{NMR}{Resonancia Magnética Nuclear \textit{(del inglés "Nuclear Magnetic Resonance")}}
+    \newacronym{CREST}{CREST}{\textit{Conformer-Rotamer Ensemble Sampling Tool}}
 \end{filecontents}
 
 \begin{filecontents}[force]{comandos.tex}
     % \newcommand{\invitro}{\textit{in-vitro}}
+    \newcommand\scan{\(\text{r}^{2}\text{SCAN-3c}\)}
 \end{filecontents}
 
 \begin{filecontents}[force]{gantt.tex}
@@ -209,7 +211,13 @@ Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se dis
     \bottomrule
 \end{longtblr}
 
+% El efecto supresor de la luminiscencia del triptófano es un fenómeno en el cual la emisión de luz de este aminoácido se ve inhibida o apagada debido a la interacción con otras especies supresoras presentes en su entorno. El triptófano es conocido por ser un fluoróforo natural y su emisión de luz se produce principalmente a través del proceso de fosforescencia, que es una forma de luminiscencia de larga duración. Sin embargo, este proceso puede ser modulado o suprimido por la presencia de compuestos supresores. Existen diferentes mecanismos por los cuales se produce el efecto supresor de la luminiscencia del triptófano, y algunos de los más comunes son: Transferencia de energía por resonancia (RET, por sus siglas en inglés): En este mecanismo, la energía de excitación del triptófano es transferida a una molécula cercana a través de la superposición de las órbitas electrónicas. Esta molécula receptora puede ser un cromóforo cercano, un agente químico o una especie metálica. La transferencia de energía provoca una disminución en la intensidad de la emisión luminiscente del triptófano. Transferencia de carga: En este mecanismo, el triptófano se encuentra en un ambiente químico o electroquímico donde puede donar o aceptar electrones. Cuando se produce una transferencia de carga del triptófano a una especie química receptora, se produce una disminución en la emisión de luz. Esto puede ocurrir, por ejemplo, en presencia de iones metálicos como el cobre o el hierro. Quenching estático: En este caso, el quencheo ocurre debido a la formación de un complejo o una asociación entre el triptófano y la especie quencheadora. Esta interacción puede alterar la estructura electrónica del triptófano y disminuir su capacidad para emitir luz. 
+% Es importante destacar que el efecto quencheador de la luminiscencia del triptófano puede ser utilizado en diversos campos, como la bioquímica y la biología molecular, para investigar interacciones moleculares y procesos bioquímicos. Por ejemplo, se ha utilizado el quencheo del triptófano como una herramienta para estudiar la unión de ligandos a proteínas, la formación de estructuras secundarias en péptidos y la dinámica de plegamiento de proteínas. En resumen, el efecto quencheador de la luminiscencia del triptófano se refiere a la disminución o supresión de la emisión de luz de este aminoácido debido a la interacción con otras especies quencheadoras. Los mecanismos involucrados en este proceso incluyen la transferencia de energía por resonancia, la transferencia de carga y el quenching estático. El estudio de este fenómeno proporciona información valiosa sobre interacciones moleculares y procesos bioquímicos. En el presente proyecto se sonosintetizarán cuatro compuestos luminiscentes de Boro derivados de aminoácidos (triptófano, fenilamina, tirosina y glicina), su caracterización química-fotofísica y estudios por modelado molecular. 
+
+
 \subsection{Análisis crítico de los antecedentes}\todo{Hacer!} % entrar en detalle de lo que se ha hecho.
+
+
 
 \section{Aportación científica}\todo{Verificar}
 Plantear una metodología para la sintesis de compuestos de boro fluorescentes, con un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la bioimagen de células. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
@@ -248,13 +256,29 @@ Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación 
 \end{longtblr}
 
 \subsection{Experimental}
-\subsubsection{Síntesis}\todo{Hacer!}
-\subsubsection{Determinación de propiedades ópticas}\todo{Hacer!}
-\subsubsection{Determinación de citotoxicidad}\todo{Hacer!}
+\subsubsection{Síntesis}\todo{Detallar}
+Se llevará acabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles.
+Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
+
+\subsubsection{Determinación de propiedades ópticas}\todo{Detallar}
+Se determinará el rendimiento cuántico de los compuestos \textbf{1-4}, así como su contraste de fluorescencia en medios de viscosidad variable.
+
+\subsubsection{Determinación de citotoxicidad}\todo{Verificar!}
+Se determinará la citotoxicidad de los compuestos \textbf{1-4} en la línea celular de melanoma murino \emph{B16F10} (ATCC® CCL-6475™) derivado de ratón C57BL/6J.\todo{verificar si este es el melanoma con el que se hará el estudio}
+
 \subsubsection{Modelado molecular}\todo{Hacer!}
-\paragraph{Selección del funcional}\todo{Hacer!}
-\paragraph{Optimización geométrica}\todo{Hacer!}
-\paragraph{Obtención de espectro de emisión}\todo{Hacer!}
+Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminisencia en dichos compuestos así como estudios de topológicos sobre estos.
+
+\paragraph{Preoptimización}
+En caso de no contar con datos cristalográficos en el momento del estudio \insilico{}, se hará una busqueda conformacional con ayuda del programa \gls{CREST} \cite{prachtAutomatedExplorationLowenergy2020} para obtener los conformeros más estables de los compuestos.
+
+En caso de que se cuenten con datos cristalográficos, se utilizarán las coordenadas de la estructura cristalográfica para realizar la optimización geométrica en DFT.
+
+\paragraph{Optimización geométrica}\todo{Verificar!}
+Se hará la optimización geométrica de los compuestos \textbf{1-4} empleando el funcional meta-GGA \scan{}\footnote{La selección de este funcional para la optimización geométrica se debe a su desempeño comparable o superior con funcionales híbridos meta-GGA como M06-2X-D3(0)/TZP que costarían más tiempo de computo, así como su inclusión de correcciones relativisticas como ECP y correción para dispersión y su buen desempeño con el \emph{benchmark} LMGB35 (Enlaces ligeros del grupo principal) y ROT34 (constantes rotacionales de moleculas organicas pequeñas)} \cite{gasevicOptimizationSCAN3cComposite2022} hasta llegar a un nivel de teoría de \emph{DFT/def2-TZVP}, o superior en caso de que sea necesario.
+
+\paragraph{Obtención de espectro de emisión}\todo{Verificar}
+Se obtendrá el espectro de emisión de los compuestos \textbf{1-4} por medio de cálculos \gls{TDDFT} con el funcional ωB97X-V\todo{Verificar si es plausible usar \scan{} para calculos TDDFT.} y con el fin de aproximarse al límite CBS, se requiere de aumentación con funciones difusas dobles, por lo que se usará el conjunto de fuinciones base \emph{def2-TZVPD} o \emph{def2-QZVPPD} si es necesario obtener estados de Rydberg
 \subsection{Disposición de resiudos}
 \begin{longtblr}[
         caption = {Residuos que se generarán derivados de esta investigación.},
