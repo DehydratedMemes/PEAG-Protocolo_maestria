@@ -8,7 +8,7 @@
 
 % NOTA: [<+->] se usa comio overlay para hacer que los bullets aparezcan uno por uno.
 
-\documentclass[spanish,mexico]{scrartcl}
+\documentclass[spanish,mexico,12pt]{scrartcl}
 % \listfiles
 
 \KOMAoptions{abstract=true}
@@ -18,6 +18,8 @@
 \usepackage{fontspec}
     \setmainfont{TeX Gyre Pagella}
     \setsansfont{TeX Gyre Heros}
+
+\renewcommand{\familydefault}{\sfdefault} % Sans serif
 
 \usepackage{csquotes}
 % \MakeAutoQuote{"}{"}
@@ -32,7 +34,6 @@
 \sisetup{separate-uncertainty,per-mode=symbol,detect-all,range-phrase=--}
 \DeclareSIUnit{\angstrom}{\textup{\AA}}
 \usepackage{chemmacros}
-\usepackage[eps,librsvg]{chemobabel}
 \usepackage{glossaries}
     \makeglossaries{}
 
@@ -98,15 +99,16 @@ month, month=name, month=shortname, weekday,
 \end{filecontents}
 
 \begin{filecontents}[force]{quimica.tex}
-    \DeclareChemReactant{BO-H}{name={BO-H}}
-    \DeclareChemReactant{BO-trp}{name={BO-Trp}}
-    \DeclareChemReactant{BO-phe}{name={BO-Phe}}
-    \DeclareChemReactant{BO-tyr}{name={Bo-Tyr}}
-    \DeclareChemReactant{BO-gly}{name={BO-Gly}}
-    \DeclareChemReactant{trp}{name={triptófano}, short={trp}}
-    \DeclareChemReactant{phe}{name={fenilalanina}, short={phe}}
-    \DeclareChemReactant{tyr}{name={tirosina}, short={tyr}}
+    \DeclareChemReactant{BO-gly}{name={BO-Gly}} % 1
+    \DeclareChemReactant{BO-trp}{name={BO-Trp}} % 2
+    \DeclareChemReactant{BO-tyr}{name={Bo-Tyr}} % 3
+    \DeclareChemReactant{BO-phe}{name={BO-Phe}} % 4
+    \DeclareChemReactant{trp}{name={\iupac{\laevus-triptófano}}, short={trp}}
+    \DeclareChemReactant{phe}{name={\iupac{\laevus-fenilalanina}}, short={phe}}
+    \DeclareChemReactant{tyr}{name={\iupac{\laevus-tirosina}}, short={tyr}}
     \DeclareChemReactant{gly}{name={glicina}, short={gly}}
+    \DeclareChemReactant{aphb}{name={ácido fenil borinico}, short={\ch{PhB(OH)2}}}
+    \DeclareChemReactant{2h1n}{name={\iupac{2-Hidroxi-1-naftaldehido}}, short={\iupac{2-Hidroxi-1-naftaldehido}}}
     \NewChemLatin\invitro{in vitro}
     \NewChemLatin\insilico{in silico}
     \DeclareChemTranslation{scheme-name}{spanish}{Esquema}
@@ -122,25 +124,59 @@ month, month=name, month=shortname, weekday,
 \input{comandos}
 \input{quimica}
 
-\title{Síntesis sustentable, caracterización química-fotofísica, y por {DFT} de {BOSCHIBA} derivadas de aminoácidos y su aplicación in vitro}
+\title{Síntesis sustentable, caracterización química-fotofísica, y por {DFT} de {BOSCHIBA} derivadas de aminoácidos y su aplicación \invitro{}}
 \subject{Protocolo de tesis de maestría}
 \date{\today}
 \author{Pablo E. Alanis González}
 \publishers{Universidad Autónoma de Nuevo León, División de Posgrado}
 
 \begin{document}
-\linenumbers{}
+% \linenumbers{}
+\pagenumbering{roman}
 \maketitle
 
 \begin{abstract}
-    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant*{trp}, \reactant*{phe}, \reactant*{tyr} y \reactant*{gly}. Se caracterizarán por métodos espectroscópicos. Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminisencia en dichos compuestos así como estudios de topológicos sobre estos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
+    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant*{gly}, \reactant*{trp}, \reactant*{tyr} y \reactant*{phe}. Se caracterizarán por métodos espectroscópicos y se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre estos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
 \end{abstract}
 
 \newpage
+\vspace*{\fill}
+\begin{tblr}{%
+        colspec = {X[1,l,m] X[1,l,m]},
+        % row{1} = {font=\bfseries}
+    }
+    \textbf{No. de folio}                                             & 03-97179QMT-23-107                                                \\
+    \textbf{Programa academico}                                       & Maestría en Ciencias con orientación en química de los materiales \\
+    \textbf{Línea de Generación y Aplicación del Conocimiento (LGAC)} & Materiales moleculares                                            \\
+    \textbf{Lugar de realización}                                     & Facultad de Ciencias Químicas, UANL
+\end{tblr}
+
+\vspace{5cm}
+
+\begin{tblr}{
+        colspec = {X[1,r,m] X[2,l,m]},
+        width = 0.7\linewidth
+    }
+    Aprueba: & \hrulefill                      \\
+             & Dr. Víctor Manuel Jiménez Pérez \\
+             & Director de tesis               \\
+\end{tblr}
+
+% \begin{tabular}{@{}p{1in}p{3in}@{}}
+%     Aprueba: & \hrulefill                      \\
+%              & Dr. Víctor Manuel Jiménez Pérez \\
+%              & Director de tesis               \\
+% \end{tabular}
+\vspace*{\fill}
+\newpage
+
 \tableofcontents
 \listoffigures
 \listoftables
 \listofschemes
+
+\cleardoublepage
+\pagenumbering{arabic}
 
 \section{Introducción}
 
@@ -159,7 +195,7 @@ Recientemente, se ha acrecentado el interés por los compuestos fluorescentes de
         \caption{ER-Tracker™ Green}
         \label{ER-Tracker_Green}
     \end{subscheme}
-    \caption{Los ER-Tracker™ Green y ER-Tracker™ Red de Thermo Fischer Scientific™ son \gls{BODIPY} comerciales utilizados como agentes para la tinción celular.}
+    \caption[ER-Trackers™]{Los ER-Tracker™ Green y ER-Tracker™ Red de Thermo Fischer Scientific™ son \gls{BODIPY} comerciales utilizados como agentes para la tinción celular.}
     \label{ER-Trackers}
 \end{scheme}
 
@@ -188,9 +224,8 @@ Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se dis
     \caption{Compuestos que se sintetizarán en esta investigación.}
     \label{sch:marcha}
 \end{scheme}
-\todo{Esta figura no corresponde a los compuestos que se plantean en la introducción del proyecto.}
 
-\section{Antecedentes}\todo{Hacer!} %Puede ser una tabla con resumen de lo que se ha hecho
+\section{Antecedentes}
 \SetTblrInner{fontsize}{\fontsize{10}{12}\selectfont}
 \begin{longtblr}[
         caption={Antecedentes de la investigación.},
@@ -215,28 +250,26 @@ Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se dis
 % Es importante destacar que el efecto quencheador de la luminiscencia del triptófano puede ser utilizado en diversos campos, como la bioquímica y la biología molecular, para investigar interacciones moleculares y procesos bioquímicos. Por ejemplo, se ha utilizado el quencheo del triptófano como una herramienta para estudiar la unión de ligandos a proteínas, la formación de estructuras secundarias en péptidos y la dinámica de plegamiento de proteínas. En resumen, el efecto quencheador de la luminiscencia del triptófano se refiere a la disminución o supresión de la emisión de luz de este aminoácido debido a la interacción con otras especies quencheadoras. Los mecanismos involucrados en este proceso incluyen la transferencia de energía por resonancia, la transferencia de carga y el quenching estático. El estudio de este fenómeno proporciona información valiosa sobre interacciones moleculares y procesos bioquímicos. En el presente proyecto se sonosintetizarán cuatro compuestos luminiscentes de Boro derivados de aminoácidos (triptófano, fenilamina, tirosina y glicina), su caracterización química-fotofísica y estudios por modelado molecular. 
 
 
-\subsection{Análisis crítico de los antecedentes}\todo{Hacer!} % entrar en detalle de lo que se ha hecho.
-
-
-
-\section{Aportación científica}\todo{Verificar}
+\subsection{Análisis crítico de los antecedentes}
+\todo{hacer}
+\section{Aportación científica}
 Plantear una metodología para la sintesis de compuestos de boro fluorescentes, con un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la bioimagen de células. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
 
-\section{Hipótesis}\todo{Verificar}
+\section{Hipótesis}
 La incorporación de aminoácidos en la estructura de los \gls{BOSCHIBA} logrará una mejor penetración de las membranas celulares, además de que se espera que los compuestos presenten un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad.
 
-\section{Objetivos y metas}\todo{Verificar}
-\subsection{Objetivo general}\todo{Verificar!}
+\section{Objetivos y metas}
+\subsection{Objetivo general}
 Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación en tinción celular y estudiar sus propiedades fotofísicas por medio de cálculos \insilico{}.
 
-\subsection{Objetivos específicos}\todo{Verificar!}
+\subsection{Objetivos específicos}
 \begin{itemize}
     \item \textbf{Sintetizar} una serie de \gls{BOSCHIBA} derivadas de \reactant{trp}, \reactant{phe}, \reactant{tyr} y \reactant{gly};
     \item \textbf{Elucidar} los mecanismos involucrados en el efecto supresor de la luminiscencia en \reactant{BO-trp};
     \item \textbf{Caracterizar} los compuestos por métodos espectroscópicos;
 \end{itemize}
 
-\section{Metodología}\todo{Hacer!}
+\section{Metodología}
 \subsection{Materiales}
 \begin{longtblr}[
         caption = {Equipos que se utilizarán para la caracterización de los compuestos de esta investigación.},
@@ -256,32 +289,34 @@ Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación 
 \end{longtblr}
 
 \subsection{Experimental}
-\subsubsection{Síntesis}\todo{Detallar}
+\subsubsection{Síntesis}
 Se llevará acabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles.
 Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
 
-\subsubsection{Determinación de propiedades ópticas}\todo{Detallar}
+\subsubsection{Determinación de propiedades ópticas}
 Se determinará el rendimiento cuántico de los compuestos \textbf{1-4}, así como su contraste de fluorescencia en medios de viscosidad variable.
 
-\subsubsection{Determinación de citotoxicidad}\todo{Verificar!}
+\subsubsection{Determinación de citotoxicidad}
 Se determinará la citotoxicidad de los compuestos \textbf{1-4} en la línea celular de melanoma murino \emph{B16F10} (ATCC® CCL-6475™) derivado de ratón C57BL/6J.\todo{verificar si este es el melanoma con el que se hará el estudio}
 
-\subsubsection{Modelado molecular}\todo{Hacer!}
-Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminisencia en dichos compuestos así como estudios de topológicos sobre estos.
+\subsubsection{Modelado molecular}
+Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre estos.
 
 \paragraph{Preoptimización}
-En caso de no contar con datos cristalográficos en el momento del estudio \insilico{}, se hará una busqueda conformacional con ayuda del programa \gls{CREST} \cite{prachtAutomatedExplorationLowenergy2020} para obtener los conformeros más estables de los compuestos.
+En caso de no contar con datos cristalográficos en el momento del estudio \insilico{}, se hará una búsqueda conformacional con ayuda del programa \gls{CREST} \cite{prachtAutomatedExplorationLowenergy2020} para obtener los conformeros más estables de los compuestos.
 
 En caso de que se cuenten con datos cristalográficos, se utilizarán las coordenadas de la estructura cristalográfica para realizar la optimización geométrica en DFT.
 
-\paragraph{Optimización geométrica}\todo{Verificar!}
-Se hará la optimización geométrica de los compuestos \textbf{1-4} empleando el funcional meta-GGA \scan{}\footnote{La selección de este funcional para la optimización geométrica se debe a su desempeño comparable o superior con funcionales híbridos meta-GGA como M06-2X-D3(0)/TZP que costarían más tiempo de computo, así como su inclusión de correcciones relativisticas como ECP y correción para dispersión y su buen desempeño con el \emph{benchmark} LMGB35 (Enlaces ligeros del grupo principal) y ROT34 (constantes rotacionales de moleculas organicas pequeñas)} \cite{gasevicOptimizationSCAN3cComposite2022} hasta llegar a un nivel de teoría de \emph{DFT/def2-TZVP}, o superior en caso de que sea necesario.
+\paragraph{Optimización geométrica}
+Se hará la optimización geométrica de los compuestos \textbf{1-4} empleando el funcional meta-GGA \scan{}\footnote{La selección de este funcional para la optimización geométrica se debe a su desempeño comparable o superior con funcionales híbridos meta-GGA como M06-2X-D3(0)/TZP que costarían más tiempo de cómputo, así como su inclusión de correcciones relativistas como ECP y corrección para dispersión y su buen desempeño con el \emph{benchmark} LMGB35 (Enlaces ligeros del grupo principal) y ROT34 (constantes rotacionales de moléculas orgánicas pequeñas)} \cite{gasevicOptimizationSCAN3cComposite2022} hasta llegar a un nivel de teoría de DFT/def2-TZVP, o superior en caso de que sea necesario.
 
-\paragraph{Obtención de espectro de emisión}\todo{Verificar}
-Se obtendrá el espectro de emisión de los compuestos \textbf{1-4} por medio de cálculos \gls{TDDFT} con el funcional ωB97X-V\todo{Verificar si es plausible usar \scan{} para calculos TDDFT.} y con el fin de aproximarse al límite CBS, se requiere de aumentación con funciones difusas dobles, por lo que se usará el conjunto de fuinciones base \emph{def2-TZVPD} o \emph{def2-QZVPPD} si es necesario obtener estados de Rydberg
+\paragraph{Obtención de espectro de emisión}
+Se obtendrá el espectro de emisión de los compuestos \textbf{1-4} por medio de cálculos \gls{TDDFT} con el funcional ωB97X-V y con el fin de aproximarse al límite CBS, se requiere de aumentación con funciones difusas dobles, por lo que se usará el conjunto de funciones base def2-TZVPD o def2-QZVPPD si es necesario obtener estados de Rydberg.
+
 \subsection{Disposición de resiudos}
 \begin{longtblr}[
         caption = {Residuos que se generarán derivados de esta investigación.},
+        entry = {Residuos.},
         label = {tbl:residuos}
     ]{
         colspec = {X[2,c,m] X[2,c,m] X[c,m]},
@@ -295,11 +330,52 @@ Se obtendrá el espectro de emisión de los compuestos \textbf{1-4} por medio de
 \end{longtblr}
 
 \subsection{Costos}
-Se estima un costo aproximado de \num{70000} MXN para la realización de esta investigación, el cual se desglosa en la \cref{tbl:costos}.\todo{preguntar por costos de las tecnicas de caracterizacion y miscelanos}
+Se estima un costo aproximado de \num{70000.00} MXN para la realización de esta investigación, el cual se desglosa en las \cref{tbl:tbl:costos-react,tbl:costos-caract}.
 
-% \section{Residuos}\todo{Hacer!}
-% \section{Análisis de costos}\todo{Hacer!}
-% \section{Procedimiento experimental}\todo{Hacer!}
+\subsubsection{Materiales}
+El costo de los materiales para la preparación de las muestras y para el estudio \insilico{} no se incluye en el costo total de la investigación, ya que estos se encuentran disponibles en los laboratorios de la Facultad de Ciencias Químicas de la UANL y en el CINVESTAV.
+
+\subsubsection{Reactivos}
+Todos los reactivos en la \cref{tbl:costos-react} se adquirirán en la empresa Merck KGaA.
+
+\begin{longtblr}[
+        caption = {Costos de los reactivos. \textit{(Costos aproximados)}},
+        entry = {Costos de los reactivos.},
+        label = {tbl:costos-react}
+    ]{
+        colspec={X[2,c,m] X[1,c,m] X[1.5,c,m] X[1.5,c,m,si={table-format=4.2}]},rowhead=1
+    }
+    \toprule
+    \textbf{Reactivo} & CAS               & Cantidad         & \textbf{Costo total (MXN)} \\ \midrule
+    \reactant{trp}    & \texttt{73-22-3}  & \qty{25}{\gram}  & 1017.00                    \\
+    \reactant{phe}    & \texttt{63-91-2}  & \qty{25}{\gram}  & 971.00                     \\
+    \reactant{tyr}    & \texttt{60-18-4}  & \qty{50}{\gram}  & 2223.00                    \\
+    \reactant{gly}    & \texttt{56-40-6}  & \qty{500}{\gram} & 764.00                     \\
+    \reactant{aphb}   & \texttt{98-80-6}  & \qty{50}{\gram}  & 2359.00                    \\
+    \reactant{2h1n}   & \texttt{708-06-5} & \qty{100}{\gram} & 1769.00                    \\
+    \midrule
+    \textbf{Total}    &                   &                  & 9093.00                    \\
+\end{longtblr}
+
+\subsubsection{Métodos de caracterización}
+\begin{longtblr}[
+    caption = {Costos de los metodos de cacterización. \textit{(Costos aproximados)}},label={tbl:costos-caract},
+    entry = {Costos de los metodos de cacterización.}
+    ]{
+        colspec={X[2,c,m] X[1,c,m] X[1.5,c,m,si={table-format=4.2}] X[1.5,c,m,si={table-format=4.2}]},rowhead=1
+    }
+    \toprule
+    \textbf{Análisis}   & Muestras & \textbf{Costo unitario (MXN)} & \textbf{Costo total (MXN)} \\ \midrule
+    XRD                 & 4        & 800.00                        & 3200.00                    \\
+    NMR                 & 4        & 2250.00                       & 9000.00                    \\
+    FTIR                & 4        & 700.00                        & 2800.00                    \\
+    UV-Vis              & 4        & 500.00                        & 2000.00                    \\
+    LC/MC/MS            & 4        & 800.00                        & 3200.00                    \\
+    Espectrofluorímetro & 4        & 500.00                        & 2000.00                    \\
+    \midrule
+    \textbf{Total}      &          &                               & 22200.00                   \\
+\end{longtblr}
+
 \begin{sidewaysfigure}
     \section{Planificación}
     \includegraphics[width=0.9\linewidth]{gantt.pdf}
