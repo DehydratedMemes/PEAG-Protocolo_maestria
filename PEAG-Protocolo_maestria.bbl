@@ -1461,6 +1461,117 @@
       \verb http://xlink.rsc.org/?DOI=D1TB01405F
       \endverb
     \endentry
+    \entry{garcia-lopezNewLuminescentOrganoboron2022}{article}{}
+      \name{author}{9}{}{%
+        {{hash=6754a51e3f06080e9a8bc26bf4f75100}{%
+           family={García-López},
+           familyi={G\bibinithyphendelim L\bibinitperiod},
+           given={María\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5cda612188e284a2d8a186ab631c9ee1}{%
+           family={Herrera-España},
+           familyi={H\bibinithyphendelim E\bibinitperiod},
+           given={Angel\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=75bf961d94a5ed80c8206a37401bd705}{%
+           family={Estupiñan-Jiménez},
+           familyi={E\bibinithyphendelim J\bibinitperiod},
+           given={José\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=904bb51b759617fd6fbcdaf009c10654}{%
+           family={González-Villasana},
+           familyi={G\bibinithyphendelim V\bibinitperiod},
+           given={Vianey},
+           giveni={V\bibinitperiod}}}%
+        {{hash=95dc26eff501b13f82a09182804902df}{%
+           family={Cáceres-Castillo},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=aea89134744edd5c64db98329eb63ad9}{%
+           family={Bojórquez-Quintal},
+           familyi={B\bibinithyphendelim Q\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3e41021ae3c7c6898a81093be252bde0}{%
+           family={Elizondo},
+           familyi={E\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6beacb4b60d4132efa71efe8ea99631}{%
+           family={Jiménez-Barrera},
+           familyi={J\bibinithyphendelim B\bibinitperiod},
+           given={Rosa\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4c9345d28c2119fcf0800a07c22af370}{%
+           family={Chan-Navarro},
+           familyi={C\bibinithyphendelim N\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{15635d0c6b828a4079b252a30eef8d2b}
+      \strng{fullhash}{283fc9ef5aec6107c167a2ae6f603f7e}
+      \strng{bibnamehash}{15635d0c6b828a4079b252a30eef8d2b}
+      \strng{authorbibnamehash}{15635d0c6b828a4079b252a30eef8d2b}
+      \strng{authornamehash}{15635d0c6b828a4079b252a30eef8d2b}
+      \strng{authorfullhash}{283fc9ef5aec6107c167a2ae6f603f7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{%
+      The luminescent organoboron esters based on damnacanthal were synthetized
+      by one-pot multicomponent reaction. , Two new fluorescent
+      nitro-substituted organoboron esters derived from damnacanthal were
+      synthetized by the condensation reaction via one-pot multicomponent
+      reaction (3-MCRs) in just 20 minutes with quantitative yields. Both
+      organoboron esters were fully characterized by NMR, vibrational
+      absorption analysis, UV-vis absorption, fluorescence spectroscopy, and
+      high-resolution mass spectrometry. The δ 11 B of the new organoboron
+      esters 4a and 4b evidenced the formation of the N→B coordination bond and
+      the high-resolution mass spectrometry corroborates the presence of a
+      boron atom in their molecular structure. The photophysical properties of
+      CHCl 3 were analyzed by UV-vis and fluorescence spectroscopy revealing
+      that both materials can be classified as semiconductors with a
+      fluorescence quantum yield of around 1\%. Furthermore, the
+      nitro-substituted ester 4b demonstrated to be 1.5 times more potent
+      against MDA-MB-231 (IC 50 = 13 μM) than damnacanthal 1 (IC 50 = 23 μM)
+      with a low selectivity index (1.075). To the best of our knowledge, this
+      is the first report on new nitro-substituted organoboron esters based on
+      damnacanthal as a biological building block and applied against
+      MDA-MBA-231 breast cancer cells.%
+      }
+      \field{issn}{1144-0546, 1369-9261}
+      \field{journaltitle}{New Journal of Chemistry}
+      \field{langid}{english}
+      \field{number}{42}
+      \field{shortjournal}{New J. Chem.}
+      \field{shorttitle}{New Luminescent Organoboron Esters Based on
+      Damnacanthal}
+      \field{title}{%
+      New Luminescent Organoboron Esters Based on Damnacanthal: One-Pot
+      Multicomponent Synthesis, Optical Behavior, Cytotoxicity, and Selectivity
+      Studies against {{MDA-MBA-231}} Breast Cancer Cells%
+      }
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{46}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{20138\bibrangedash 20145}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10/gst5t8
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=D2NJ03959A
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=D2NJ03959A
+      \endverb
+    \endentry
     \entry{corona-lopezFarRedInfrared2021}{article}{}
       \name{author}{5}{}{%
         {{hash=1837a8f6101a39cbcdb454e01d6094cb}{%
@@ -1495,8 +1606,8 @@
       \strng{authorbibnamehash}{4d7178f2dc65b0794c54e7a0eb662995}
       \strng{authornamehash}{c7efc431a6a32fae7a0e4f63a907dc3a}
       \strng{authorfullhash}{4d7178f2dc65b0794c54e7a0eb662995}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{7}
@@ -1584,8 +1695,8 @@
       \strng{authorbibnamehash}{b455c24353eb7e9f96eb92ab5e7ec421}
       \strng{authornamehash}{b455c24353eb7e9f96eb92ab5e7ec421}
       \strng{authorfullhash}{f905e355e414d94b28ff6fc16be7227f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{%
@@ -1777,8 +1888,8 @@
       \strng{authorbibnamehash}{43124a9bb7f509c161a006a76f272d1c}
       \strng{authornamehash}{fdb3dbf29ff1f8e8ca7e9e35eab8127e}
       \strng{authorfullhash}{43124a9bb7f509c161a006a76f272d1c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{%
@@ -1864,8 +1975,8 @@
       \strng{authorbibnamehash}{d0ee3eebd773164d0e08fcd55cc30aeb}
       \strng{authornamehash}{314d9de33efc80cbd867655523860806}
       \strng{authorfullhash}{d0ee3eebd773164d0e08fcd55cc30aeb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{16}

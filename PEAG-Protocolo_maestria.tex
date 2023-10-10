@@ -66,6 +66,7 @@
     \newacronym{BODIPY}{BODIPY}{\textsc{bo}ron-\textsc{di}\textsc{py}rromethene}
     \newacronym{TICT}{TICT}{transferencia de carga intramolecular retorcida \textit{(del inglés "twsited intramolecular charge transfer")}}
     \newacronym{LE}{LE}{Local Excitado \textit{(del inglés "locally exited")}}
+    \newacronym{MW}{MW}{Microondas \textit{(del inglés "Microwave")}}
     \newacronym{PES}{PES}{Superficie de Energía Potencial \textit{(del inglés "Potential Energy Surface")}}
     \newacronym{NBO}{NBO}{Orbitales Naturales de Enlace \textit{(del inglés "Natural Bond Orbitals")}}
     \newacronym{ICT}{ICT}{Transferencia de Carga Intramolecular \textit{(del inglés "Intramolecular Charge Transfer")}}
@@ -110,6 +111,7 @@ month, month=name, month=shortname, weekday,
     \DeclareChemReactant{aphb}{name={ácido fenil borinico}, short={\ch{PhB(OH)2}}}
     \DeclareChemReactant{2h1n}{name={\iupac{2-Hidroxi-1-naftaldehido}}, short={\iupac{2-Hidroxi-1-naftaldehido}}}
     \NewChemLatin\invitro{in vitro}
+    \NewChemLatin\invivo{in vivo}
     \NewChemLatin\insilico{in silico}
     \DeclareChemTranslation{scheme-name}{spanish}{Esquema}
     \DeclareChemTranslation{scheme-list}{spanish}{Lista de esquemas}
@@ -232,26 +234,33 @@ Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se dis
         label={tbl:antecedentes}
     ]{
         colspec = {X[2,c,m] X[2,c,m] X[c,m]},
-        rowhead = 1,
+        % rowhead = 1,
         cells   = {font = \fontsize{8pt}{10pt}\selectfont},
         row{1} = {font=\bfseries}
     }
     \toprule
-    Investigación                                                       & Aportación                                                       & Referencia                                                    \\ \midrule
-    \citetitle*{lopez-espejelOrganotinSchiffBases2021}                  & Sintesis de \gls{BOSCHIBA} con \ch{Sn}                           & \cite{lopez-espejelOrganotinSchiffBases2021}                  \\
-    \citetitle*{corona-lopezFarRedInfrared2021}                         & Síntesis de \gls{BOSCHIBA} con clusters de boro                  & \cite{corona-lopezFarRedInfrared2021}                         \\
-    \citetitle*{ibarra-rodriguezOrganoboronSchiffBases2019}             & Síntesis de \gls{BOSCHIBA} y su uso como sondas fluorescentes    & \cite{ibarra-rodriguezOrganoboronSchiffBases2019}             \\
-    \citetitle*{canton-diazOnepotMicrowaveassistedSynthesis2018}        & Sintesis \textit{one-pot} de \gls{BOSCHIBA}                      & \cite{canton-diazOnepotMicrowaveassistedSynthesis2018}        \\
-    \citetitle*{corona-lopezSynthesisCharacterizationPhotophysical2017} & Síntesis de \gls{BOSCHIBA} y su aplicación para teñir citoplasma & \cite{corona-lopezSynthesisCharacterizationPhotophysical2017} \\
+    Investigación                                                       & Aportación(es)                                                                   & Referencia                                                    \\ \midrule
+    \citetitle*{lopez-espejelOrganotinSchiffBases2021}                  & Sintesis por \gls{MW} de \gls{BOSCHIBA} con \ch{Sn}                                           & \cite{lopez-espejelOrganotinSchiffBases2021}                  \\
+    \citetitle*{garcia-lopezNewLuminescentOrganoboron2022}              & Síntesis de \gls{BOSCHIBA} por reacción \textit{one-pot} multicomponente (3-MCR) & \cite{garcia-lopezNewLuminescentOrganoboron2022}              \\
+    \citetitle*{corona-lopezFarRedInfrared2021}                         & Síntesis de \gls{BOSCHIBA} con clusters de boro                                  & \cite{corona-lopezFarRedInfrared2021}                         \\
+    \citetitle*{ibarra-rodriguezOrganoboronSchiffBases2019}             & Síntesis de \gls{BOSCHIBA} y su uso como sondas fluorescentes                    & \cite{ibarra-rodriguezOrganoboronSchiffBases2019}             \\
+    \citetitle*{canton-diazOnepotMicrowaveassistedSynthesis2018}        & Sintesis \textit{one-pot} de \gls{BOSCHIBA}                                      & \cite{canton-diazOnepotMicrowaveassistedSynthesis2018}        \\
+    \citetitle*{corona-lopezSynthesisCharacterizationPhotophysical2017} & Síntesis de \gls{BOSCHIBA} y su aplicación para teñir citoplasma                 & \cite{corona-lopezSynthesisCharacterizationPhotophysical2017} \\
     \bottomrule
 \end{longtblr}
 
-% El efecto supresor de la luminiscencia del triptófano es un fenómeno en el cual la emisión de luz de este aminoácido se ve inhibida o apagada debido a la interacción con otras especies supresoras presentes en su entorno. El triptófano es conocido por ser un fluoróforo natural y su emisión de luz se produce principalmente a través del proceso de fosforescencia, que es una forma de luminiscencia de larga duración. Sin embargo, este proceso puede ser modulado o suprimido por la presencia de compuestos supresores. Existen diferentes mecanismos por los cuales se produce el efecto supresor de la luminiscencia del triptófano, y algunos de los más comunes son: Transferencia de energía por resonancia (RET, por sus siglas en inglés): En este mecanismo, la energía de excitación del triptófano es transferida a una molécula cercana a través de la superposición de las órbitas electrónicas. Esta molécula receptora puede ser un cromóforo cercano, un agente químico o una especie metálica. La transferencia de energía provoca una disminución en la intensidad de la emisión luminiscente del triptófano. Transferencia de carga: En este mecanismo, el triptófano se encuentra en un ambiente químico o electroquímico donde puede donar o aceptar electrones. Cuando se produce una transferencia de carga del triptófano a una especie química receptora, se produce una disminución en la emisión de luz. Esto puede ocurrir, por ejemplo, en presencia de iones metálicos como el cobre o el hierro. Quenching estático: En este caso, el quencheo ocurre debido a la formación de un complejo o una asociación entre el triptófano y la especie quencheadora. Esta interacción puede alterar la estructura electrónica del triptófano y disminuir su capacidad para emitir luz. 
-% Es importante destacar que el efecto quencheador de la luminiscencia del triptófano puede ser utilizado en diversos campos, como la bioquímica y la biología molecular, para investigar interacciones moleculares y procesos bioquímicos. Por ejemplo, se ha utilizado el quencheo del triptófano como una herramienta para estudiar la unión de ligandos a proteínas, la formación de estructuras secundarias en péptidos y la dinámica de plegamiento de proteínas. En resumen, el efecto quencheador de la luminiscencia del triptófano se refiere a la disminución o supresión de la emisión de luz de este aminoácido debido a la interacción con otras especies quencheadoras. Los mecanismos involucrados en este proceso incluyen la transferencia de energía por resonancia, la transferencia de carga y el quenching estático. El estudio de este fenómeno proporciona información valiosa sobre interacciones moleculares y procesos bioquímicos. En el presente proyecto se sonosintetizarán cuatro compuestos luminiscentes de Boro derivados de aminoácidos (triptófano, fenilamina, tirosina y glicina), su caracterización química-fotofísica y estudios por modelado molecular. 
-
-
 \subsection{Análisis crítico de los antecedentes}
-\todo{hacer}
+
+\textcite{ibarra-rodriguezOrganoboronSchiffBases2019} investigaron la aplicación de \gls{BOSCHIBA} en fluorescencia y bioimagen celular. Por su respuesta a la viscosidad, resultante en un aumento en el rendimiento cuántico, se propuso su uso para detección de células cancerígenas. Los autores mencionan que es importante para diseñar marcadores citoplasmáticos que sean fluorescentes, con propiedades fotofísicas adecuadas, fotoestables, con baja citotoxicidad y solubles en solventes polares para ser usados en biología celular moderna \invitro{} y \invivo{}; en esta investigación se lograron teñir las células cancerígenas B16F10, sin embargo, el teñido del citoplasma fue bajo, atribuido principalmente a la baja solubilidad de los compuestos; por lo que en esta investigación se propone la síntesis de \gls{BOSCHIBA} derivada de aminoácidos, con el fin de mejorar la solubilidad de los compuestos y lograr un mejor teñido del citoplasma.
+
+\textcite{corona-lopezFarRedInfrared2021} propone la preparación de \gls{BOSCHIBA} a partir de la condensación de \reactant{2h1n} con la amina correspondiente; en esta investigación obtuvieron buenos rendimientos  (\qtyrange{85}{90}{\percent}), sin embargo el tiempo de reacción fue de \qty{48}{\hour}, por lo que llevar a cabo esta síntesis por medio de \gls{MW} en lugar de por reflujo convencional podría resultar en un menor tiempo de reacción.
+
+El estudio realizado por \textcite{garcia-lopezNewLuminescentOrganoboron2022} detalla la síntesis de \gls{BOSCHIBA} tetracoordinados vía una reacción de condensación de tres componentes con rendimientos elevados \qtyrange{80}{90}{\percent} en un tiempo de reacción de \qty{20}{\minute}.
+
+En una investigación donde se preparan bases de Schiff basadas en \ch{Sn} realizada por \textcite{lopez-espejelOrganotinSchiffBases2021} se conduce la reacción por medios convencionales de calentamiento y por \gls{MW}; el tiempo de reacción se vio drásticamente reducido, de \qty{24}{\hour} a \qty{3}{\minute}, y los rendimientos mejoraron. En este estudio también se evaluó el uso de bases de Schiff basadas en \ch{Sn} como agentes de tinción celular y se encontró que tienen baja citotoxicidad y buena capacidad de tinción.
+
+
+
 \section{Aportación científica}
 Plantear una metodología para la sintesis de compuestos de boro fluorescentes, con un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la bioimagen de células. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
 
@@ -273,6 +282,7 @@ Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación 
 \subsection{Materiales}
 \begin{longtblr}[
         caption = {Equipos que se utilizarán para la caracterización de los compuestos de esta investigación.},
+        entry = {Instrumentos de caracterización.},
         label = {tbl:equipos}
     ]{
         colspec = {X[2,c,m] X[c,m] X[c,m]},
@@ -297,7 +307,7 @@ Se optimizarán los parámetros de reacción para obtener rendimientos elevados 
 Se determinará el rendimiento cuántico de los compuestos \textbf{1-4}, así como su contraste de fluorescencia en medios de viscosidad variable.
 
 \subsubsection{Determinación de citotoxicidad}
-Se determinará la citotoxicidad de los compuestos \textbf{1-4} en la línea celular de melanoma murino \emph{B16F10} (ATCC® CCL-6475™) derivado de ratón C57BL/6J.\todo{verificar si este es el melanoma con el que se hará el estudio}
+Se determinará la citotoxicidad de los compuestos \textbf{1-4} en la línea celular de melanoma murino \emph{B16F10} (ATCC® CCL-6475™) derivado de ratón C57BL/6J.
 
 \subsubsection{Modelado molecular}
 Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre estos.
@@ -330,7 +340,7 @@ Se obtendrá el espectro de emisión de los compuestos \textbf{1-4} por medio de
 \end{longtblr}
 
 \subsection{Costos}
-Se estima un costo aproximado de \num{70000.00} MXN para la realización de esta investigación, el cual se desglosa en las \cref{tbl:tbl:costos-react,tbl:costos-caract}.
+Se estima un costo aproximado de \num{70000.00} MXN para la realización de esta investigación, el cual se desglosa en las \cref{tbl:costos-react,tbl:costos-caract}.
 
 \subsubsection{Materiales}
 El costo de los materiales para la preparación de las muestras y para el estudio \insilico{} no se incluye en el costo total de la investigación, ya que estos se encuentran disponibles en los laboratorios de la Facultad de Ciencias Químicas de la UANL y en el CINVESTAV.
@@ -343,7 +353,8 @@ Todos los reactivos en la \cref{tbl:costos-react} se adquirirán en la empresa M
         entry = {Costos de los reactivos.},
         label = {tbl:costos-react}
     ]{
-        colspec={X[2,c,m] X[1,c,m] X[1.5,c,m] X[1.5,c,m,si={table-format=4.2}]},rowhead=1
+        colspec={X[2,c,m] X[1,c,m] X[1.5,c,m] X[1.5,c,m,si={table-format=4.2}]},
+        % rowhead=1
     }
     \toprule
     \textbf{Reactivo} & CAS               & Cantidad         & \textbf{Costo total (MXN)} \\ \midrule
@@ -359,10 +370,11 @@ Todos los reactivos en la \cref{tbl:costos-react} se adquirirán en la empresa M
 
 \subsubsection{Métodos de caracterización}
 \begin{longtblr}[
-    caption = {Costos de los metodos de cacterización. \textit{(Costos aproximados)}},label={tbl:costos-caract},
-    entry = {Costos de los metodos de cacterización.}
+        caption = {Costos de los metodos de cacterización. \textit{(Costos aproximados)}},label={tbl:costos-caract},
+        entry = {Costos de los metodos de cacterización.}
     ]{
-        colspec={X[2,c,m] X[1,c,m] X[1.5,c,m,si={table-format=4.2}] X[1.5,c,m,si={table-format=4.2}]},rowhead=1
+        colspec={X[2,c,m] X[1,c,m] X[1.5,c,m,si={table-format=4.2}] X[1.5,c,m,si={table-format=4.2}]},
+        % rowhead=1
     }
     \toprule
     \textbf{Análisis}   & Muestras & \textbf{Costo unitario (MXN)} & \textbf{Costo total (MXN)} \\ \midrule

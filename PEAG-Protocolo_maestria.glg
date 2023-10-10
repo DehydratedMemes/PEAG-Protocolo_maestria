@@ -1,7 +1,7 @@
 This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
 Scanning style file ./PEAG-Protocolo_maestria.ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file PEAG-Protocolo_maestria.glo....done (31 entries accepted, 0 rejected).
-Sorting entries....done (171 comparisons).
-Generating output file PEAG-Protocolo_maestria.gls....done (31 lines written, 0 warnings).
+Scanning input file PEAG-Protocolo_maestria.glo....done (39 entries accepted, 0 rejected).
+Sorting entries....done (271 comparisons).
+Generating output file PEAG-Protocolo_maestria.gls....done (34 lines written, 0 warnings).
 Output written in PEAG-Protocolo_maestria.gls.
 Transcript written in PEAG-Protocolo_maestria.glg.

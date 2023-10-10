@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'PEAG-Protocolo_maestria.blg'
-[150] biber-darwin:340> INFO - === Tue Oct 10, 2023, 11:20:55
-[182] Biber.pm:419> INFO - Reading 'PEAG-Protocolo_maestria.bcf'
-[370] Biber.pm:979> INFO - Found 20 citekeys in bib section 0
-[408] Biber.pm:4419> INFO - Processing section 0
-[451] Biber.pm:4610> INFO - Looking for bibtex file 'http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex' for section 0
-[451] Utils.pm:168> INFO - Data source 'http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex' is a remote BibTeX data source - fetching ...
-[3531] bibtex.pm:1713> INFO - LaTeX decoding ...
-[4727] bibtex.pm:1519> INFO - Found BibTeX data source '/var/folders/s0/5pzy6kd57w59s972wb6632780000gn/T/biber_tmp_LsbM/biber_remote_data_source_dvZ9A.bib'
-[5354] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[5354] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[5354] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[5413] bbl.pm:660> INFO - Writing 'PEAG-Protocolo_maestria.bbl' with encoding 'UTF-8'
-[5465] bbl.pm:763> INFO - Output to PEAG-Protocolo_maestria.bbl
+[189] biber-darwin:340> INFO - === Tue Oct 10, 2023, 14:37:55
+[223] Biber.pm:419> INFO - Reading 'PEAG-Protocolo_maestria.bcf'
+[503] Biber.pm:979> INFO - Found 21 citekeys in bib section 0
+[538] Biber.pm:4419> INFO - Processing section 0
+[560] Biber.pm:4610> INFO - Looking for bibtex file 'http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex' for section 0
+[560] Utils.pm:168> INFO - Data source 'http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex' is a remote BibTeX data source - fetching ...
+[7640] bibtex.pm:1713> INFO - LaTeX decoding ...
+[9584] bibtex.pm:1519> INFO - Found BibTeX data source '/var/folders/s0/5pzy6kd57w59s972wb6632780000gn/T/biber_tmp_7jbJ/biber_remote_data_source_c8mbO.bib'
+[10210] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[10210] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[10210] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[10275] bbl.pm:660> INFO - Writing 'PEAG-Protocolo_maestria.bbl' with encoding 'UTF-8'
+[10329] bbl.pm:763> INFO - Output to PEAG-Protocolo_maestria.bbl
