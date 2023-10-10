@@ -119,7 +119,10 @@ month, month=name, month=shortname, weekday,
     \DeclareChemTranslation{schemes}{spanish}{esquemas}
     \DeclareChemTranslation{Scheme}{spanish}{Esquema}
     \DeclareChemTranslation{Schemes}{spanish}{Esquemas}
-    \renewcommand{\schemename}{Esquema}
+    % \renewcommand{\schemename}{Esquema}
+    \AtBeginDocument{
+    \renewcommand{\tablename}{Tabla}
+    }
 \end{filecontents}
 
 \input{abreviaturas}
@@ -259,10 +262,8 @@ El estudio realizado por \textcite{garcia-lopezNewLuminescentOrganoboron2022} de
 
 En una investigación donde se preparan bases de Schiff basadas en \ch{Sn} realizada por \textcite{lopez-espejelOrganotinSchiffBases2021} se conduce la reacción por medios convencionales de calentamiento y por \gls{MW}; el tiempo de reacción se vio drásticamente reducido, de \qty{24}{\hour} a \qty{3}{\minute}, y los rendimientos mejoraron. En este estudio también se evaluó el uso de bases de Schiff basadas en \ch{Sn} como agentes de tinción celular y se encontró que tienen baja citotoxicidad y buena capacidad de tinción.
 
-
-
 \section{Aportación científica}
-Plantear una metodología para la sintesis de compuestos de boro fluorescentes, con un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la bioimagen de células. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
+Plantear una metodología para la síntesis de \gls{BOSCHIBA} fluorescentes, con un alto rendimiento cuántico y un buen contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la tinción celular. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
 
 \section{Hipótesis}
 La incorporación de aminoácidos en la estructura de los \gls{BOSCHIBA} logrará una mejor penetración de las membranas celulares, además de que se espera que los compuestos presenten un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad.
@@ -300,8 +301,14 @@ Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación 
 
 \subsection{Experimental}
 \subsubsection{Síntesis}
-Se llevará acabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles.
-Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
+Se llevará acabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha,sch:reac-gral}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles. Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
+
+\begin{scheme}
+    \centering
+    \includegraphics[width=0.8\linewidth]{BO-General.pdf}
+    \caption[Síntesis de las BOSCHIBA por MW]{Método de síntesis para las \gls{BOSCHIBA} \textbf{1-4} por \gls{MW}.}
+    \label{sch:reac-gral}
+\end{scheme}
 
 \subsubsection{Determinación de propiedades ópticas}
 Se determinará el rendimiento cuántico de los compuestos \textbf{1-4}, así como su contraste de fluorescencia en medios de viscosidad variable.
