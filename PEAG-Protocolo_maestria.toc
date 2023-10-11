@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción}{1}{}%
-\contentsline {section}{\numberline {2}Antecedentes}{2}{}%
+\contentsline {section}{\numberline {2}Antecedentes}{3}{}%
 \contentsline {subsection}{\numberline {2.1}Análisis crítico de los antecedentes}{4}{}%
-\contentsline {section}{\numberline {3}Aportación científica}{4}{}%
+\contentsline {section}{\numberline {3}Aportación científica}{5}{}%
 \contentsline {section}{\numberline {4}Hipótesis}{5}{}%
 \contentsline {section}{\numberline {5}Objetivos y metas}{5}{}%
 \contentsline {subsection}{\numberline {5.1}Objetivo general}{5}{}%
@@ -21,6 +21,6 @@
 \contentsline {subsection}{\numberline {6.4}Costos}{8}{}%
 \contentsline {subsubsection}{\numberline {6.4.1}Materiales}{8}{}%
 \contentsline {subsubsection}{\numberline {6.4.2}Reactivos}{8}{}%
-\contentsline {subsubsection}{\numberline {6.4.3}Métodos de caracterización}{8}{}%
-\contentsline {section}{\numberline {7}Planificación}{10}{}%
+\contentsline {subsubsection}{\numberline {6.4.3}Métodos de caracterización}{9}{}%
+\contentsline {section}{\numberline {7}Planificación}{9}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

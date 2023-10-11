@@ -8,7 +8,7 @@
 
 % NOTA: [<+->] se usa comio overlay para hacer que los bullets aparezcan uno por uno.
 
-\documentclass[spanish,mexico,12pt]{scrartcl}
+\documentclass[12pt,spanish]{scrartcl}
 % \listfiles
 
 \KOMAoptions{abstract=true}
@@ -27,13 +27,15 @@
 \usepackage{microtype}
 \setlength{\parskip}{1em}
 \usepackage{tabularray}
-\UseTblrLibrary{booktabs}
-\UseTblrLibrary{siunitx}
-
+    \UseTblrLibrary{booktabs}
+    \UseTblrLibrary{siunitx}
+    \DefTblrTemplate{contfoot-text}{normal}{\itshape Continúa en la siguiente página}
+    \SetTblrTemplate{contfoot-text}{normal}
+    \DefTblrTemplate{conthead-text}{normal}{\itshape (Continuación)}
+    \SetTblrTemplate{conthead-text}{normal}
 \usepackage{siunitx}
-\sisetup{separate-uncertainty,per-mode=symbol,detect-all,range-phrase=--}
+\sisetup{separate-uncertainty,per-mode=symbol,detect-all}
 \DeclareSIUnit{\angstrom}{\textup{\AA}}
-\usepackage{chemmacros}
 \usepackage{glossaries}
     \makeglossaries{}
 
@@ -48,6 +50,7 @@
 \usepackage{lineno}
 \usepackage{rotating}
 \usepackage{newfloat}
+\usepackage{float}
 \DeclareFloatingEnvironment[
    fileext=los,
    listname={List of Schemes},
@@ -81,25 +84,11 @@
 \begin{filecontents}[force]{comandos.tex}
     % \newcommand{\invitro}{\textit{in-vitro}}
     \newcommand\scan{\(\text{r}^{2}\text{SCAN-3c}\)}
-\end{filecontents}
-
-\begin{filecontents}[force]{gantt.tex}
-    \def\pgfcalendarweekdayletter#1{% \ifcase#1M\or T\or W\or T\or F\or S\or S\fi%
-}
-\begin{ganttchart}[
-hgrid,
-  vgrid,
-  x unit=18mm,
-  time slot format=little-endian
-]{7.1.2013}{13.1.2013}
-\gantttitlecalendar*{7.1.2013}{13.1.2013}{
-month, month=name, month=shortname, weekday,
-    weekday=name, weekday=shortname, weekday=letter
-  }
-\end{ganttchart}
+    
 \end{filecontents}
 
 \begin{filecontents}[force]{quimica.tex}
+    \usepackage{chemmacros}
     \DeclareChemReactant{BO-gly}{name={BO-Gly}} % 1
     \DeclareChemReactant{BO-trp}{name={BO-Trp}} % 2
     \DeclareChemReactant{BO-tyr}{name={Bo-Tyr}} % 3
@@ -119,10 +108,13 @@ month, month=name, month=shortname, weekday,
     \DeclareChemTranslation{schemes}{spanish}{esquemas}
     \DeclareChemTranslation{Scheme}{spanish}{Esquema}
     \DeclareChemTranslation{Schemes}{spanish}{Esquemas}
+    \chemsetup{language=spanish}
     % \renewcommand{\schemename}{Esquema}
-    \AtBeginDocument{
-    \renewcommand{\tablename}{Tabla}
-    }
+    % \AtBeginDocument{
+    % \renewcommand{\tablename}{Tabla}
+    % }
+    
+    % \chemsetup[reactants]{printreactants-style=xltabular}
 \end{filecontents}
 
 \input{abreviaturas}
@@ -141,7 +133,7 @@ month, month=name, month=shortname, weekday,
 \maketitle
 
 \begin{abstract}
-    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant*{gly}, \reactant*{trp}, \reactant*{tyr} y \reactant*{phe}. Se caracterizarán por métodos espectroscópicos y se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre estos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
+    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant*{gly}, \reactant*{trp}, \reactant*{tyr} y \reactant*{phe}. Se caracterizarán por métodos espectroscópicos y se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre los mismos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
 \end{abstract}
 
 \newpage
@@ -187,7 +179,7 @@ month, month=name, month=shortname, weekday,
 
 Recientemente, se ha acrecentado el interés por los compuestos fluorescentes de boro debido a su amplio campo de aplicaciones; \autocite{ibarra-rodriguezOrganoboronSchiffBases2019} ya sea en sensores, como en tintas de seguridad, o bien los \gls{BODIPY} comercialmente disponibles utilizados como agentes para la tinción celular, ER-Tracker™ Green y ER-Tracker™ Red (ver \cref{ER-Trackers}).
 
-\begin{scheme}
+\begin{scheme}[H]
     \centering
     \begin{subscheme}{0.45\linewidth}
         \includegraphics[width=\linewidth]{ER-Tracker_Blue.pdf}
@@ -204,26 +196,28 @@ Recientemente, se ha acrecentado el interés por los compuestos fluorescentes de
     \label{ER-Trackers}
 \end{scheme}
 
-Los \gls{FMR} son fluoróforos sensibles a la viscosidad que presentan una rotación libre que se vuelven fluorescentes, o en su defecto, aumentan la fluorescencia solo si su rotación se ve restringida.\todo{Citar} Algunas interacciones de carácter intramolecular para detener la rotación de los \gls{FMR} son \begin{inparaenum}[i.]
+Los \gls{FMR} son fluoróforos sensibles a la viscosidad que presentan una rotación libre que se vuelven fluorescentes, o en su defecto, aumentan la fluorescencia solo si su rotación se ve restringida. Algunas interacciones de carácter intramolecular para detener la rotación de los \gls{FMR} son \begin{inparaenum}[i.]
     \item formar interacciones de hidrógeno,\autocite{wuMultistageRotationalSpeed2018}
     \item a través del impedimento estérico,\autocite{faulknerAllostericRegulationRotational2016} o
     \item por la formación de complejos estables con iones metálicos.\autocite{yadavViscochromicMechanochromicUnsymmetrical2019}
 \end{inparaenum}
 
-Se ha determinado que la polarización del solvente y la viscosidad del mismo afectan considerablemente la fluorescencia de los \gls{FMR}. Esto es porque se limita la tasa de formación del complejo \gls{TICT}, el cual se de-exita de forma \emph{no-radiativa,} y se promueve la formación del complejo \gls{LE}, el cual fluórese. El efecto que tiene la polarización del solvente, aunque se sabe que es importante, no se ha logrado elucidar de forma aislada a la viscosidad.\cite{haidekkerEffectsSolventPolarity2005}
+Se ha determinado que la polaridad del solvente y la viscosidad del mismo afectan considerablemente la fluorescencia de los \gls{FMR}. Esto es porque se limita la tasa de formación del complejo \gls{TICT}, el cual se de-exita de forma \emph{no-radiativa,} y se promueve la formación del complejo \gls{LE}, el cual fluórese. El efecto que tiene la polaridad del solvente, aunque se sabe que es importante, no se ha logrado elucidar de forma aislada a la viscosidad.\cite{haidekkerEffectsSolventPolarity2005}
 
-Diferentes estrategias para el diseño de \gls{FMR} se han propuesto para realizar sensores de viscosidad altamente sensibles, por ejemplo, incorporando grupos rotacionales asimétricos,\autocite{leePyrrolicMolecularRotors2016} rotadores con alta capacidad rotacional,\autocite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados \emph{push-pull},\autocite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\autocite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores con diferentes capacidades rotacionales y electrondonantes.\autocite{rautTriazinebasedBODIPYTrimer2016}
+Diferentes estrategias para el diseño de \gls{FMR} se han propuesto para realizar sensores de viscosidad altamente sensibles, por ejemplo, incorporando grupos rotacionales asimétricos,\autocite{leePyrrolicMolecularRotors2016} usando grupos con alta capacidad para rotar,\autocite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados tipo \emph{push-pull},\autocite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\autocite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores distintos con diferentes capacidades rotacionales y electrondonantes.\autocite{rautTriazinebasedBODIPYTrimer2016}
 
 Por lo que, obtener tanto una alta eficiencia de fluorescencia como un contraste fluorescente simultáneamente es muy difícil, debido a que, en muchos casos, las moléculas de alto rendimiento cuántico tienen una capacidad de contraste deficiente.
-El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada "intensidad de fluorescencia---contraste".\autocite{leeFrontCoverFluorescent2018}
+El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada ``intensidad de fluorescencia---contraste".\autocite{leeFrontCoverFluorescent2018}
 
 En la actualidad existe una amplia variedad de \gls{FMR} derivados de compuestos de boro, donde los \gls{BODIPY} y los dioxaborinos son los protagonistas debido a su elevado rendimiento cuántico, sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja, aumentando escasamente el rendimiento cuántico del valor inicial.\autocite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
 
 Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de \gls{BOSCHIBA} y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\autocite{ibarra-rodriguezFluorescentMolecularRotors2017} Los resultados encontrados indican que los \gls{BOSCHIBA} pueden aumentar hasta 34 veces su valor de rendimiento cuántico en medios de alta viscosidad, sin embargo, a pesar de teñir selectivamente el citoplasma en las células de melanoma, presentaron un bajo teñido atribuido principalmente a la baja solubilidad de los compuestos.
 
-Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se diseñó una serie de \gls{BOSCHIBA} derivados de aminoácidos (ver \cref{sch:marcha}), donde las moléculas presentan rotación libre a través del anillo fenilborónico, y el aminoácido podría dar una mayor compatibilidad y solubilidad en medios celulares. Los compuestos de boro fluorescentes \textbf{1-4} se obtuvieron por irradiación ultrasónica en combinación con una reacción multicomponente con altos rendimientos químicos (\qty{>90}{\percent}) y un tiempo de reacción corto de \qty{20}{\minute} a \qty{50}{\degreeCelsius}. Este método resulta más eficiente y rápido en comparación con moléculas similares reportadas en la literatura.
+Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se diseñó una serie de \gls{BOSCHIBA} derivados de aminoácidos (ver \cref{sch:marcha}), donde las moléculas presentan rotación libre a través del anillo fenilborónico, y el aminoácido podría dar una mayor compatibilidad y solubilidad en medios celulares.
 
-\begin{scheme}
+Los compuestos de boro fluorescentes \textbf{1-4} se sintetizarán por una reacción multicomponente en \gls{MW} con el obejtivo de tener altos rendimientos químicos en un tiempo de reacción corto. Este método resulta más eficiente y rápido en comparación con \gls{BOSCHIBA} similares reportadas en la literatura sintetizados por métodos convencionales.
+
+\begin{scheme}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{Marcha.pdf}
     \caption{Compuestos que se sintetizarán en esta investigación.}
@@ -239,10 +233,10 @@ Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se dis
         colspec = {X[2,c,m] X[2,c,m] X[c,m]},
         % rowhead = 1,
         cells   = {font = \fontsize{8pt}{10pt}\selectfont},
-        row{1} = {font=\bfseries}
+        % row{1} = {font=\bfseries}
     }
     \toprule
-    Investigación                                                       & Aportación(es)                                                                   & Referencia                                                    \\ \midrule
+    \textbf{Investigación}                                                       & \textbf{Aportación(es)}                                                                   & \textbf{Referencia}                                                    \\ \midrule
     \citetitle*{lopez-espejelOrganotinSchiffBases2021}                  & Sintesis por \gls{MW} de \gls{BOSCHIBA} con \ch{Sn}                                           & \cite{lopez-espejelOrganotinSchiffBases2021}                  \\
     \citetitle*{garcia-lopezNewLuminescentOrganoboron2022}              & Síntesis de \gls{BOSCHIBA} por reacción \textit{one-pot} multicomponente (3-MCR) & \cite{garcia-lopezNewLuminescentOrganoboron2022}              \\
     \citetitle*{corona-lopezFarRedInfrared2021}                         & Síntesis de \gls{BOSCHIBA} con clusters de boro                                  & \cite{corona-lopezFarRedInfrared2021}                         \\
@@ -303,9 +297,9 @@ Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación 
 \subsubsection{Síntesis}
 Se llevará acabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha,sch:reac-gral}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles. Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
 
-\begin{scheme}
+\begin{scheme}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{BO-General.pdf}
+    \includegraphics[width=0.85\linewidth]{BO-General.pdf}
     \caption[Síntesis de las BOSCHIBA por MW]{Método de síntesis para las \gls{BOSCHIBA} \textbf{1-4} por \gls{MW}.}
     \label{sch:reac-gral}
 \end{scheme}
@@ -374,7 +368,7 @@ Todos los reactivos en la \cref{tbl:costos-react} se adquirirán en la empresa M
     \midrule
     \textbf{Total}    &                   &                  & 9093.00                    \\
 \end{longtblr}
-
+\newpage 
 \subsubsection{Métodos de caracterización}
 \begin{longtblr}[
         caption = {Costos de los metodos de cacterización. \textit{(Costos aproximados)}},label={tbl:costos-caract},
@@ -395,16 +389,27 @@ Todos los reactivos en la \cref{tbl:costos-react} se adquirirán en la empresa M
     \textbf{Total}      &          &                               & 22200.00                   \\
 \end{longtblr}
 
-\begin{sidewaysfigure}
-    \section{Planificación}
-    \includegraphics[width=0.9\linewidth]{gantt.pdf}
+\section{Planificación}
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{gantt.pdf}
     \caption{Diagrama de Gantt de la investigación.}
     \label{fig:gantt}
-\end{sidewaysfigure}
-\printreactants{}
+\end{figure}
+
+
+% \begin{sidewaysfigure}[p]
+%     \section{Planificación}
+%     \includegraphics[width=0.9\linewidth]{gantt.pdf}
+%     \caption{Diagrama de Gantt de la investigación.}
+%     \label{fig:gantt}
+% \end{sidewaysfigure}
+
+\newpage 
+
+% \printreactants{}
 \printglossaries{}
 \printbibliography{}
 
-\listoftodos[Pendientes]
+% \listoftodos[Pendientes]
 
 \end{document}
