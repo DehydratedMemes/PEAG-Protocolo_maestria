@@ -114,6 +114,12 @@
     % \renewcommand{\tablename}{Tabla}
     % }
     
+    \AtBeginDocument{%
+    \addto\captionsspanish{\renewcommand\listschemename{Índice de esquemas}}%
+    \addto\captionsspanish{\renewcommand\schemename{Esquema}}%
+    \csname captions\languagename\endcsname
+}
+
     % \chemsetup[reactants]{printreactants-style=xltabular}
 \end{filecontents}
 
@@ -132,11 +138,6 @@
 \pagenumbering{roman}
 \maketitle
 
-\begin{abstract}
-    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant*{gly}, \reactant*{trp}, \reactant*{tyr} y \reactant*{phe}. Se caracterizarán por métodos espectroscópicos y se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre los mismos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
-\end{abstract}
-
-\newpage
 \vspace*{\fill}
 \begin{tblr}{%
         colspec = {X[1,l,m] X[1,l,m]},
@@ -147,23 +148,33 @@
     \textbf{Línea de Generación y Aplicación del Conocimiento (LGAC)} & Materiales moleculares                                            \\
     \textbf{Lugar de realización}                                     & Facultad de Ciencias Químicas, UANL
 \end{tblr}
-
-\vspace{5cm}
+\\[4em]
 
 \begin{tblr}{
-        colspec = {X[1,r,m] X[2,l,m]},
-        width = 0.7\linewidth
+        colspec = {X[1,c,m]X[0.25]X[1,c,m]},
+        width = \linewidth
     }
-    Aprueba: & \hrulefill                      \\
-             & Dr. Víctor Manuel Jiménez Pérez \\
-             & Director de tesis               \\
+    \hrulefill                      & & \hrulefill \\
+    Dr. Víctor Manuel Jiménez Pérez & & LQI. Pablo Ernesto Alanis González\\
+    Director de tesis               & & Autor
 \end{tblr}
 
-% \begin{tabular}{@{}p{1in}p{3in}@{}}
-%     Aprueba: & \hrulefill                      \\
-%              & Dr. Víctor Manuel Jiménez Pérez \\
-%              & Director de tesis               \\
-% \end{tabular}
+% \begin{tblr}{
+%         colspec = {X[1,r,m] X[2,l,m]},
+%         width = 0.7\linewidth
+%     }
+%     Elabora: & \hrulefill                        \\
+%              & LQI. Pablo Eresto Alanis González \\
+%              & Autor                             \\
+% \end{tblr}
+
+\vspace*{\fill}
+\newpage
+
+\vspace*{\fill}
+\begin{abstract}
+    Se sintetizarán una serie de \gls{BOSCHIBA} derivadas de \reactant*{gly}, \reactant*{trp}, \reactant*{tyr} y \reactant*{phe}. Se caracterizarán por métodos espectroscópicos y se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre los mismos. A su vez, se realizarán estudios de citotoxicidad y tinción \invitro{} para determinar su actividad biológica de los compuestos.
+\end{abstract}
 \vspace*{\fill}
 \newpage
 
@@ -236,8 +247,8 @@ Los compuestos de boro fluorescentes \textbf{1-4} se sintetizarán por una reacc
         % row{1} = {font=\bfseries}
     }
     \toprule
-    \textbf{Investigación}                                                       & \textbf{Aportación(es)}                                                                   & \textbf{Referencia}                                                    \\ \midrule
-    \citetitle*{lopez-espejelOrganotinSchiffBases2021}                  & Sintesis por \gls{MW} de \gls{BOSCHIBA} con \ch{Sn}                                           & \cite{lopez-espejelOrganotinSchiffBases2021}                  \\
+    \textbf{Investigación}                                              & \textbf{Aportación(es)}                                                          & \textbf{Referencia}                                           \\ \midrule
+    \citetitle*{lopez-espejelOrganotinSchiffBases2021}                  & Sintesis por \gls{MW} de \gls{BOSCHIBA} con \ch{Sn}                              & \cite{lopez-espejelOrganotinSchiffBases2021}                  \\
     \citetitle*{garcia-lopezNewLuminescentOrganoboron2022}              & Síntesis de \gls{BOSCHIBA} por reacción \textit{one-pot} multicomponente (3-MCR) & \cite{garcia-lopezNewLuminescentOrganoboron2022}              \\
     \citetitle*{corona-lopezFarRedInfrared2021}                         & Síntesis de \gls{BOSCHIBA} con clusters de boro                                  & \cite{corona-lopezFarRedInfrared2021}                         \\
     \citetitle*{ibarra-rodriguezOrganoboronSchiffBases2019}             & Síntesis de \gls{BOSCHIBA} y su uso como sondas fluorescentes                    & \cite{ibarra-rodriguezOrganoboronSchiffBases2019}             \\
@@ -248,6 +259,8 @@ Los compuestos de boro fluorescentes \textbf{1-4} se sintetizarán por una reacc
 
 \subsection{Análisis crítico de los antecedentes}
 
+En la investigación conduicida por \textcite{corona-lopezSynthesisCharacterizationPhotophysical2017} se detalla la preparación de \gls{BOSCHIBA} y su potencial aplicación como agente de tinción citoplasmatica \invitro{}; en esta ivestigación se sintetizó el producto por una reacción de condensación entre \iupac{2-hidroxi-1-etil naftaldehido} con derivados de anilina. Se encontró en este proyecto que al incorporar sustituyentes voluminosos, mejoraba la estabilidad de las \gls{BOSCHIBA}.
+
 \textcite{ibarra-rodriguezOrganoboronSchiffBases2019} investigaron la aplicación de \gls{BOSCHIBA} en fluorescencia y bioimagen celular. Por su respuesta a la viscosidad, resultante en un aumento en el rendimiento cuántico, se propuso su uso para detección de células cancerígenas. Los autores mencionan que es importante para diseñar marcadores citoplasmáticos que sean fluorescentes, con propiedades fotofísicas adecuadas, fotoestables, con baja citotoxicidad y solubles en solventes polares para ser usados en biología celular moderna \invitro{} y \invivo{}; en esta investigación se lograron teñir las células cancerígenas B16F10, sin embargo, el teñido del citoplasma fue bajo, atribuido principalmente a la baja solubilidad de los compuestos; por lo que en esta investigación se propone la síntesis de \gls{BOSCHIBA} derivada de aminoácidos, con el fin de mejorar la solubilidad de los compuestos y lograr un mejor teñido del citoplasma.
 
 \textcite{corona-lopezFarRedInfrared2021} propone la preparación de \gls{BOSCHIBA} a partir de la condensación de \reactant{2h1n} con la amina correspondiente; en esta investigación obtuvieron buenos rendimientos  (\qtyrange{85}{90}{\percent}), sin embargo el tiempo de reacción fue de \qty{48}{\hour}, por lo que llevar a cabo esta síntesis por medio de \gls{MW} en lugar de por reflujo convencional podría resultar en un menor tiempo de reacción.
@@ -257,7 +270,7 @@ El estudio realizado por \textcite{garcia-lopezNewLuminescentOrganoboron2022} de
 En una investigación donde se preparan bases de Schiff basadas en \ch{Sn} realizada por \textcite{lopez-espejelOrganotinSchiffBases2021} se conduce la reacción por medios convencionales de calentamiento y por \gls{MW}; el tiempo de reacción se vio drásticamente reducido, de \qty{24}{\hour} a \qty{3}{\minute}, y los rendimientos mejoraron. En este estudio también se evaluó el uso de bases de Schiff basadas en \ch{Sn} como agentes de tinción celular y se encontró que tienen baja citotoxicidad y buena capacidad de tinción.
 
 \section{Aportación científica}
-Plantear una metodología para la síntesis de \gls{BOSCHIBA} fluorescentes, con un alto rendimiento cuántico y un buen contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la tinción celular. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
+Plantear una metodología para la síntesis de \gls{BOSCHIBA} fluorescentes, con un alto rendimiento cuántico y un buen contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la tinción celular. También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos. 
 
 \section{Hipótesis}
 La incorporación de aminoácidos en la estructura de los \gls{BOSCHIBA} logrará una mejor penetración de las membranas celulares, además de que se espera que los compuestos presenten un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad.
@@ -295,7 +308,7 @@ Realizar la síntesis de una serie de \gls{BOSCHIBA} con su posible aplicación 
 
 \subsection{Experimental}
 \subsubsection{Síntesis}
-Se llevará acabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha,sch:reac-gral}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles. Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
+Se llevará a cabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha,sch:reac-gral}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles. Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
 
 \begin{scheme}[H]
     \centering
@@ -368,7 +381,7 @@ Todos los reactivos en la \cref{tbl:costos-react} se adquirirán en la empresa M
     \midrule
     \textbf{Total}    &                   &                  & 9093.00                    \\
 \end{longtblr}
-\newpage 
+\newpage
 \subsubsection{Métodos de caracterización}
 \begin{longtblr}[
         caption = {Costos de los metodos de cacterización. \textit{(Costos aproximados)}},label={tbl:costos-caract},
@@ -404,7 +417,7 @@ Todos los reactivos en la \cref{tbl:costos-react} se adquirirán en la empresa M
 %     \label{fig:gantt}
 % \end{sidewaysfigure}
 
-\newpage 
+\newpage
 
 % \printreactants{}
 \printglossaries{}
