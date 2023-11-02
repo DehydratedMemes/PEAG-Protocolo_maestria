@@ -44,8 +44,28 @@ mexico]{beamer}
 \usepackage{glossaries}
     \makeglossaries{}
 
-\usepackage[style=science,backend=biber,url=false,autocite=footnote]{biblatex}
-    \addbibresource[location=remote]{http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex}
+\usepackage[%
+style=numeric,
+backend=biber,
+url=false]{biblatex}
+
+\addbibresource[location=remote]{http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex}
+
+    \DeclareCiteCommand{\footpartcite}[\mkbibfootnote]
+    {\usebibmacro{prenote}}
+    {\usebibmacro{citeindex}%
+     \mkbibbrackets{\usebibmacro{cite}}%
+     \setunit{\addnbspace}
+     \printnames{labelname}%
+     \setunit{\labelnamepunct}
+     \printfield[citetitle]{title}%
+     \newunit
+     \printfield{year}}
+    {\addsemicolon\space}
+    {\usebibmacro{postnote}}
+  
+  \DeclareMultiCiteCommand{\footpartcites}[\mkbibfootnote]{\footpartcite}{\addsemicolon\space}
+  
 
 	% \setbeamerfont{footnote}{size=\tiny}
 	% \renewcommand{\footnotesize}{\tiny}
@@ -170,7 +190,7 @@ mexico]{beamer}
 
 \section{Introducción}
 \begin{frame}{Introducción}
-	\begin{itemize}
+	\begin{itemize}[<+- | alert@+>]
 		\item Interés en compuestos fluorescentes de boro;
 		\item Amplio campo de aplicaciones;
 		\item BODIPY comercialmente disponibles;
@@ -208,67 +228,68 @@ mexico]{beamer}
 
 
 \begin{frame}{Fluoróforos sensibles a la viscosidad i}
-	\begin{itemize}
+	\begin{itemize}[<+- | alert@+>]
 		\item Los \gls{FMR} son fluoróforos sensibles a la viscosidad.
 		\item Presentan una rotación libre que se vuelven fluorescentes.
 		\item Aumentan la fluorescencia solo si su rotación se ve restringida.
 	\end{itemize}
 \end{frame}
+
 \begin{frame}{Fluoróforos sensibles a la viscosidad ii}
-	\begin{itemize}
+	\begin{itemize}[<+- | alert@+>]
 		\item Algunas interacciones de carácter intramolecular para detener la rotación de los \gls{FMR} son:
 		      \begin{enumerate}[i.]
-			      \item Formar interacciones de hidrógeno;\footcite{wuMultistageRotationalSpeed2018}
-			      \item A través del impedimento estérico;\footcite{faulknerAllostericRegulationRotational2016} o
-			      \item Por la formación de complejos estables con iones metálicos.\footcite{yadavViscochromicMechanochromicUnsymmetrical2019}
+			      \item Formar interacciones de hidrógeno;\footpartcite{wuMultistageRotationalSpeed2018}
+			      \item A través del impedimento estérico;\footpartcite{faulknerAllostericRegulationRotational2016} o
+			      \item Por la formación de complejos estables con iones metálicos.\footpartcite{yadavViscochromicMechanochromicUnsymmetrical2019}
 		      \end{enumerate}
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Fluoróforos sensibles a la viscosidad iii}
-	\begin{itemize}
+	\begin{itemize}[<+- | alert@+>]
 		\item Se ha determinado que la polaridad del solvente y la viscosidad del mismo afectan considerablemente la fluorescencia de los \gls{FMR}.
-		\item El efecto que tiene la polaridad del solvente, aunque se sabe que es importante, no se ha logrado elucidar de forma aislada a la viscosidad.\footfullcite{haidekkerEffectsSolventPolarity2005}
+		\item El efecto que tiene la polaridad del solvente, aunque se sabe que es importante, no se ha logrado elucidar de forma aislada a la viscosidad.\footpartcite{haidekkerEffectsSolventPolarity2005}
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Diseño de FMR}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Diferentes estrategias para el diseño de \gls{FMR} se han propuesto para realizar sensores de viscosidad altamente sensibles.
-        \item Ejemplos incluyen: incorporando grupos rotacionales asimétricos,\autocite{leePyrrolicMolecularRotors2016} usando grupos con alta capacidad para rotar,\autocite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados tipo \emph{push-pull},\autocite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\autocite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores distintos con diferentes capacidades rotacionales y electrondonantes.\autocite{rautTriazinebasedBODIPYTrimer2016}
+        \item Ejemplos incluyen: incorporando grupos rotacionales asimétricos,\footpartcite{leePyrrolicMolecularRotors2016} usando grupos con alta capacidad para rotar,\footpartcite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados tipo \emph{push-pull},\footpartcite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\footpartcite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores distintos con diferentes capacidades rotacionales y electrondonantes.\footpartcite{rautTriazinebasedBODIPYTrimer2016}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Rendimiento y Contraste de FMR}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Obtener tanto una alta eficiencia de fluorescencia como un contraste fluorescente simultáneamente es muy difícil.
-        \item El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada ``intensidad de fluorescencia---contraste".\autocite{leeFrontCoverFluorescent2018}
+        \item El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada ``intensidad de fluorescencia---contraste".\footpartcite{leeFrontCoverFluorescent2018}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Variedad de FMR}
     \begin{itemize}
         \item En la actualidad existe una amplia variedad de \gls{FMR} derivados de compuestos de boro, donde los \gls{BODIPY} y los dioxaborinos son los protagonistas debido a su elevado rendimiento cuántico.
-        \item Sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja.\autocite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
+        \item Sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja.\footpartcite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{BOSCHIBA como FMR}
-    \begin{itemize}
-        \item Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de \gls{BOSCHIBA} y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\autocite{ibarra-rodriguezFluorescentMolecularRotors2017}
+    \begin{itemize}[<+- | alert@+>]
+        \item Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de \gls{BOSCHIBA} y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\footpartcite{ibarra-rodriguezFluorescentMolecularRotors2017}
         \item Los resultados encontrados indican que los \gls{BOSCHIBA} pueden aumentar hasta 34 veces su valor de rendimiento cuántico en medios de alta viscosidad.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Mejoramiento del Contraste y la Bioimagen}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Para lograr mejorar el contraste de fluorescencia y la bioimagen celular, se diseñó una serie de \gls{BOSCHIBA} derivados de aminoácidos.
         \item Las moléculas presentan rotación libre a través del anillo fenilborónico, y el aminoácido podría dar una mayor compatibilidad y solubilidad en medios celulares.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Síntesis de Compuestos de Boro Fluorescentes}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Los compuestos de boro fluorescentes \textbf{1-4} se sintetizarán por una reacción multicomponente en \gls{MW}.
         \item El objetivo es tener altos rendimientos químicos en un tiempo de reacción corto.
         \item Este método resulta más eficiente y rápido en comparación con \gls{BOSCHIBA} similares reportados en la literatura sintetizados por métodos convencionales.
@@ -298,35 +319,35 @@ mexico]{beamer}
 \subsection{Análisis crítico de los antecedentes}
 
 \begin{frame}{Investigación de Corona-López et al. (2017)}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Preparación de \gls{BOSCHIBA} por reacción de condensación.
         \item Incorporación de sustituyentes voluminosos para mejorar la estabilidad.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Investigación de Ibarra-Rodríguez et al. (2019)}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Uso de \gls{BOSCHIBA} para detección de células cancerígenas.
         \item Propuesta de síntesis de \gls{BOSCHIBA} derivada de aminoácidos para mejorar solubilidad y teñido del citoplasma.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Investigación de Corona-López et al. (2021)}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Preparación de \gls{BOSCHIBA} por reacción de condensación.
         \item Propuesta de síntesis por \gls{MW} para reducir tiempo de reacción.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Investigación de García-López et al. (2022)}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Síntesis de \gls{BOSCHIBA} tetracoordinados por reacción de condensación de tres componentes.
         \item Rendimientos elevados y tiempo de reacción corto.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Investigación de López-Espejel et al. (2021)}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Síntesis de bases de Schiff basadas en \ch{Sn} por medios convencionales y por \gls{MW}.
         \item Reducción drástica del tiempo de reacción y mejora en los rendimientos.
         \item Evaluación del uso de bases de Schiff basadas en \ch{Sn} como agentes de tinción celular.
@@ -335,7 +356,7 @@ mexico]{beamer}
 
 \section{Aportación científica}
 \begin{frame}{Aportación científica}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Plantear una metodología para la síntesis de \gls{BOSCHIBA} fluorescentes, con un alto rendimiento cuántico y un buen contraste de fluorescencia en medios de alta viscosidad, a partir de aminoácidos, así como su aplicación en la tinción celular.
         \item También se realizarán estudios \insilico{} para determinar las propiedades fotofísicas de los compuestos.
     \end{itemize}
@@ -343,7 +364,7 @@ mexico]{beamer}
 
 \section{Hipótesis}
 \begin{frame}{Hipótesis}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item La incorporación de aminoácidos en la estructura de los \gls{BOSCHIBA} logrará una mejor penetración de las membranas celulares.
         \item Se espera que los compuestos presenten un alto rendimiento cuántico y un alto contraste de fluorescencia en medios de alta viscosidad.
     \end{itemize}
@@ -357,17 +378,17 @@ mexico]{beamer}
 
 \subsection{Objetivos específicos}
 \begin{frame}{Objetivos específicos}
-    \begin{itemize}
-        \item \textbf{Sintetizar} una serie de \gls{BOSCHIBA} derivadas de \reactant{trp}, \reactant{phe}, \reactant{tyr} y \reactant{gly};
-        \item \textbf{Elucidar} los mecanismos involucrados en el efecto supresor de la luminiscencia en \reactant{BO-trp};
-        \item \textbf{Caracterizar} los compuestos por métodos espectroscópicos.
-    \end{itemize}
+    \begin{description}[<+- | alert@+>]
+        \item[Sintetizar] una serie de \gls{BOSCHIBA} derivadas de \reactant{trp}, \reactant{phe}, \reactant{tyr} y \reactant{gly};
+        \item[Elucidar] los mecanismos involucrados en el efecto supresor de la luminiscencia en \reactant{BO-trp};
+        \item[Caracterizar] los compuestos por métodos espectroscópicos.
+    \end{description}
 \end{frame}
 
 \subsection{Experimental}
 \begin{frame}{Experimental}
     \subsubsection{Síntesis}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Se llevará a cabo la síntesis de los compuestos \textbf{1-4} (ver \cref{sch:marcha,sch:reac-gral}) utilizando condiciones de reacción ecológicas y materiales de partida accesibles.
         \item Se optimizarán los parámetros de reacción para obtener rendimientos elevados y selectividad adecuada.
     \end{itemize}
@@ -380,7 +401,7 @@ mexico]{beamer}
     \end{scheme}
     
     \subsubsection{Determinación de propiedades ópticas}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Se determinará el rendimiento cuántico de los compuestos \textbf{1-4}, así como su contraste de fluorescencia en medios de viscosidad variable.
     \end{itemize}
     
@@ -390,7 +411,7 @@ mexico]{beamer}
     \end{itemize}
     
     \subsubsection{Modelado molecular}
-    \begin{itemize}
+    \begin{itemize}[<+- | alert@+>]
         \item Se realizarán cálculos \insilico{} por medio de \gls{DFT} y \gls{TDDFT} para estudiar las propiedades fotofísicas de los compuestos y comprobar los mecanismos involucrados en el efecto supresor de la luminiscencia en dichos compuestos así como estudios de topológicos sobre estos.
         \item En caso de no contar con datos cristalográficos en el momento del estudio \insilico{}, se hará una búsqueda conformacional con ayuda del programa \gls{CREST} \cite{prachtAutomatedExplorationLowenergy2020} para obtener los conformeros más estables de los compuestos.
         \item En caso de que se cuenten con datos cristalográficos, se utilizarán las coordenadas de la estructura cristalográfica para realizar la optimización geométrica en DFT.

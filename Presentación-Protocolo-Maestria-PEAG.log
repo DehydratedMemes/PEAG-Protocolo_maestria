@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex-dev 2023.10.28)  1 NOV 2023 21:17
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex-dev 2023.10.28)  1 NOV 2023 21:52
  restricted system commands enabled.
 **Presentación-Protocolo-Maestria-PEAG
 (./Presentación-Protocolo-Maestria-PEAG.tex
@@ -1655,7 +1655,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'science.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count483
@@ -1769,16 +1769,6 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count559
 )
-Package biblatex Info: Trying to load bibliography style 'science'...
-Package biblatex Info: ... file 'science.bbx' found.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-science/science.bbx
-File: science.bbx 2018/10/18 v1.2 biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -1791,21 +1781,12 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count560
 \c@bbx:relatedtotal=\count561
-))))
-Package biblatex Info: Trying to load citation style 'science'...
-Package biblatex Info: ... file 'science.cbx' found.
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-science/science.cbx
-File: science.cbx 2018/10/18 v1.2 biblatex citation style
-Package biblatex Info: Trying to load citation style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count562
-\c@cbx@tempcntb=\count563
-\c@cbx@tempcntc=\count564
-\c@cbx@tempcntd=\count565
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1817,7 +1798,7 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-))
+)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -1854,9 +1835,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box124
 \tcb@lowerbox=\box125
 \tcb@phantombox=\box126
-\c@tcbbreakpart=\count566
-\c@tcblayer=\count567
-\c@tcolorbox@number=\count568
+\c@tcbbreakpart=\count562
+\c@tcblayer=\count563
+\c@tcolorbox@number=\count564
 \tcb@temp=\box127
 \tcb@temp=\box128
 \tcb@temp=\box129
@@ -1917,8 +1898,8 @@ Package caption Info: beamer document class detected.
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
-\c@caption@flags=\count569
-\c@continuedfloat=\count570
+\c@caption@flags=\count565
+\c@continuedfloat=\count566
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -1930,9 +1911,9 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count571
+\c@subfigure=\count567
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count572
+\c@subtable=\count568
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
@@ -1942,25 +1923,25 @@ Package: todonotes 2023/01/31
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@@todonotes@numberoftodonotes=\count573
+\c@@todonotes@numberoftodonotes=\count569
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
-\linenopenalty=\count574
+\linenopenalty=\count570
 \output=\toks70
-\linenoprevgraf=\count575
+\linenoprevgraf=\count571
 \linenumbersep=\dimen394
 \linenumberwidth=\dimen395
-\c@linenumber=\count576
-\c@pagewiselinenumber=\count577
-\c@LN@truepage=\count578
-\c@internallinenumber=\count579
-\c@internallinenumbers=\count580
+\c@linenumber=\count572
+\c@pagewiselinenumber=\count573
+\c@LN@truepage=\count574
+\c@internallinenumber=\count575
+\c@internallinenumbers=\count576
 \quotelinenumbersep=\dimen396
 \bframerule=\dimen397
 \bframesep=\dimen398
 \bframebox=\box132
-\linenoamsmath@ams@eqpen=\count581
+\linenoamsmath@ams@eqpen=\count577
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
@@ -1969,7 +1950,7 @@ LaTeX Warning: Command \@parboxrestore  has changed.
 LaTeX Info: Redefining \\ on input line 3180.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex-dev/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count582
+\c@r@tfl@t=\count578
 \rotFPtop=\skip119
 \rotFPbot=\skip120
 \rot@float@box=\box133
@@ -1987,19 +1968,19 @@ Package newfloat Info: `rotating' package detected.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count583
+\c@float@type=\count579
 \float@exts=\toks72
 \float@box=\box134
 \@float@everytoks=\toks73
 \@floatcapt=\box135
 )
 Package newfloat Info: New float `scheme' with options ` fileext=los, listname=
-{List of Schemes}, name=Scheme, placement=tbp, within=none ' on input line 70.
-\c@scheme=\count584
-Package newfloat Info: float type `scheme'=4 on input line 70.
-Package caption Info: New subtype `subscheme' on input line 70.
-\c@subscheme=\count585
-Package caption Info: Modify subtype `subscheme' on input line 71.
+{List of Schemes}, name=Scheme, placement=tbp, within=none ' on input line 90.
+\c@scheme=\count580
+Package newfloat Info: float type `scheme'=4 on input line 90.
+Package caption Info: New subtype `subscheme' on input line 90.
+\c@subscheme=\count581
+Package caption Info: Modify subtype `subscheme' on input line 91.
 
 
 LaTeX Warning: Writing or overwriting file `abreviaturas.tex'.
@@ -2029,9 +2010,9 @@ istry documents (CN & SK)
 \l__chemmacros_tmpa_dim=\dimen399
 \l__chemmacros_tmpb_dim=\dimen400
 \l__chemmacros_tmpc_dim=\dimen401
-\l__chemmacros_tmpa_int=\count586
-\l__chemmacros_tmpb_int=\count587
-\l__chemmacros_tmpc_int=\count588
+\l__chemmacros_tmpa_int=\count582
+\l__chemmacros_tmpb_int=\count583
+\l__chemmacros_tmpc_int=\count584
 \l__chemmacros_tmpa_box=\box136
 \l__chemmacros_tmpb_box=\box137
 \l__chemmacros_tmpc_box=\box138
@@ -2062,8 +2043,8 @@ Loading the chemmacros module `greek' ...
 (/usr/local/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count589
-\g__chemgreek_tmpa_int=\count590
+\l__chemgreek_tmpa_int=\count585
+\g__chemgreek_tmpa_int=\count586
 )
 Loading the chemmacros module `formula' ...
 
@@ -2105,7 +2086,7 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen410
 \pgfdecoratedinputsegmentremainingdistance=\dimen411
 \pgf@decorate@distancetomove=\dimen412
-\pgf@decorate@repeatstate=\count591
+\pgf@decorate@repeatstate=\count587
 \pgfdecorationsegmentamplitude=\dimen413
 \pgfdecorationsegmentlength=\dimen414
 )
@@ -2119,8 +2100,8 @@ Loading the chemmacros module `isotopes' ...
 Loading the chemmacros module `isotopes' ...
 (/usr/local/texlive/2023/texmf-dist/tex/latex/elements/elements.sty
 Package: elements 2022/01/29 v0.4 properties of chemical elements
-\c@@elements@orbital@type=\count592
-\c@@elements@shell@number=\count593
+\c@@elements@orbital@type=\count588
+\c@@elements@shell@number=\count589
 )
 Loading the chemmacros module `mechanisms' ...
 
@@ -2135,14 +2116,14 @@ Loading the chemmacros module `polymers' ...
 \l__chemmacros_polymer_delimiter_depth_dim=\dimen417
 Loading the chemmacros module `reactions' ...
 Loading the chemmacros module `reactions' ...
-\c@reaction=\count594
+\c@reaction=\count590
 (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count595
+\g_MT_multlinerow_int=\count591
 \l_MT_multwidth_dim=\dimen418
 \origjot=\skip122
 \l_MT_shortvdotswithinadjustabove_dim=\dimen419
@@ -2160,7 +2141,7 @@ Loading the chemmacros module `redox' ...
 (/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count596
+\l__chemmacros_ox_number_int=\count592
 \l__chemmacros_redox_sep_dim=\dimen426
 \l__chemmacros_redox_sep_default_dim=\dimen427
 \l__chemmacros_redox_dist_dim=\dimen428
@@ -2175,7 +2156,7 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 y
 Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen429
-\l__xtemplate_tmp_int=\count597
+\l__xtemplate_tmp_int=\count593
 \l__xtemplate_tmp_muskip=\muskip22
 \l__xtemplate_tmp_skip=\skip123
 )
@@ -2203,16 +2184,16 @@ Package: chemnum 2021/01/21 v1.3a a comprehensive approach for the numbering of
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psfrag/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count598
-\pfg@scount=\count599
+\pfg@pcount=\count594
+\pfg@scount=\count595
 \pfg@temp=\write8
 )
-\l__chemnum_tmpa_int=\count600
-\l__chemnum_tmpb_int=\count601
-\l__chemnum_tmpc_int=\count602
-\c@cmpdmain=\count603
-\g__chemnum_main_int=\count604
-\l__chemnum_compound_replace_int=\count605
+\l__chemnum_tmpa_int=\count596
+\l__chemnum_tmpb_int=\count597
+\l__chemnum_tmpc_int=\count598
+\c@cmpdmain=\count599
+\g__chemnum_main_int=\count600
+\l__chemnum_compound_replace_int=\count601
 )
 Loading the chemmacros module `spectroscopy' ...
 
@@ -2229,7 +2210,7 @@ Loading the chemmacros module `translations' ...
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\invitro' on input line 147.
+(hyperref)                removing `\invitro' on input line 167.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerpatchparalist.sty)
 Package csquotes Info: Checking for multilingual support...
@@ -2261,9 +2242,9 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen439
 \l__chemformula_tmpb_dim=\dimen440
 \l__chemformula_tmpc_dim=\dimen441
-\l__chemformula_tmpa_int=\count606
-\l__chemformula_tmpb_int=\count607
-\l__chemformula_tmpc_int=\count608
+\l__chemformula_tmpa_int=\count602
+\l__chemformula_tmpb_int=\count603
+\l__chemformula_tmpc_int=\count604
 \l__chemformula_tmpa_box=\box143
 \l__chemformula_tmpb_box=\box144
 \l__chemformula_arrow_length_dim=\dimen442
@@ -2297,8 +2278,8 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 \l__chemformula_stoich_space_skip=\skip128
 \l__chemformula_math_space_skip=\skip129
 \l__chemformula_additions_symbol_space_skip=\skip130
-\l__chemformula_count_tokens_int=\count609
-\g__chemformula_lewis_int=\count610
+\l__chemformula_count_tokens_int=\count605
+\g__chemformula_lewis_int=\count606
 \l__chemformula_arrow_arg_i_box=\box145
 \l__chemformula_arrow_arg_ii_box=\box146
 \l__chemformula_superscript_box=\box147
@@ -2311,32 +2292,32 @@ LaTeX Info: Redefining \% on input line 21.
 )
 \openout1 = Presentación-Protocolo-Maestria-PEAG.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-47.
+67.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex-dev/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2374,16 +2355,16 @@ LaTeX Font Info:    ... okay on input line 147.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count611
+\scratchcounter=\count607
 \scratchdimen=\dimen470
 \scratchbox=\box149
-\nofMPsegments=\count612
-\nofMParguments=\count613
+\nofMPsegments=\count608
+\nofMParguments=\count609
 \everyMPshowfont=\toks74
-\MPscratchCnt=\count614
+\MPscratchCnt=\count610
 \MPscratchDim=\dimen471
-\MPnumerator=\count615
-\makeMPintoPDFobject=\count616
+\MPnumerator=\count611
+\makeMPintoPDFobject=\count612
 \everyMPtoPDFconversion=\toks75
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2394,7 +2375,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 147.
+Package hyperref Info: Link coloring OFF on input line 167.
 
 (./Presentación-Protocolo-Maestria-PEAG.out)
 (./Presentación-Protocolo-Maestria-PEAG.out)
@@ -2402,83 +2383,83 @@ Package hyperref Info: Link coloring OFF on input line 147.
 
 \openout9 = Presentación-Protocolo-Maestria-PEAG.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 147.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 167.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 147.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 167.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 147.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 167.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 14
+(Font)              `pureletters' in the math version `normal' on input line 16
 7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/mathkerncmss/m/sl --> TU/TeXGyreHeros(0)/m/it on in
-put line 147.
+put line 167.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 147.
+(Font)              `pureletters' in the math version `bold' on input line 167.
 
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> TU/TeXGyreHeros(0)/m/it on i
-nput line 147.
+nput line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/TeXGyrePagella(0)/m/n on input line
- 147.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 147.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 147.
+ 167.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 167.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/TeXGyreHeros(0)/m/n on input line 1
-47.
+67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/TeXGyreHeros(0)/m/n on input line 
-147.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 147.
+167.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TeXGyreHeros(0)/m/it on input line 
-147.
+167.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TeXGyreHeros(0)/m/it on input line
- 147.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 147.
+ 167.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 147.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 147.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 167.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/TeXGyreHeros(0)/m/n --> TU/TeXGyreHeros(0)/b/n on in
-put line 147.
+put line 167.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/TeXGyreHeros(0)/m/it --> TU/TeXGyreHeros(0)/b/it on 
-input line 147.
+input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/cmss/b/n --> TU/TeXGyrePagella(0)/b/n on input line
- 147.
+ 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/TeXGyreHeros(0)/b/n --> TU/TeXGyreHeros(0)/b/n on in
-put line 147.
+put line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/TeXGyreHeros(0)/m/n --> TU/TeXGyreHeros(0)/b/n on in
-put line 147.
+put line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/TeXGyreHeros(0)/m/it --> TU/TeXGyreHeros(0)/b/it on 
-input line 147.
+input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/b/n on input line
- 147.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 147
+ 167.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 167
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `boldpureletters' in the math version `normal' on input lin
-e 147.
+e 167.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `norma
 l'
 (Font)                  OT1/mathkerncmss/bx/sl --> TU/TeXGyreHeros(0)/bx/it on 
-input line 147.
+input line 167.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `boldpureletters' in the math version `bold' on input line 
-147.
+167.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
 
 (Font)                  OT1/mathkerncmss/bx/sl --> TU/TeXGyreHeros(0)/bx/it on 
-input line 147.
+input line 167.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -2528,23 +2509,23 @@ Dictionary: translator-theorem-dictionary, Language: English
 tionary-Spanish.dict
 Dictionary: translator-theorem-dictionary, Language: Spanish 
 )
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
-Package csquotes Info: Making character “ active on input line 147.
-Package csquotes Info: Making character ” active on input line 147.
-LaTeX Info: Redefining \microtypecontext on input line 147.
-Package microtype Info: Applying patch `item' on input line 147.
-Package microtype Info: Applying patch `toc' on input line 147.
-Package microtype Info: Applying patch `eqnum' on input line 147.
-Package microtype Info: Applying patch `footnote' on input line 147.
-Package microtype Info: Applying patch `verbatim' on input line 147.
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+Package csquotes Info: Making character “ active on input line 167.
+Package csquotes Info: Making character ” active on input line 167.
+LaTeX Info: Redefining \microtypecontext on input line 167.
+Package microtype Info: Applying patch `item' on input line 167.
+Package microtype Info: Applying patch `toc' on input line 167.
+Package microtype Info: Applying patch `eqnum' on input line 167.
+Package microtype Info: Applying patch `footnote' on input line 167.
+Package microtype Info: Applying patch `verbatim' on input line 167.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 147.
+LaTeX Info: Redefining \showhyphens on input line 167.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -2562,7 +2543,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 147.
+or `spanish'. on input line 167.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
@@ -2580,8 +2561,8 @@ Package biblatex Info: ... file 'Presentación-Protocolo-Maestria-PEAG.bbl' fou
 nd.
 
 (./Presentación-Protocolo-Maestria-PEAG.bbl)
-Package biblatex Info: Reference section=0 on input line 147.
-Package biblatex Info: Reference segment=0 on input line 147.
+Package biblatex Info: Reference section=0 on input line 167.
+Package biblatex Info: Reference segment=0 on input line 167.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
@@ -2591,17 +2572,17 @@ Package caption Info: End \AtBeginDocument code.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 147.
+loading the todonotes package. on input line 167.
 
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 147.
+Package chemgreek Info: Activating mapping `fontspec' on line 167.
 
 (./Presentación-Protocolo-Maestria-PEAG.nav)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/elements/elements_names_spanish.d
 ef)
-Overfull \vbox (15.63992pt too high) detected at line 148
+Overfull \vbox (15.63992pt too high) detected at line 168
  []
 
 [1
@@ -2625,7 +2606,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 162
+LaTeX Font Info:    Trying to load font information for U+msa on input line 182
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2634,7 +2615,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 162
+LaTeX Font Info:    Trying to load font information for U+msb on input line 182
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -2650,15 +2631,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <10.95> not a
 vailable
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 162.
+ line 182.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <8> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 162.
+ line 182.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <6> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 162.
+ line 182.
  [4
 
 ]
@@ -2668,109 +2649,172 @@ able
 
 ] [7
 
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
+
 ]
-<./Figuras/ER-Tracker_Blue.pdf, id=139, 322.20375pt x 154.5775pt>
+<./Figuras/ER-Tracker_Blue.pdf, id=166, 322.20375pt x 154.5775pt>
 File: ./Figuras/ER-Tracker_Blue.pdf Graphic file (type pdf)
 <use ./Figuras/ER-Tracker_Blue.pdf>
-Package luatex.def Info: ./Figuras/ER-Tracker_Blue.pdf  used on input line 206.
+Package luatex.def Info: ./Figuras/ER-Tracker_Blue.pdf  used on input line 226.
 
 (luatex.def)             Requested size: 138.2795pt x 66.34201pt.
-<./Figuras/ER-Tracker_Green.pdf, id=140, 248.93pt x 221.82875pt>
+<./Figuras/ER-Tracker_Green.pdf, id=167, 248.93pt x 221.82875pt>
 File: ./Figuras/ER-Tracker_Green.pdf Graphic file (type pdf)
 <use ./Figuras/ER-Tracker_Green.pdf>
-Package luatex.def Info: ./Figuras/ER-Tracker_Green.pdf  used on input line 206
+Package luatex.def Info: ./Figuras/ER-Tracker_Green.pdf  used on input line 226
 .
 (luatex.def)             Requested size: 138.2795pt x 123.22809pt.
 
-Overfull \vbox (5.0885pt too high) detected at line 206
+Overfull \vbox (5.0885pt too high) detected at line 226
  []
 
-[8
+[13
 
-<./Figuras/ER-Tracker_Blue.pdf><./Figuras/ER-Tracker_Green.pdf>] [9
+<./Figuras/ER-Tracker_Blue.pdf><./Figuras/ER-Tracker_Green.pdf>] [14
+
+]
+[15
+
+] [16
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <10> not avai
 lable
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 226.
+ line 247.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <7> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 226.
+ line 247.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <5> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 226.
+ line 247.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <9> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 226.
- [10
+ line 247.
+ [17
+
+] [18
+
+] [19
+
+] [20
+
+] [21
+
+] [22
 
 ]
-[11
+Overfull \vbox (54.71329pt too high) detected at line 261
+ []
 
-] [12
-
-] [13
-
-] [14
-
-] [15
-
-] [16
-
-] [17
+[23
 
 ]
-<./Figuras/Marcha.pdf, id=267, 220.825pt x 225.84375pt>
-File: ./Figuras/Marcha.pdf Graphic file (type pdf)
-<use ./Figuras/Marcha.pdf>
-Package luatex.def Info: ./Figuras/Marcha.pdf  used on input line 285.
-(luatex.def)             Requested size: 153.64493pt x 157.14531pt.
- [18
+Overfull \vbox (54.71329pt too high) detected at line 261
+ []
 
-<./Figuras/Marcha.pdf>] [19
-
-]
-<./Figuras/t1.png, id=290, 979.66pt x 538.01pt>
-File: ./Figuras/t1.png Graphic file (type png)
-<use ./Figuras/t1.png>
-Package luatex.def Info: ./Figuras/t1.png  used on input line 296.
-(luatex.def)             Requested size: 291.92444pt x 160.3124pt.
-<./Figuras/t2.png, id=291, 989.6975pt x 236.885pt>
-File: ./Figuras/t2.png Graphic file (type png)
-<use ./Figuras/t2.png>
-Package luatex.def Info: ./Figuras/t2.png  used on input line 296.
-(luatex.def)             Requested size: 291.92444pt x 69.86961pt.
- [20
-
-<./Figuras/t1.png>] [21
-
-
-<./Figuras/t2.png>] [22
-
-] [23
-
-] [24
+[24
 
 ] [25
 
 ] [26
 
-] [27
+]
+Overfull \vbox (1.4241pt too high) detected at line 275
+ []
+
+[27
 
 ] [28
 
 ] [29
 
-]
-[30
+] [30
 
 ] [31
 
 ] [32
+
+] [33
+
+] [34
+
+]
+<./Figuras/Marcha.pdf, id=402, 220.825pt x 225.84375pt>
+File: ./Figuras/Marcha.pdf Graphic file (type pdf)
+<use ./Figuras/Marcha.pdf>
+Package luatex.def Info: ./Figuras/Marcha.pdf  used on input line 306.
+(luatex.def)             Requested size: 153.64493pt x 157.14531pt.
+ [35
+
+<./Figuras/Marcha.pdf>] [36
+
+]
+<./Figuras/t1.png, id=427, 979.66pt x 538.01pt>
+File: ./Figuras/t1.png Graphic file (type png)
+<use ./Figuras/t1.png>
+Package luatex.def Info: ./Figuras/t1.png  used on input line 317.
+(luatex.def)             Requested size: 291.92444pt x 160.3124pt.
+<./Figuras/t2.png, id=428, 989.6975pt x 236.885pt>
+File: ./Figuras/t2.png Graphic file (type png)
+<use ./Figuras/t2.png>
+Package luatex.def Info: ./Figuras/t2.png  used on input line 317.
+(luatex.def)             Requested size: 291.92444pt x 69.86961pt.
+
+[37
+
+<./Figuras/t1.png>] [38
+
+
+<./Figuras/t2.png>] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+]
+[45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+] [55
+
+] [56
+
+] [57
 
 ]
 .................................................
@@ -2788,35 +2832,134 @@ Package luatex.def Info: ./Figuras/t2.png  used on input line 296.
 .................................................
 . Package chemnum Info: defined new compound `BO-trp' with output `5'.
 .................................................
- [33
+ [58
+
+] [59
 
 ]
-<./Figuras/BO-General.pdf, id=387, 467.7475pt x 87.32625pt>
+[60
+
+]
+<./Figuras/BO-General.pdf, id=599, 467.7475pt x 87.32625pt>
 File: ./Figuras/BO-General.pdf Graphic file (type pdf)
 <use ./Figuras/BO-General.pdf>
-Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 400.
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
 (luatex.def)             Requested size: 261.19826pt x 48.76645pt.
 
-Overfull \vbox (477.46858pt too high) detected at line 400
+Overfull \vbox (477.46858pt too high) detected at line 421
  []
 
-[34
+[61
 
-<./Figuras/BO-General.pdf>] [35
+<./Figuras/BO-General.pdf>]
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
 
-] [36
+Overfull \vbox (446.18874pt too high) detected at line 421
+ []
+
+[62
+
+]
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
+
+Overfull \vbox (446.18874pt too high) detected at line 421
+ []
+
+[63
+
+]
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
+
+Overfull \vbox (446.18874pt too high) detected at line 421
+ []
+
+[64
+
+]
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
+
+Overfull \vbox (446.18874pt too high) detected at line 421
+ []
+
+[65
+
+]
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
+
+Overfull \vbox (446.18874pt too high) detected at line 421
+ []
+
+[66
+
+]
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
+
+Overfull \vbox (446.18874pt too high) detected at line 421
+ []
+
+[67
+
+]
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 421.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
+
+Overfull \vbox (446.18874pt too high) detected at line 421
+ []
+
+[68
+
+]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraMono' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [69
+
+] [70
 
 
-] [37
+] [71
 
 
-] [38
+] [72
+
+
+] [73
+
+
+] [74
+
+
+] [75
+
+
+] [76
 
 
 ]
-(./Presentación-Protocolo-Maestria-PEAG.gls) [39
+(./Presentación-Protocolo-Maestria-PEAG.gls) [77
 
-] [40
+] [78
 
 
 ]
@@ -2840,9 +2983,20 @@ Package cleveref Info: loaded `spanish' language definitions on input line 21.
 LaTeX2e <2023-11-01> pre-release-1 (develop 2023-10-28 branch)
 L3 programming layer <2023-10-23>
  ***********
-Package rerunfilecheck Info: File `Presentación-Protocolo-Maestria-PEAG.out' h
-as not changed.
-(rerunfilecheck)             Checksum: 9E3201C579643BDCFF4928EE7B1EEC80;1537.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Presentación-Protocolo-Maestria-PEAG.out
+' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Presentación-Protocolo-Maestria-PE
+AG.out':
+(rerunfilecheck)             Before: E217662EBA3AE32112C8ED011DC331BA;1537
+(rerunfilecheck)             After:  48DDD6FEE6417A8429D2AE4529F6F912;1537.
 Package logreq Info: Writing requests to 'Presentación-Protocolo-Maestria-PEAG
 .run.xml'.
 
@@ -2850,27 +3004,36 @@ Package logreq Info: Writing requests to 'Presentación-Protocolo-Maestria-PEAG
 )
 
 Here is how much of LuaTeX's memory you used:
- 66890 strings out of 476629
+ 67009 strings out of 476629
  125031,2848258 words of node,token memory allocated
  5618 words of node memory still in use:
    56 hlist, 13 vlist, 20 rule, 36 disc, 7 local_par, 116 glue, 34 kern, 26 pena
 lty, 1 margin_kern, 272 glyph, 220 attribute, 108 glue_spec, 112 attribute_list,
  4 write, 3 pdf_dest, 5 pdf_action, 18 pdf_colorstack nodes
-   avail lists: 1:8,2:2359,3:409,4:358,5:629,6:47,7:6844,8:11,9:438,10:15,11:877
-,12:4
- 87137 multiletter control sequences out of 65536+600000
- 159 fonts using 23358263 bytes
- 128i,14n,133p,2372b,2453s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-
-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre/te
-xgyreheros-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public
-/tex-gyre/texgyreheros-bolditalic.otf></usr/local/texlive/2023/texmf-dist/fonts/
-opentype/public/tex-gyre/texgyreheros-bold.otf>
-Output written on Presentación-Protocolo-Maestria-PEAG.pdf (40 pages, 2057821 b
+   avail lists: 1:9,2:3337,3:581,4:420,5:657,6:55,7:6863,8:11,9:438,10:19,11:891
+,12:8
+ 87142 multiletter control sequences out of 65536+600000
+ 161 fonts using 23770983 bytes
+ 128i,14n,133p,2372b,2403s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.6.3.46'
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.6.2.45'
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.6.1.44'
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.3.1.34'
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraMono-Regular.
+otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre/texgyrehe
+ros-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyr
+e/texgyreheros-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/pu
+blic/tex-gyre/texgyreheros-bolditalic.otf></usr/local/texlive/2023/texmf-dist/fo
+nts/opentype/public/tex-gyre/texgyreheros-bold.otf>
+Output written on Presentación-Protocolo-Maestria-PEAG.pdf (78 pages, 2130806 b
 ytes).
 
-PDF statistics: 490 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
- 126 named destinations out of 1000 (max. 131072)
+PDF statistics: 898 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 234 named destinations out of 1000 (max. 131072)
  112 words of extra memory for PDF output out of 10000 (max. 100000000)
 
