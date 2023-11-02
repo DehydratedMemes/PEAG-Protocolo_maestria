@@ -1,0 +1,359 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{faulknerAllostericRegulationRotational2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=66dac5c86b89421dbf60a1000f2e6052}{%
+           family={Faulkner},
+           familyi={F\bibinitperiod},
+           given={Adele},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e234d49c6b14080ee14b6634df27ef4f}{%
+           family={Van\bibnamedelima Leeuwen},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3286282ba7086f83bec7bd1afd3ccabf}{%
+           family={Feringa},
+           familyi={F\bibinitperiod},
+           given={Ben\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=76eb5d0d21b0c67f4635c63a5e45b01f}{%
+           family={Wezenberg},
+           familyi={W\bibinitperiod},
+           given={Sander\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f4fa6e9f83be4aed8d645d1f4b8213e}
+      \strng{fullhash}{09445ce0a6469bfb431eaab0a9982805}
+      \strng{bibnamehash}{2f4fa6e9f83be4aed8d645d1f4b8213e}
+      \strng{authorbibnamehash}{2f4fa6e9f83be4aed8d645d1f4b8213e}
+      \strng{authornamehash}{2f4fa6e9f83be4aed8d645d1f4b8213e}
+      \strng{authorfullhash}{09445ce0a6469bfb431eaab0a9982805}
+      \field{labelalpha}{Fau+16}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{issn}{0002-7863, 1520-5126}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{41}
+      \field{shortjournal}{J. Am. Chem. Soc.}
+      \field{title}{Allosteric {{Regulation}} of the {{Rotational Speed}} in a
+      {{Light-Driven Molecular Motor}}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{138}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{13597\bibrangedash 13603}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10/gsqwpr
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/jacs.6b06467
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/jacs.6b06467
+      \endverb
+    \endentry
+    \entry{haidekkerEffectsSolventPolarity2005}{article}{}
+      \name{author}{4}{}{%
+        {{hash=72df08db3f2f1f7ee4701c2c90d3e6da}{%
+           family={Haidekker},
+           familyi={H\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f234a94c80cf49718d258977a7559a60}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={T.P.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=be6c10c08edc62055c88f518eb9be20d}{%
+           family={Lichlyter},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4345b201b4194b7993d3884afa27d635}{%
+           family={Theodorakis},
+           familyi={T\bibinitperiod},
+           given={E.A.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b49e5a2e87509bf9ac55387e0a551540}
+      \strng{fullhash}{cf516b33161c1ac1a63145995649c0ff}
+      \strng{bibnamehash}{b49e5a2e87509bf9ac55387e0a551540}
+      \strng{authorbibnamehash}{b49e5a2e87509bf9ac55387e0a551540}
+      \strng{authornamehash}{b49e5a2e87509bf9ac55387e0a551540}
+      \strng{authorfullhash}{cf516b33161c1ac1a63145995649c0ff}
+      \field{labelalpha}{Hai+05}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      Fluorescent molecular rotors belong to a group of twisted intramolecular
+      charge transfer complexes (TICT) whose photophysical characteristics
+      depend on their environment. In this study, the influence of solvent
+      polarity and viscosity on several representative TICT compounds (three
+      Coumarin derivatives, 4,4-dimethylaminobenzonitrile DMABN,
+      9-(dicyanovinyl)-julolidine DCVJ), was examined. While solvent polarity
+      caused a bathochromic shift of peak emission in all compounds, this shift
+      was lowest in the case of molecular rotors. Peak intensity was influenced
+      strongly by solvent viscosity in DMABN and the molecular rotors, but
+      polarity and viscosity influences cannot be separated with DMABN.
+      Coumarins, on the other hand, did not show viscosity sensitivity. This
+      study shows the unique suitability of molecular rotors as fluorescent
+      viscosity sensors.%
+      }
+      \field{issn}{00452068}
+      \field{journaltitle}{Bioorganic Chemistry}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shortjournal}{Bioorganic Chemistry}
+      \field{title}{Effects of Solvent Polarity and Solvent Viscosity on the
+      Fluorescent Properties of Molecular Rotors and Related Probes}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{33}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{415\bibrangedash 425}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10/dhw8f2
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/QSGCZIMF/Haidekker et al. - 2005 - Effects of solvent polarity and solvent viscosity .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045206805000763
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045206805000763
+      \endverb
+    \endentry
+    \entry{wuMultistageRotationalSpeed2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b47adfd13bc62453333dadc2d0e188f8}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yingying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=37c4d2c45cbec7247039ccbc66de7fc5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Guangxia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9aabde0ce319836da23b44f0c107d12e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiaolian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d2455ee5cf3448efb679c8336a0c97f4}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Junfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5366edd25c6d4e9a4041a4783f719c78}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod}}}%
+        {{hash=330e18fb499a5fa7fa598125962993f7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{63292e098dada0655bed2a981950e305}
+      \strng{fullhash}{142a71553bc68baecd5647a2bf7be05e}
+      \strng{bibnamehash}{63292e098dada0655bed2a981950e305}
+      \strng{authorbibnamehash}{63292e098dada0655bed2a981950e305}
+      \strng{authornamehash}{63292e098dada0655bed2a981950e305}
+      \strng{authorfullhash}{142a71553bc68baecd5647a2bf7be05e}
+      \field{labelalpha}{Wu+18}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      Abstract Despite having significant applications in building
+      nanomachines, molecular rotors with the rotational speed modulations to
+      multiple stages in a wide range of frequency have not yet been well
+      established. Here, we report the discovery of a stimuli-responsive
+      molecular rotor, the rotational speed of which in the slow-to-fast range
+      could be modulated to at least four stages triggered by acid/base and
+      metal cations. The rotor itself rotates rapidly at ambient or elevated
+      temperature but displays a restricted rotation after deprotonation due to
+      the produced intramolecular electrostatic repulsion. Subsequent addition
+      of Li + or Na + cations introduces an electrostatic bridge to stabilize
+      the transition state of the deprotonated rotor, thus giving a
+      cation-radius-dependent acceleration of the rotation to render the rotor
+      running at a mid-speed. All the stimuli are highly reversible. Our
+      studies provide a conceptual approach for constructing multistage
+      rotational-speed-changing molecular~rotors, and further, the practical
+      nanomachines.%
+      }
+      \field{day}{16}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{Nat Commun}
+      \field{title}{A Multistage Rotational Speed Changing Molecular Rotor
+      Regulated by {{pH}} and Metal Cations}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1953}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10/gdkpwz
+      \endverb
+      \verb{file}
+      \verb /Users/pabloalanis/Zotero/storage/FMJNGSWC/Wu et al. - 2018 - A multistage rotational speed changing molecular r.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41467-018-04323-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41467-018-04323-4
+      \endverb
+    \endentry
+    \entry{yadavViscochromicMechanochromicUnsymmetrical2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a2c841a7e7950811cb63115b88dbdd06}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Richa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=529d2a809964cfbb7cc385e2657bc87a}{%
+           family={Rai},
+           familyi={R\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fdc47b11b8c82ed51d76e4d3bd151047}{%
+           family={Sonkar},
+           familyi={S\bibinitperiod},
+           given={Avinash\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=926446c9001da7ba3ad137f739acde32}{%
+           family={Rai},
+           familyi={R\bibinitperiod},
+           given={Vipin},
+           giveni={V\bibinitperiod}}}%
+        {{hash=64b01741648ae151117ca2e833ebd709}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Subash\bibnamedelima Chandra},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6f3a5d1263401b338ca61f979d53e70f}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Lallan},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{fullhash}{906688d0d8f0df432a6a6c46a03b1f4c}
+      \strng{bibnamehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{authorbibnamehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{authornamehash}{0c308b7d7261cabf828ff70d3272637c}
+      \strng{authorfullhash}{906688d0d8f0df432a6a6c46a03b1f4c}
+      \field{labelalpha}{Yad+19}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{%
+      A mechanoresponsive, viscochromic, and unsymmetrical azine NDEA probes Al
+      3+ and Cu 2+ ions and also co-localizes in the mitochondria of C6 glioma
+      cell lines. , A hydrazone obtained by the reaction of
+      2-hydroxynaphthaldehyde with hydrazine hydrate was allowed to react
+      further with 4-diethylamino-2-hdroxybenzaldehyde to provide an
+      unsymmetrical azine derivative ( NDEA ). The azine has been characterized
+      using spectroscopic techniques and single crystal X-ray crystallography.
+      It selectively detects Al 3+ and Cu 2+ ions in aqueous methanol
+      (DMSO\,:\,H 2 O\,:\,MeOH = 0.1\,:\,1.9\,:\,8.0, v/v, HEPES buffer, pH
+      7.4) and exhibits naked eye visible color changes from greenish yellow to
+      bright yellow and brown on the addition of Al 3+ and Cu 2+ ions,
+      respectively, with concomitant changes in their absorption spectra. The
+      corresponding solutions containing Al 3+ and Cu 2+ ions also display
+      changes in their emission spectra via “TURN ON” and “TURN OFF” pathways
+      with a detection limit of 1.65 × 10 −7 M and 1.52 × 10 −7 M,
+      respectively. NDEA works as a reversible probe towards Al 3+ ions and Cu
+      2+ ions by the addition of F − ions and EDTA 2− ions, respectively. The
+      complexes of NDEA , separately with Al 3+ and Cu 2+ ions, have been
+      optimized by DFT (density functional theory). It also exhibits
+      viscochromic and mechanochromic properties. Most importantly, NDEA
+      significantly detects these ions in rat C6 glioma cell lines and displays
+      good cell permeability. It also co-localizes with the commercially
+      available Mitotracker Red and exhibits a unique application as a live
+      cell mitochondrial tracker. Practically, NDEA detects Al 3+ and Cu 2+
+      ions in real water samples and blood serum with a high accuracy.%
+      }
+      \field{issn}{1144-0546, 1369-9261}
+      \field{journaltitle}{New Journal of Chemistry}
+      \field{langid}{english}
+      \field{number}{18}
+      \field{shortjournal}{New J. Chem.}
+      \field{title}{%
+      A Viscochromic, Mechanochromic, and Unsymmetrical Azine for Selective
+      Detection of {{Al}} {\textsuperscript{3+}} and {{Cu}}
+      {\textsuperscript{2+}} Ions and Its Mitotracking Studies%
+      }
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{43}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7109\bibrangedash 7119}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10/gsqwps
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C8NJ06413J
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C8NJ06413J
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
