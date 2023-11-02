@@ -1,6 +1,6 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex-dev 2023.10.28)  1 NOV 2023 07:35
- system commands enabled.
-**Presentación-Protocolo-Maestria-PEAG.tex
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex-dev 2023.10.28)  1 NOV 2023 21:17
+ restricted system commands enabled.
+**Presentación-Protocolo-Maestria-PEAG
 (./Presentación-Protocolo-Maestria-PEAG.tex
 LaTeX2e <2023-11-01> pre-release-1 (develop 2023-10-28 branch)
 L3 programming layer <2023-10-23>
@@ -1655,7 +1655,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'science.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count483
@@ -1769,11 +1769,21 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count559
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'science'...
+Package biblatex Info: ... file 'science.bbx' found.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-science/science.bbx
+File: science.bbx 2018/10/18 v1.2 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -1781,23 +1791,33 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count560
 \c@bbx:relatedtotal=\count561
-))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
+))))
+Package biblatex Info: Trying to load citation style 'science'...
+Package biblatex Info: ... file 'science.cbx' found.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
-File: alphabetic.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-science/science.cbx
+File: science.cbx 2018/10/18 v1.2 biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count562
+\c@cbx@tempcntb=\count563
+\c@cbx@tempcntc=\count564
+\c@cbx@tempcntd=\count565
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-)
+))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -1834,9 +1854,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box124
 \tcb@lowerbox=\box125
 \tcb@phantombox=\box126
-\c@tcbbreakpart=\count562
-\c@tcblayer=\count563
-\c@tcolorbox@number=\count564
+\c@tcbbreakpart=\count566
+\c@tcblayer=\count567
+\c@tcolorbox@number=\count568
 \tcb@temp=\box127
 \tcb@temp=\box128
 \tcb@temp=\box129
@@ -1897,8 +1917,8 @@ Package caption Info: beamer document class detected.
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
-\c@caption@flags=\count565
-\c@continuedfloat=\count566
+\c@caption@flags=\count569
+\c@continuedfloat=\count570
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -1910,9 +1930,9 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count567
+\c@subfigure=\count571
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count568
+\c@subtable=\count572
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
@@ -1922,25 +1942,25 @@ Package: todonotes 2023/01/31
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@@todonotes@numberoftodonotes=\count569
+\c@@todonotes@numberoftodonotes=\count573
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
-\linenopenalty=\count570
+\linenopenalty=\count574
 \output=\toks70
-\linenoprevgraf=\count571
+\linenoprevgraf=\count575
 \linenumbersep=\dimen394
 \linenumberwidth=\dimen395
-\c@linenumber=\count572
-\c@pagewiselinenumber=\count573
-\c@LN@truepage=\count574
-\c@internallinenumber=\count575
-\c@internallinenumbers=\count576
+\c@linenumber=\count576
+\c@pagewiselinenumber=\count577
+\c@LN@truepage=\count578
+\c@internallinenumber=\count579
+\c@internallinenumbers=\count580
 \quotelinenumbersep=\dimen396
 \bframerule=\dimen397
 \bframesep=\dimen398
 \bframebox=\box132
-\linenoamsmath@ams@eqpen=\count577
+\linenoamsmath@ams@eqpen=\count581
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
@@ -1949,7 +1969,7 @@ LaTeX Warning: Command \@parboxrestore  has changed.
 LaTeX Info: Redefining \\ on input line 3180.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex-dev/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count578
+\c@r@tfl@t=\count582
 \rotFPtop=\skip119
 \rotFPbot=\skip120
 \rot@float@box=\box133
@@ -1967,7 +1987,7 @@ Package newfloat Info: `rotating' package detected.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count579
+\c@float@type=\count583
 \float@exts=\toks72
 \float@box=\box134
 \@float@everytoks=\toks73
@@ -1975,10 +1995,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 Package newfloat Info: New float `scheme' with options ` fileext=los, listname=
 {List of Schemes}, name=Scheme, placement=tbp, within=none ' on input line 70.
-\c@scheme=\count580
+\c@scheme=\count584
 Package newfloat Info: float type `scheme'=4 on input line 70.
 Package caption Info: New subtype `subscheme' on input line 70.
-\c@subscheme=\count581
+\c@subscheme=\count585
 Package caption Info: Modify subtype `subscheme' on input line 71.
 
 
@@ -2009,9 +2029,9 @@ istry documents (CN & SK)
 \l__chemmacros_tmpa_dim=\dimen399
 \l__chemmacros_tmpb_dim=\dimen400
 \l__chemmacros_tmpc_dim=\dimen401
-\l__chemmacros_tmpa_int=\count582
-\l__chemmacros_tmpb_int=\count583
-\l__chemmacros_tmpc_int=\count584
+\l__chemmacros_tmpa_int=\count586
+\l__chemmacros_tmpb_int=\count587
+\l__chemmacros_tmpc_int=\count588
 \l__chemmacros_tmpa_box=\box136
 \l__chemmacros_tmpb_box=\box137
 \l__chemmacros_tmpc_box=\box138
@@ -2042,8 +2062,8 @@ Loading the chemmacros module `greek' ...
 (/usr/local/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count585
-\g__chemgreek_tmpa_int=\count586
+\l__chemgreek_tmpa_int=\count589
+\g__chemgreek_tmpa_int=\count590
 )
 Loading the chemmacros module `formula' ...
 
@@ -2085,7 +2105,7 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen410
 \pgfdecoratedinputsegmentremainingdistance=\dimen411
 \pgf@decorate@distancetomove=\dimen412
-\pgf@decorate@repeatstate=\count587
+\pgf@decorate@repeatstate=\count591
 \pgfdecorationsegmentamplitude=\dimen413
 \pgfdecorationsegmentlength=\dimen414
 )
@@ -2099,8 +2119,8 @@ Loading the chemmacros module `isotopes' ...
 Loading the chemmacros module `isotopes' ...
 (/usr/local/texlive/2023/texmf-dist/tex/latex/elements/elements.sty
 Package: elements 2022/01/29 v0.4 properties of chemical elements
-\c@@elements@orbital@type=\count588
-\c@@elements@shell@number=\count589
+\c@@elements@orbital@type=\count592
+\c@@elements@shell@number=\count593
 )
 Loading the chemmacros module `mechanisms' ...
 
@@ -2115,14 +2135,14 @@ Loading the chemmacros module `polymers' ...
 \l__chemmacros_polymer_delimiter_depth_dim=\dimen417
 Loading the chemmacros module `reactions' ...
 Loading the chemmacros module `reactions' ...
-\c@reaction=\count590
+\c@reaction=\count594
 (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count591
+\g_MT_multlinerow_int=\count595
 \l_MT_multwidth_dim=\dimen418
 \origjot=\skip122
 \l_MT_shortvdotswithinadjustabove_dim=\dimen419
@@ -2140,7 +2160,7 @@ Loading the chemmacros module `redox' ...
 (/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count592
+\l__chemmacros_ox_number_int=\count596
 \l__chemmacros_redox_sep_dim=\dimen426
 \l__chemmacros_redox_sep_default_dim=\dimen427
 \l__chemmacros_redox_dist_dim=\dimen428
@@ -2155,7 +2175,7 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 y
 Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen429
-\l__xtemplate_tmp_int=\count593
+\l__xtemplate_tmp_int=\count597
 \l__xtemplate_tmp_muskip=\muskip22
 \l__xtemplate_tmp_skip=\skip123
 )
@@ -2183,16 +2203,16 @@ Package: chemnum 2021/01/21 v1.3a a comprehensive approach for the numbering of
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psfrag/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count594
-\pfg@scount=\count595
+\pfg@pcount=\count598
+\pfg@scount=\count599
 \pfg@temp=\write8
 )
-\l__chemnum_tmpa_int=\count596
-\l__chemnum_tmpb_int=\count597
-\l__chemnum_tmpc_int=\count598
-\c@cmpdmain=\count599
-\g__chemnum_main_int=\count600
-\l__chemnum_compound_replace_int=\count601
+\l__chemnum_tmpa_int=\count600
+\l__chemnum_tmpb_int=\count601
+\l__chemnum_tmpc_int=\count602
+\c@cmpdmain=\count603
+\g__chemnum_main_int=\count604
+\l__chemnum_compound_replace_int=\count605
 )
 Loading the chemmacros module `spectroscopy' ...
 
@@ -2241,9 +2261,9 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen439
 \l__chemformula_tmpb_dim=\dimen440
 \l__chemformula_tmpc_dim=\dimen441
-\l__chemformula_tmpa_int=\count602
-\l__chemformula_tmpb_int=\count603
-\l__chemformula_tmpc_int=\count604
+\l__chemformula_tmpa_int=\count606
+\l__chemformula_tmpb_int=\count607
+\l__chemformula_tmpc_int=\count608
 \l__chemformula_tmpa_box=\box143
 \l__chemformula_tmpb_box=\box144
 \l__chemformula_arrow_length_dim=\dimen442
@@ -2277,8 +2297,8 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 \l__chemformula_stoich_space_skip=\skip128
 \l__chemformula_math_space_skip=\skip129
 \l__chemformula_additions_symbol_space_skip=\skip130
-\l__chemformula_count_tokens_int=\count605
-\g__chemformula_lewis_int=\count606
+\l__chemformula_count_tokens_int=\count609
+\g__chemformula_lewis_int=\count610
 \l__chemformula_arrow_arg_i_box=\box145
 \l__chemformula_arrow_arg_ii_box=\box146
 \l__chemformula_superscript_box=\box147
@@ -2354,16 +2374,16 @@ LaTeX Font Info:    ... okay on input line 147.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count607
+\scratchcounter=\count611
 \scratchdimen=\dimen470
 \scratchbox=\box149
-\nofMPsegments=\count608
-\nofMParguments=\count609
+\nofMPsegments=\count612
+\nofMParguments=\count613
 \everyMPshowfont=\toks74
-\MPscratchCnt=\count610
+\MPscratchCnt=\count614
 \MPscratchDim=\dimen471
-\MPnumerator=\count611
-\makeMPintoPDFobject=\count612
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
 \everyMPtoPDFconversion=\toks75
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2597,6 +2617,9 @@ LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
 ) [2
 
+] [3
+
+
 ]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -2636,72 +2659,165 @@ LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <6> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
  line 162.
- [3
+ [4
 
 ]
-[4
-
-] [5
+[5
 
 ] [6
 
+] [7
+
 ]
-<./Figuras/ER-Tracker_Blue.pdf, id=81, 322.20375pt x 154.5775pt>
+<./Figuras/ER-Tracker_Blue.pdf, id=139, 322.20375pt x 154.5775pt>
 File: ./Figuras/ER-Tracker_Blue.pdf Graphic file (type pdf)
 <use ./Figuras/ER-Tracker_Blue.pdf>
 Package luatex.def Info: ./Figuras/ER-Tracker_Blue.pdf  used on input line 206.
 
 (luatex.def)             Requested size: 138.2795pt x 66.34201pt.
-<./Figuras/ER-Tracker_Green.pdf, id=82, 248.93pt x 221.82875pt>
+<./Figuras/ER-Tracker_Green.pdf, id=140, 248.93pt x 221.82875pt>
 File: ./Figuras/ER-Tracker_Green.pdf Graphic file (type pdf)
 <use ./Figuras/ER-Tracker_Green.pdf>
 Package luatex.def Info: ./Figuras/ER-Tracker_Green.pdf  used on input line 206
 .
 (luatex.def)             Requested size: 138.2795pt x 123.22809pt.
 
-Overfull \vbox (0.60852pt too high) detected at line 206
+Overfull \vbox (5.0885pt too high) detected at line 206
  []
 
-[7
+[8
 
-<./Figuras/ER-Tracker_Blue.pdf><./Figuras/ER-Tracker_Green.pdf>] [8
+<./Figuras/ER-Tracker_Blue.pdf><./Figuras/ER-Tracker_Green.pdf>] [9
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <10> not avai
 lable
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 227.
+ line 226.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <7> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 227.
+ line 226.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <5> not avail
 able
 (Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
- line 227.
- [9
+ line 226.
+LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/bx/it' in size <9> not avail
+able
+(Font)              Font shape `TU/TeXGyreHeros(0)/b/it' tried instead on input
+ line 226.
+ [10
 
 ]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraMono' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-[10
-
-] [11
+[11
 
 ] [12
 
-
 ] [13
 
+] [14
 
-] (./Presentación-Protocolo-Maestria-PEAG.gls)
-Overfull \vbox (17.78146pt too high) detected at line 245
+] [15
+
+] [16
+
+] [17
+
+]
+<./Figuras/Marcha.pdf, id=267, 220.825pt x 225.84375pt>
+File: ./Figuras/Marcha.pdf Graphic file (type pdf)
+<use ./Figuras/Marcha.pdf>
+Package luatex.def Info: ./Figuras/Marcha.pdf  used on input line 285.
+(luatex.def)             Requested size: 153.64493pt x 157.14531pt.
+ [18
+
+<./Figuras/Marcha.pdf>] [19
+
+]
+<./Figuras/t1.png, id=290, 979.66pt x 538.01pt>
+File: ./Figuras/t1.png Graphic file (type png)
+<use ./Figuras/t1.png>
+Package luatex.def Info: ./Figuras/t1.png  used on input line 296.
+(luatex.def)             Requested size: 291.92444pt x 160.3124pt.
+<./Figuras/t2.png, id=291, 989.6975pt x 236.885pt>
+File: ./Figuras/t2.png Graphic file (type png)
+<use ./Figuras/t2.png>
+Package luatex.def Info: ./Figuras/t2.png  used on input line 296.
+(luatex.def)             Requested size: 291.92444pt x 69.86961pt.
+ [20
+
+<./Figuras/t1.png>] [21
+
+
+<./Figuras/t2.png>] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+] [28
+
+] [29
+
+]
+[30
+
+] [31
+
+] [32
+
+]
+.................................................
+. Package chemnum Info: defined new compound `trp' with output `1'.
+.................................................
+.................................................
+. Package chemnum Info: defined new compound `phe' with output `2'.
+.................................................
+.................................................
+. Package chemnum Info: defined new compound `tyr' with output `3'.
+.................................................
+.................................................
+. Package chemnum Info: defined new compound `gly' with output `4'.
+.................................................
+.................................................
+. Package chemnum Info: defined new compound `BO-trp' with output `5'.
+.................................................
+ [33
+
+]
+<./Figuras/BO-General.pdf, id=387, 467.7475pt x 87.32625pt>
+File: ./Figuras/BO-General.pdf Graphic file (type pdf)
+<use ./Figuras/BO-General.pdf>
+Package luatex.def Info: ./Figuras/BO-General.pdf  used on input line 400.
+(luatex.def)             Requested size: 261.19826pt x 48.76645pt.
+
+Overfull \vbox (477.46858pt too high) detected at line 400
  []
 
-[14
+[34
+
+<./Figuras/BO-General.pdf>] [35
+
+] [36
+
+
+] [37
+
+
+] [38
+
+
+]
+(./Presentación-Protocolo-Maestria-PEAG.gls) [39
+
+] [40
+
 
 ]
 \tf@nav=\write10
@@ -2713,7 +2829,8 @@ Overfull \vbox (17.78146pt too high) detected at line 245
 \tf@snm=\write12
 
 \openout12 = Presentación-Protocolo-Maestria-PEAG.snm
- (./Presentación-Protocolo-Maestria-PEAG.aux
+
+(./Presentación-Protocolo-Maestria-PEAG.aux
 LaTeX Info: Redefining \sptext on input line 21.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
@@ -2725,7 +2842,7 @@ L3 programming layer <2023-10-23>
  ***********
 Package rerunfilecheck Info: File `Presentación-Protocolo-Maestria-PEAG.out' h
 as not changed.
-(rerunfilecheck)             Checksum: DC1376BB174A4B94B5DEDA88F2862198;365.
+(rerunfilecheck)             Checksum: 9E3201C579643BDCFF4928EE7B1EEC80;1537.
 Package logreq Info: Writing requests to 'Presentación-Protocolo-Maestria-PEAG
 .run.xml'.
 
@@ -2733,29 +2850,27 @@ Package logreq Info: Writing requests to 'Presentación-Protocolo-Maestria-PEAG
 )
 
 Here is how much of LuaTeX's memory you used:
- 66506 strings out of 476629
+ 66890 strings out of 476629
  125031,2848258 words of node,token memory allocated
- 8732 words of node memory still in use:
-   86 hlist, 17 vlist, 29 rule, 48 disc, 13 local_par, 2 math, 199 glue, 52 kern
-, 42 penalty, 1 margin_kern, 416 glyph, 436 attribute, 107 glue_spec, 220 attrib
-ute_list, 8 write, 28 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 6 pdf_dest,
- 5 pdf_action, 28 pdf_colorstack nodes
-   avail lists: 1:8,2:758,3:239,4:297,5:244,6:30,7:2609,8:9,9:375,10:14,11:358,1
-2:4
- 86858 multiletter control sequences out of 65536+600000
- 148 fonts using 22513135 bytes
- 128i,14n,133p,2376b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraMono-Regular.
-otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre/texgyrehe
-ros-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyr
-e/texgyreheros-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/pu
-blic/tex-gyre/texgyreheros-bolditalic.otf></usr/local/texlive/2023/texmf-dist/fo
-nts/opentype/public/tex-gyre/texgyreheros-bold.otf>
-Output written on Presentación-Protocolo-Maestria-PEAG.pdf (14 pages, 1698674 b
+ 5618 words of node memory still in use:
+   56 hlist, 13 vlist, 20 rule, 36 disc, 7 local_par, 116 glue, 34 kern, 26 pena
+lty, 1 margin_kern, 272 glyph, 220 attribute, 108 glue_spec, 112 attribute_list,
+ 4 write, 3 pdf_dest, 5 pdf_action, 18 pdf_colorstack nodes
+   avail lists: 1:8,2:2359,3:409,4:358,5:629,6:47,7:6844,8:11,9:438,10:15,11:877
+,12:4
+ 87137 multiletter control sequences out of 65536+600000
+ 159 fonts using 23358263 bytes
+ 128i,14n,133p,2372b,2453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-
+italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre/te
+xgyreheros-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public
+/tex-gyre/texgyreheros-bolditalic.otf></usr/local/texlive/2023/texmf-dist/fonts/
+opentype/public/tex-gyre/texgyreheros-bold.otf>
+Output written on Presentación-Protocolo-Maestria-PEAG.pdf (40 pages, 2057821 b
 ytes).
 
-PDF statistics: 214 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 131072)
- 48 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 490 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 131072)
+ 112 words of extra memory for PDF output out of 10000 (max. 100000000)
 
