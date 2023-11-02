@@ -1,43 +1,43 @@
 \babel@toc {spanish}{}\relax 
-\beamer@sectionintoc {1}{Resumen}{4}{0}{1}
-\beamer@sectionintoc {2}{Introducción}{6}{0}{2}
-\beamer@sectionintoc {3}{Antecedentes}{36}{0}{3}
-\beamer@subsectionintoc {3}{1}{Análisis crítico de los antecedentes}{39}{0}{3}
-\beamer@sectionintoc {4}{Aportación científica}{50}{0}{4}
-\beamer@sectionintoc {5}{Hipótesis}{53}{0}{5}
-\beamer@sectionintoc {6}{Objetivos y metas}{56}{0}{6}
-\beamer@subsectionintoc {6}{1}{Objetivo general}{57}{0}{6}
-\beamer@subsectionintoc {6}{2}{Objetivos específicos}{58}{0}{6}
-\beamer@subsectionintoc {6}{3}{Experimental}{61}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{1}{Síntesis}{61}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{2}{Determinación de propiedades ópticas}{61}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{3}{Determinación de citotoxicidad}{61}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{4}{Modelado molecular}{61}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{5}{Síntesis}{62}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{6}{Determinación de propiedades ópticas}{62}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{7}{Determinación de citotoxicidad}{62}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{8}{Modelado molecular}{62}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{9}{Síntesis}{63}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{10}{Determinación de propiedades ópticas}{63}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{11}{Determinación de citotoxicidad}{63}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{12}{Modelado molecular}{63}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{13}{Síntesis}{64}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{14}{Determinación de propiedades ópticas}{64}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{15}{Determinación de citotoxicidad}{64}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{16}{Modelado molecular}{64}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{17}{Síntesis}{65}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{18}{Determinación de propiedades ópticas}{65}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{19}{Determinación de citotoxicidad}{65}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{20}{Modelado molecular}{65}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{21}{Síntesis}{66}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{22}{Determinación de propiedades ópticas}{66}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{23}{Determinación de citotoxicidad}{66}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{24}{Modelado molecular}{66}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{25}{Síntesis}{67}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{26}{Determinación de propiedades ópticas}{67}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{27}{Determinación de citotoxicidad}{67}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{28}{Modelado molecular}{67}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{29}{Síntesis}{68}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{30}{Determinación de propiedades ópticas}{68}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{31}{Determinación de citotoxicidad}{68}{0}{6}
-\beamer@subsubsectionintoc {6}{3}{32}{Modelado molecular}{68}{0}{6}
+\beamer@sectionintoc {1}{Resumen}{7}{0}{1}
+\beamer@sectionintoc {2}{Introducción}{9}{0}{2}
+\beamer@sectionintoc {3}{Antecedentes}{39}{0}{3}
+\beamer@subsectionintoc {3}{1}{Análisis crítico de los antecedentes}{42}{0}{3}
+\beamer@sectionintoc {4}{Aportación científica}{53}{0}{4}
+\beamer@sectionintoc {5}{Hipótesis}{56}{0}{5}
+\beamer@sectionintoc {6}{Objetivos y metas}{59}{0}{6}
+\beamer@subsectionintoc {6}{1}{Objetivo general}{60}{0}{6}
+\beamer@subsectionintoc {6}{2}{Objetivos específicos}{61}{0}{6}
+\beamer@subsectionintoc {6}{3}{Experimental}{64}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{1}{Síntesis}{64}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{2}{Determinación de propiedades ópticas}{64}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{3}{Determinación de citotoxicidad}{64}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{4}{Modelado molecular}{64}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{5}{Síntesis}{65}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{6}{Determinación de propiedades ópticas}{65}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{7}{Determinación de citotoxicidad}{65}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{8}{Modelado molecular}{65}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{9}{Síntesis}{66}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{10}{Determinación de propiedades ópticas}{66}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{11}{Determinación de citotoxicidad}{66}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{12}{Modelado molecular}{66}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{13}{Síntesis}{67}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{14}{Determinación de propiedades ópticas}{67}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{15}{Determinación de citotoxicidad}{67}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{16}{Modelado molecular}{67}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{17}{Síntesis}{68}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{18}{Determinación de propiedades ópticas}{68}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{19}{Determinación de citotoxicidad}{68}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{20}{Modelado molecular}{68}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{21}{Síntesis}{69}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{22}{Determinación de propiedades ópticas}{69}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{23}{Determinación de citotoxicidad}{69}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{24}{Modelado molecular}{69}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{25}{Síntesis}{70}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{26}{Determinación de propiedades ópticas}{70}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{27}{Determinación de citotoxicidad}{70}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{28}{Modelado molecular}{70}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{29}{Síntesis}{71}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{30}{Determinación de propiedades ópticas}{71}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{31}{Determinación de citotoxicidad}{71}{0}{6}
+\beamer@subsubsectionintoc {6}{3}{32}{Modelado molecular}{71}{0}{6}
