@@ -51,26 +51,28 @@ url=false]{biblatex}
 
 \addbibresource[location=remote]{http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex}
 
-    \DeclareCiteCommand{\footpartcite}[\mkbibfootnote]
-    {\usebibmacro{prenote}}
-    {\usebibmacro{citeindex}%
-     \mkbibbrackets{\usebibmacro{cite}}%
-     \setunit{\addnbspace}
-     \printnames{labelname}%
-     \setunit{\labelnamepunct}
-     \printfield[citetitle]{title}%
-     \newunit
-     \printfield{year}}
-    {\addsemicolon\space}
-    {\usebibmacro{postnote}}
-  
-  \DeclareMultiCiteCommand{\footpartcites}[\mkbibfootnote]{\footpartcite}{\addsemicolon\space}
-  
+\DeclareCiteCommand{\footcite}[\mkbibfootnote]
+  {\usebibmacro{prenote}}
+  {\printnames[family-given]{labelname}%
+   \newunit
+   \printfield{shortjournal}%
+   \newunit
+   \printfield{doi}%
+   \printlabeldateextra}
+  {\addsemicolon\space}
+  {\usebibmacro{postnote}}
 
-	% \setbeamerfont{footnote}{size=\tiny}
-	% \renewcommand{\footnotesize}{\tiny}
-	% \AtEveryCitekey{\iffootnote{\color{red}\tiny}{\color{blue}}}
-	
+% \makeatletter
+% \def\@makefnmark{}
+% \makeatother      
+
+\setbeamerfont{footnote}{size=\tiny,shape=\itshape}
+
+\setbeamertemplate{footnote}{%
+  \parindent 1em\noindent%
+  \raggedright
+  \insertfootnotetext\par%
+}	
 
 \usepackage[skins]{tcolorbox}
 \usepackage{paralist}
@@ -239,9 +241,9 @@ url=false]{biblatex}
 	\begin{itemize}[<+- | alert@+>]
 		\item Algunas interacciones de carácter intramolecular para detener la rotación de los \gls{FMR} son:
 		      \begin{enumerate}[i.]
-			      \item Formar interacciones de hidrógeno;\footpartcite{wuMultistageRotationalSpeed2018}
-			      \item A través del impedimento estérico;\footpartcite{faulknerAllostericRegulationRotational2016} o
-			      \item Por la formación de complejos estables con iones metálicos.\footpartcite{yadavViscochromicMechanochromicUnsymmetrical2019}
+			      \item Formar interacciones de hidrógeno;\footcite{wuMultistageRotationalSpeed2018}
+			      \item A través del impedimento estérico;\footcite{faulknerAllostericRegulationRotational2016} o
+			      \item Por la formación de complejos estables con iones metálicos.\footcite{yadavViscochromicMechanochromicUnsymmetrical2019}
 		      \end{enumerate}
 	\end{itemize}
 \end{frame}
@@ -249,34 +251,34 @@ url=false]{biblatex}
 \begin{frame}{Fluoróforos sensibles a la viscosidad iii}
 	\begin{itemize}[<+- | alert@+>]
 		\item Se ha determinado que la polaridad del solvente y la viscosidad del mismo afectan considerablemente la fluorescencia de los \gls{FMR}.
-		\item El efecto que tiene la polaridad del solvente, aunque se sabe que es importante, no se ha logrado elucidar de forma aislada a la viscosidad.\footpartcite{haidekkerEffectsSolventPolarity2005}
+		\item El efecto que tiene la polaridad del solvente, aunque se sabe que es importante, no se ha logrado elucidar de forma aislada a la viscosidad.\footcite{haidekkerEffectsSolventPolarity2005}
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Diseño de FMR}
     \begin{itemize}[<+- | alert@+>]
         \item Diferentes estrategias para el diseño de \gls{FMR} se han propuesto para realizar sensores de viscosidad altamente sensibles.
-        \item Ejemplos incluyen: incorporando grupos rotacionales asimétricos,\footpartcite{leePyrrolicMolecularRotors2016} usando grupos con alta capacidad para rotar,\footpartcite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados tipo \emph{push-pull},\footpartcite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\footpartcite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores distintos con diferentes capacidades rotacionales y electrondonantes.\footpartcite{rautTriazinebasedBODIPYTrimer2016}
+        \item Ejemplos incluyen: incorporando grupos rotacionales asimétricos,\footcite{leePyrrolicMolecularRotors2016} usando grupos con alta capacidad para rotar,\footcite{karpenkoPushPullDioxaborine2016} variación de puentes π-conjugados tipo \emph{push-pull},\footcite{karpenkoPushPullDioxaborine2016} la aplicación de rotadores di- o trímeros,\footcite{kimballBODIPYBODIPYDyad2015} y la introducción de dos rotadores distintos con diferentes capacidades rotacionales y electrondonantes.\footcite{rautTriazinebasedBODIPYTrimer2016}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Rendimiento y Contraste de FMR}
     \begin{itemize}[<+- | alert@+>]
         \item Obtener tanto una alta eficiencia de fluorescencia como un contraste fluorescente simultáneamente es muy difícil.
-        \item El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada ``intensidad de fluorescencia---contraste".\footpartcite{leeFrontCoverFluorescent2018}
+        \item El rendimiento cuántico y el contraste de fluorescencia de los \gls{FMR} están inversamente correlacionados, una relación llamada ``intensidad de fluorescencia---contraste".\footcite{leeFrontCoverFluorescent2018}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Variedad de FMR}
     \begin{itemize}
         \item En la actualidad existe una amplia variedad de \gls{FMR} derivados de compuestos de boro, donde los \gls{BODIPY} y los dioxaborinos son los protagonistas debido a su elevado rendimiento cuántico.
-        \item Sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja.\footpartcite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
+        \item Sin embargo, muestran algunas desventajas como la síntesis en varias etapas, condiciones de atmósfera anhidra y, en muchas ocasiones, una capacidad de contraste baja.\footcite{karpenkoPushPullDioxaborine2016,guptaBodipyBasedFluorescent2016,liBODIPYBasedTwoPhotonFluorescent2018,kimBorondifluorideComplexesHemicurcuminoids2016}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{BOSCHIBA como FMR}
     \begin{itemize}[<+- | alert@+>]
-        \item Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de \gls{BOSCHIBA} y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\footpartcite{ibarra-rodriguezFluorescentMolecularRotors2017}
+        \item Recientemente, nuestro grupo de trabajo ha informado sobre la síntesis de \gls{BOSCHIBA} y su uso como \gls{FMR} en la detección de viscosidad y la bioimagen de células.\footcite{ibarra-rodriguezFluorescentMolecularRotors2017}
         \item Los resultados encontrados indican que los \gls{BOSCHIBA} pueden aumentar hasta 34 veces su valor de rendimiento cuántico en medios de alta viscosidad.
     \end{itemize}
 \end{frame}

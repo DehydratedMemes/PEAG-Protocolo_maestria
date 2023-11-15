@@ -59,7 +59,8 @@
       \field{month}{10}
       \field{number}{41}
       \field{shortjournal}{J. Am. Chem. Soc.}
-      \field{title}{Allosteric {{Regulation}} of the {{Rotational Speed}} in a {{Light-Driven Molecular Motor}}}
+      \field{title}{Allosteric {{Regulation}} of the {{Rotational Speed}} in a
+      {{Light-Driven Molecular Motor}}}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -119,7 +120,11 @@
       \field{month}{6}
       \field{number}{23}
       \field{shortjournal}{J. Phys. Chem. A}
-      \field{title}{Optimization of the r {\textsuperscript{2}} {{SCAN-3c Composite Electronic-Structure Method}} for {{Use}} with {{Slater-Type Orbital Basis Sets}}}
+      \field{title}{%
+      Optimization of the r {\textsuperscript{2}} {{SCAN-3c Composite
+      Electronic-Structure Method}} for {{Use}} with {{Slater-Type Orbital
+      Basis Sets}}%
+      }
       \field{urlday}{24}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -185,13 +190,35 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{A bodipy based probe 1 has been explored for the identification of diseased cell population out of normal cells on the basis of changes in intracellular viscosity. , The applications of a bodipy based probe 1 for the identification of diseased cell population out of normal cells on the basis of changes in intracellular viscosity have been explored. Probe 1 works on the principle of restriction of rotation in viscous medium and the molecular rotor nature of probe 1 is supported by low temperature 1 H NMR and variable dihedral angle DFT and TD-DFT studies. More importantly, probe 1 is the first probe which shows its practical application in monitoring micro-viscosity changes in a cell based model system of undifferentiated, differentiated and apoptotic C6 glial cells. Further, probe 1 can effectively monitor the apoptosis pathway by showing an increase in fluorescence intensity from cancerous cells to apoptotic cells via real time live-cell video imaging. Moreover, the viscosity changes in living cells were proved by fluorescence lifetime imaging (FLIM) studies, flow cytometry using Annexin-V and Bcl-xl expression by immunocytofluorescence (ICC) and western blot analysis.}
+      \field{abstract}{%
+      A bodipy based probe 1 has been explored for the identification of
+      diseased cell population out of normal cells on the basis of changes in
+      intracellular viscosity. , The applications of a bodipy based probe 1 for
+      the identification of diseased cell population out of normal cells on the
+      basis of changes in intracellular viscosity have been explored. Probe 1
+      works on the principle of restriction of rotation in viscous medium and
+      the molecular rotor nature of probe 1 is supported by low temperature 1 H
+      NMR and variable dihedral angle DFT and TD-DFT studies. More importantly,
+      probe 1 is the first probe which shows its practical application in
+      monitoring micro-viscosity changes in a cell based model system of
+      undifferentiated, differentiated and apoptotic C6 glial cells. Further,
+      probe 1 can effectively monitor the apoptosis pathway by showing an
+      increase in fluorescence intensity from cancerous cells to apoptotic
+      cells via real time live-cell video imaging. Moreover, the viscosity
+      changes in living cells were proved by fluorescence lifetime imaging
+      (FLIM) studies, flow cytometry using Annexin-V and Bcl-xl expression by
+      immunocytofluorescence (ICC) and western blot analysis.%
+      }
       \field{issn}{2050-750X, 2050-7518}
       \field{journaltitle}{Journal of Materials Chemistry B}
       \field{langid}{english}
       \field{number}{11}
       \field{shortjournal}{J. Mater. Chem. B}
-      \field{title}{A Bodipy Based Fluorescent Probe for Evaluating and Identifying Cancer, Normal and Apoptotic {{C6}} Cells on the Basis of Changes in Intracellular Viscosity}
+      \field{title}{%
+      A Bodipy Based Fluorescent Probe for Evaluating and Identifying Cancer,
+      Normal and Apoptotic {{C6}} Cells on the Basis of Changes in
+      Intracellular Viscosity%
+      }
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -244,14 +271,29 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Fluorescent molecular rotors belong to a group of twisted intramolecular charge transfer complexes (TICT) whose photophysical characteristics depend on their environment. In this study, the influence of solvent polarity and viscosity on several representative TICT compounds (three Coumarin derivatives, 4,4-dimethylaminobenzonitrile DMABN, 9-(dicyanovinyl)-julolidine DCVJ), was examined. While solvent polarity caused a bathochromic shift of peak emission in all compounds, this shift was lowest in the case of molecular rotors. Peak intensity was influenced strongly by solvent viscosity in DMABN and the molecular rotors, but polarity and viscosity influences cannot be separated with DMABN. Coumarins, on the other hand, did not show viscosity sensitivity. This study shows the unique suitability of molecular rotors as fluorescent viscosity sensors.}
+      \field{abstract}{%
+      Fluorescent molecular rotors belong to a group of twisted intramolecular
+      charge transfer complexes (TICT) whose photophysical characteristics
+      depend on their environment. In this study, the influence of solvent
+      polarity and viscosity on several representative TICT compounds (three
+      Coumarin derivatives, 4,4-dimethylaminobenzonitrile DMABN,
+      9-(dicyanovinyl)-julolidine DCVJ), was examined. While solvent polarity
+      caused a bathochromic shift of peak emission in all compounds, this shift
+      was lowest in the case of molecular rotors. Peak intensity was influenced
+      strongly by solvent viscosity in DMABN and the molecular rotors, but
+      polarity and viscosity influences cannot be separated with DMABN.
+      Coumarins, on the other hand, did not show viscosity sensitivity. This
+      study shows the unique suitability of molecular rotors as fluorescent
+      viscosity sensors.%
+      }
       \field{issn}{00452068}
       \field{journaltitle}{Bioorganic Chemistry}
       \field{langid}{english}
       \field{month}{12}
       \field{number}{6}
       \field{shortjournal}{Bioorganic Chemistry}
-      \field{title}{Effects of Solvent Polarity and Solvent Viscosity on the Fluorescent Properties of Molecular Rotors and Related Probes}
+      \field{title}{Effects of Solvent Polarity and Solvent Viscosity on the
+      Fluorescent Properties of Molecular Rotors and Related Probes}
       \field{urlday}{15}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -327,7 +369,26 @@
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We report the design, synthesis, and characterization of two new fluorescent molecular rotors of boron derived from Schiff bases: (2,4,8,10-tetra-tert-butyl-6-phenyldibenzo[d,h][1,3,6,2]dioxazaboronine (3) and 1,4-bis(2,4,8,10-tetra-tert-butyldibenzo[d,h][1,3,6,2]dioxazaboronin-6-yl)benzene (4), as well as the free ligand 2[[(3,5-di-tert-butyl-2-hydroxyphenyl)imino]methyl]-4,6-di-tert-butylphenol 1. All compounds were fully characterized by NMR (1H, 11B, and 13C), IR, UV/vis, fluorescence spectroscopy, and high-resolution mass spectrometry. The crystal structures of 3 and 4 showed tetracoordinated boron atoms with semiplanar skeleton ligands. The free rotation of the fluorescent molecular rotor, only observed in the binuclear compound, was decreased with increasing viscosity, while the quantum yield was increased. Interestingly, the property of reversible thermochromism was found in organoboron 4 in the solid state. DFT calculations to determine the both complexes have free rotation around the CPh−B1 bond. The boron compounds 3 and 4 have shown low cytotoxicity activity in cell line A-431 and low green staining in cells.}
+      \field{abstract}{%
+      We report the design, synthesis, and characterization of two new
+      fluorescent molecular rotors of boron derived from Schiff bases:
+      (2,4,8,10-tetra-tert-butyl-6-phenyldibenzo[d,h][1,3,6,2]dioxazaboronine
+      (3) and
+      1,4-bis(2,4,8,10-tetra-tert-butyldibenzo[d,h][1,3,6,2]dioxazaboronin-6-yl
+      )benzene (4), as well as the free ligand
+      2[[(3,5-di-tert-butyl-2-hydroxyphenyl)imino]methyl]-4,6-di-tert-butylphen
+      ol 1. All compounds were fully characterized by NMR (1H, 11B, and 13C),
+      IR, UV/vis, fluorescence spectroscopy, and high-resolution mass
+      spectrometry. The crystal structures of 3 and 4 showed tetracoordinated
+      boron atoms with semiplanar skeleton ligands. The free rotation of the
+      fluorescent molecular rotor, only observed in the binuclear compound, was
+      decreased with increasing viscosity, while the quantum yield was
+      increased. Interestingly, the property of reversible thermochromism was
+      found in organoboron 4 in the solid state. DFT calculations to determine
+      the both complexes have free rotation around the CPh−B1 bond. The boron
+      compounds 3 and 4 have shown low cytotoxicity activity in cell line A-431
+      and low green staining in cells.%
+      }
       \field{day}{3}
       \field{issn}{0022-3263, 1520-6904}
       \field{journaltitle}{The Journal of Organic Chemistry}
@@ -335,8 +396,13 @@
       \field{month}{3}
       \field{number}{5}
       \field{shortjournal}{J. Org. Chem.}
-      \field{shorttitle}{Fluorescent {{Molecular Rotors}} of {{Organoboron Compounds}} from {{Schiff Bases}}}
-      \field{title}{Fluorescent {{Molecular Rotors}} of {{Organoboron Compounds}} from {{Schiff Bases}}: {{Synthesis}}, {{Viscosity}}, {{Reversible Thermochromism}}, {{Cytotoxicity}}, and {{Bioimaging Cells}}}
+      \field{shorttitle}{Fluorescent {{Molecular Rotors}} of {{Organoboron
+      Compounds}} from {{Schiff Bases}}}
+      \field{title}{%
+      Fluorescent {{Molecular Rotors}} of {{Organoboron Compounds}} from
+      {{Schiff Bases}}: {{Synthesis}}, {{Viscosity}}, {{Reversible
+      Thermochromism}}, {{Cytotoxicity}}, and {{Bioimaging Cells}}%
+      }
       \field{urlday}{14}
       \field{urlmonth}{8}
       \field{urlyear}{2023}
@@ -407,14 +473,43 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Fluorescent solvatochromic dyes and molecular rotors have attracted considerable attention as fluorogenic probes because of background-free detection of biomolecules in live cells in no-wash conditions. , Fluorescent solvatochromic dyes and molecular rotors have attracted considerable attention as fluorogenic probes because of background-free detection of biomolecules in live cells in no-wash conditions. Herein, we introduce a push–pull boron-containing (dioxaborine) dye that presents unique spectroscopic behavior combining solvatochromism and molecular rotor properties. Indeed, in organic solvents, it shows strong red shifts in the absorption and fluorescence spectra upon increase in solvent polarity, which is typical for push–pull dyes. On the other hand, in polar solvents, where it probably undergoes twisted intramolecular charge transfer (TICT), the dye displays strong dependence of its quantum yield on solvent viscosity, in accordance with the Förster–Hoffmann equation. In comparison to solvatochromic and molecular rotor dyes, the dioxaborine derivative shows an exceptional extinction coefficient (120\,000 M −1 cm −1 ), high fluorescence quantum yields and a red/far-red operating spectral range. It also displays much higher photostability in apolar media as compared to Nile Red, a fluorogenic dye of similar color. Its reactive carboxyl derivative has been successfully grafted to carbetocin, a ligand of the oxytocin G protein-coupled receptor. This conjugate exhibits a {$>$}1000-fold turn on between apolar 1,4-dioxane and water. It targets specifically the oxytocin receptor at the cell surface, which enables receptor imaging with excellent signal-to-background ratio ({$>$}130). We believe that the presented push–pull dioxaborine dye opens a new page in the development of fluorogenic probes for bioimaging applications.}
+      \field{abstract}{%
+      Fluorescent solvatochromic dyes and molecular rotors have attracted
+      considerable attention as fluorogenic probes because of background-free
+      detection of biomolecules in live cells in no-wash conditions. ,
+      Fluorescent solvatochromic dyes and molecular rotors have attracted
+      considerable attention as fluorogenic probes because of background-free
+      detection of biomolecules in live cells in no-wash conditions. Herein, we
+      introduce a push–pull boron-containing (dioxaborine) dye that presents
+      unique spectroscopic behavior combining solvatochromism and molecular
+      rotor properties. Indeed, in organic solvents, it shows strong red shifts
+      in the absorption and fluorescence spectra upon increase in solvent
+      polarity, which is typical for push–pull dyes. On the other hand, in
+      polar solvents, where it probably undergoes twisted intramolecular charge
+      transfer (TICT), the dye displays strong dependence of its quantum yield
+      on solvent viscosity, in accordance with the Förster–Hoffmann equation.
+      In comparison to solvatochromic and molecular rotor dyes, the dioxaborine
+      derivative shows an exceptional extinction coefficient (120\,000 M −1 cm
+      −1 ), high fluorescence quantum yields and a red/far-red operating
+      spectral range. It also displays much higher photostability in apolar
+      media as compared to Nile Red, a fluorogenic dye of similar color. Its
+      reactive carboxyl derivative has been successfully grafted to carbetocin,
+      a ligand of the oxytocin G protein-coupled receptor. This conjugate
+      exhibits a {$>$}1000-fold turn on between apolar 1,4-dioxane and water.
+      It targets specifically the oxytocin receptor at the cell surface, which
+      enables receptor imaging with excellent signal-to-background ratio
+      ({$>$}130). We believe that the presented push–pull dioxaborine dye opens
+      a new page in the development of fluorogenic probes for bioimaging
+      applications.%
+      }
       \field{issn}{2050-7526, 2050-7534}
       \field{journaltitle}{Journal of Materials Chemistry C}
       \field{langid}{english}
       \field{number}{14}
       \field{shortjournal}{J. Mater. Chem. C}
       \field{shorttitle}{Push–Pull Dioxaborine as Fluorescent Molecular Rotor}
-      \field{title}{Push–Pull Dioxaborine as Fluorescent Molecular Rotor: Far-Red Fluorogenic Probe for Ligand–Receptor Interactions}
+      \field{title}{Push–Pull Dioxaborine as Fluorescent Molecular Rotor:
+      Far-Red Fluorogenic Probe for Ligand–Receptor Interactions}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -527,13 +622,40 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Synthesis, properties and biological imaging of hemicurcuminoid are presented. , Hemicurcuminoids are based on half of the π-conjugated backbone of curcuminoids. The synthesis of a series of such systems and their borondifluoride complexes is described. The electrochemical and photophysical properties of difluorodioxaborine species were investigated as a function of the nature of electron donor and acceptor groups appended at either terminal positions of the molecular backbone. The emissive character of these dipolar dyes was attributed to an intraligand charge transfer process, leading to fluorescence emission that is strongly dependent on solvent polarity. Quasi-quantitative quenching of fluorescence in high polarity solvents was attributed to photoinduced electron transfer. These dyes were shown to behave as versatile fluorophores. Indeed, they display efficient two-photon excited fluorescence emission leading to high two-photon brightness values. Furthermore, they form nanoparticles in water whose fluorescence emission quantum yield is less than that of the dye in solution, owing to aggregation-induced fluorescence quenching. When cos7 living cells were exposed to these weakly-emitting nanoparticles, one- and two-photon excited fluorescence spectra showed a strong emission within the cytoplasm that originated from the individual molecules. Dye uptake thus involved a disaggregation mechanism at the cell membrane which restored fluorescence emission. This off–on fluorescence switching allows a selective optical monitoring of those molecules that do enter the cell, which offers improved sensitivity and selectivity of detection for bioimaging purposes.}
+      \field{abstract}{%
+      Synthesis, properties and biological imaging of hemicurcuminoid are
+      presented. , Hemicurcuminoids are based on half of the π-conjugated
+      backbone of curcuminoids. The synthesis of a series of such systems and
+      their borondifluoride complexes is described. The electrochemical and
+      photophysical properties of difluorodioxaborine species were investigated
+      as a function of the nature of electron donor and acceptor groups
+      appended at either terminal positions of the molecular backbone. The
+      emissive character of these dipolar dyes was attributed to an intraligand
+      charge transfer process, leading to fluorescence emission that is
+      strongly dependent on solvent polarity. Quasi-quantitative quenching of
+      fluorescence in high polarity solvents was attributed to photoinduced
+      electron transfer. These dyes were shown to behave as versatile
+      fluorophores. Indeed, they display efficient two-photon excited
+      fluorescence emission leading to high two-photon brightness values.
+      Furthermore, they form nanoparticles in water whose fluorescence emission
+      quantum yield is less than that of the dye in solution, owing to
+      aggregation-induced fluorescence quenching. When cos7 living cells were
+      exposed to these weakly-emitting nanoparticles, one- and two-photon
+      excited fluorescence spectra showed a strong emission within the
+      cytoplasm that originated from the individual molecules. Dye uptake thus
+      involved a disaggregation mechanism at the cell membrane which restored
+      fluorescence emission. This off–on fluorescence switching allows a
+      selective optical monitoring of those molecules that do enter the cell,
+      which offers improved sensitivity and selectivity of detection for
+      bioimaging purposes.%
+      }
       \field{issn}{1477-0520, 1477-0539}
       \field{journaltitle}{Organic \& Biomolecular Chemistry}
       \field{langid}{english}
       \field{number}{4}
       \field{shortjournal}{Org. Biomol. Chem.}
-      \field{title}{Borondifluoride Complexes of Hemicurcuminoids as Bio-Inspired Push–Pull Dyes for Bioimaging}
+      \field{title}{Borondifluoride Complexes of Hemicurcuminoids as
+      Bio-Inspired Push–Pull Dyes for Bioimaging}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -596,14 +718,24 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The fluorescent lifetimes of the BODIPY–BODIPY dyad appear to correlate with the viscosity of the media, thus making this rotor a suitable small molecule viscometer. , A symmetrical BODIPY–BODIPY dyad with a diyne linker was prepared in two steps; the lifetime decay of this rotor appeared to correlate with the viscosity of the media, thus making this dyad a suitable small molecule viscometer for molecular solvents. The potential of using the rotor to probe the viscosity of ionic liquids was also investigated.}
+      \field{abstract}{%
+      The fluorescent lifetimes of the BODIPY–BODIPY dyad appear to correlate
+      with the viscosity of the media, thus making this rotor a suitable small
+      molecule viscometer. , A symmetrical BODIPY–BODIPY dyad with a diyne
+      linker was prepared in two steps; the lifetime decay of this rotor
+      appeared to correlate with the viscosity of the media, thus making this
+      dyad a suitable small molecule viscometer for molecular solvents. The
+      potential of using the rotor to probe the viscosity of ionic liquids was
+      also investigated.%
+      }
       \field{issn}{2046-2069}
       \field{journaltitle}{RSC Advances}
       \field{langid}{english}
       \field{number}{25}
       \field{shortjournal}{RSC Adv.}
       \field{shorttitle}{{{BODIPY}}–{{BODIPY}} Dyad}
-      \field{title}{{{BODIPY}}–{{BODIPY}} Dyad: Assessing the Potential as a Viscometer for Molecular and Ionic Liquids}
+      \field{title}{{{BODIPY}}–{{BODIPY}} Dyad: Assessing the Potential as a
+      Viscometer for Molecular and Ionic Liquids}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -682,13 +814,23 @@
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Pyrrolic viscosity sensors exhibit one order of magnitude higher fluorescence contrast compared to that of the conventional phenolic analogues due to the viscosity-sensitive rotation of the rotational pyrrole group. , New pyrrolic viscosity sensors exhibit one order of magnitude higher fluorescence contrast compared to that of the conventional phenolic analogues due to the viscosity-sensitive rotation of the asymmetric pyrrole group and successfully demonstrate mapping of intracellular viscosity by fluorescence lifetime imaging microscopy.}
+      \field{abstract}{%
+      Pyrrolic viscosity sensors exhibit one order of magnitude higher
+      fluorescence contrast compared to that of the conventional phenolic
+      analogues due to the viscosity-sensitive rotation of the rotational
+      pyrrole group. , New pyrrolic viscosity sensors exhibit one order of
+      magnitude higher fluorescence contrast compared to that of the
+      conventional phenolic analogues due to the viscosity-sensitive rotation
+      of the asymmetric pyrrole group and successfully demonstrate mapping of
+      intracellular viscosity by fluorescence lifetime imaging microscopy.%
+      }
       \field{issn}{1359-7345, 1364-548X}
       \field{journaltitle}{Chemical Communications}
       \field{langid}{english}
       \field{number}{94}
       \field{shortjournal}{Chem. Commun.}
-      \field{title}{Pyrrolic Molecular Rotors Acting as Viscosity Sensors with High Fluorescence Contrast}
+      \field{title}{Pyrrolic Molecular Rotors Acting as Viscosity Sensors with
+      High Fluorescence Contrast}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -770,7 +912,8 @@
       \field{number}{52}
       \field{shortjournal}{Chemistry A European J}
       \field{shorttitle}{Front {{Cover}}}
-      \field{title}{Front {{Cover}}: {{Fluorescent Molecular Rotors}} for {{Viscosity Sensors}} ({{Chem}}. {{Eur}}. {{J}}. 52/2018)}
+      \field{title}{Front {{Cover}}: {{Fluorescent Molecular Rotors}} for
+      {{Viscosity Sensors}} ({{Chem}}. {{Eur}}. {{J}}. 52/2018)}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -863,7 +1006,11 @@
       \field{month}{5}
       \field{number}{9}
       \field{shortjournal}{Anal. Chem.}
-      \field{title}{{{BODIPY-Based Two-Photon Fluorescent Probe}} for {{Real-Time Monitoring}} of {{Lysosomal Viscosity}} with {{Fluorescence Lifetime Imaging Microscopy}}}
+      \field{title}{%
+      {{BODIPY-Based Two-Photon Fluorescent Probe}} for {{Real-Time
+      Monitoring}} of {{Lysosomal Viscosity}} with {{Fluorescence Lifetime
+      Imaging Microscopy}}%
+      }
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -911,13 +1058,41 @@
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We propose and discuss an efficient scheme for the in silico sampling for parts of the molecular low-energy chemical space by semiempirical tight-binding methods combined with a meta-dynamics driven search algorithm. , We propose and discuss an efficient scheme for the in silico sampling for parts of the molecular chemical space by semiempirical tight-binding methods combined with a meta-dynamics driven search algorithm. The focus of this work is set on the generation of proper thermodynamic ensembles at a quantum chemical level for conformers, but similar procedures for protonation states, tautomerism and non-covalent complex geometries are also discussed. The conformational ensembles consisting of all significantly populated minimum energy structures normally form the basis of further, mostly DFT computational work, such as the calculation of spectra or macroscopic properties. By using basic quantum chemical methods, electronic effects or possible bond breaking/formation are accounted for and a very reasonable initial energetic ranking of the candidate structures is obtained. Due to the huge computational speedup gained by the fast low-cost quantum chemical methods, overall short computation times even for systems with hundreds of atoms (typically drug-sized molecules) are achieved. Furthermore, specialized applications, such as sampling with implicit solvation models or constrained conformational sampling for transition-states, metal-, surface-, or noncovalently bound complexes are discussed, opening many possible applications in modern computational chemistry and drug discovery. The procedures have been implemented in a freely available computer code called CREST, that makes use of the fast and reliable GFN n -xTB methods.}
+      \field{abstract}{%
+      We propose and discuss an efficient scheme for the in silico sampling for
+      parts of the molecular low-energy chemical space by semiempirical
+      tight-binding methods combined with a meta-dynamics driven search
+      algorithm. , We propose and discuss an efficient scheme for the in silico
+      sampling for parts of the molecular chemical space by semiempirical
+      tight-binding methods combined with a meta-dynamics driven search
+      algorithm. The focus of this work is set on the generation of proper
+      thermodynamic ensembles at a quantum chemical level for conformers, but
+      similar procedures for protonation states, tautomerism and non-covalent
+      complex geometries are also discussed. The conformational ensembles
+      consisting of all significantly populated minimum energy structures
+      normally form the basis of further, mostly DFT computational work, such
+      as the calculation of spectra or macroscopic properties. By using basic
+      quantum chemical methods, electronic effects or possible bond
+      breaking/formation are accounted for and a very reasonable initial
+      energetic ranking of the candidate structures is obtained. Due to the
+      huge computational speedup gained by the fast low-cost quantum chemical
+      methods, overall short computation times even for systems with hundreds
+      of atoms (typically drug-sized molecules) are achieved. Furthermore,
+      specialized applications, such as sampling with implicit solvation models
+      or constrained conformational sampling for transition-states, metal-,
+      surface-, or noncovalently bound complexes are discussed, opening many
+      possible applications in modern computational chemistry and drug
+      discovery. The procedures have been implemented in a freely available
+      computer code called CREST, that makes use of the fast and reliable GFN n
+      -xTB methods.%
+      }
       \field{issn}{1463-9076, 1463-9084}
       \field{journaltitle}{Physical Chemistry Chemical Physics}
       \field{langid}{english}
       \field{number}{14}
       \field{shortjournal}{Phys. Chem. Chem. Phys.}
-      \field{title}{Automated Exploration of the Low-Energy Chemical Space with Fast Quantum Chemical Methods}
+      \field{title}{Automated Exploration of the Low-Energy Chemical Space with
+      Fast Quantum Chemical Methods}
       \field{urlday}{24}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -1005,13 +1180,21 @@
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Photophysical behaviour of a novel trimeric BODIPY rotor with a high extinction coefficient is reported. , Photophysical behaviour of a novel trimeric BODIPY rotor with a high extinction coefficient is reported. Steady state and time resolved fluorescence measurements established that the trimer could be used as a viscometer for molecular solvents, membrane-like environments and several cancer cell lines.}
+      \field{abstract}{%
+      Photophysical behaviour of a novel trimeric BODIPY rotor with a high
+      extinction coefficient is reported. , Photophysical behaviour of a novel
+      trimeric BODIPY rotor with a high extinction coefficient is reported.
+      Steady state and time resolved fluorescence measurements established that
+      the trimer could be used as a viscometer for molecular solvents,
+      membrane-like environments and several cancer cell lines.%
+      }
       \field{issn}{1463-9076, 1463-9084}
       \field{journaltitle}{Physical Chemistry Chemical Physics}
       \field{langid}{english}
       \field{number}{6}
       \field{shortjournal}{Phys. Chem. Chem. Phys.}
-      \field{title}{A Triazine-Based {{BODIPY}} Trimer as a Molecular Viscometer}
+      \field{title}{A Triazine-Based {{BODIPY}} Trimer as a Molecular
+      Viscometer}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -1074,7 +1257,24 @@
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract Despite having significant applications in building nanomachines, molecular rotors with the rotational speed modulations to multiple stages in a wide range of frequency have not yet been well established. Here, we report the discovery of a stimuli-responsive molecular rotor, the rotational speed of which in the slow-to-fast range could be modulated to at least four stages triggered by acid/base and metal cations. The rotor itself rotates rapidly at ambient or elevated temperature but displays a restricted rotation after deprotonation due to the produced intramolecular electrostatic repulsion. Subsequent addition of Li + or Na + cations introduces an electrostatic bridge to stabilize the transition state of the deprotonated rotor, thus giving a cation-radius-dependent acceleration of the rotation to render the rotor running at a mid-speed. All the stimuli are highly reversible. Our studies provide a conceptual approach for constructing multistage rotational-speed-changing molecular~rotors, and further, the practical nanomachines.}
+      \field{abstract}{%
+      Abstract Despite having significant applications in building
+      nanomachines, molecular rotors with the rotational speed modulations to
+      multiple stages in a wide range of frequency have not yet been well
+      established. Here, we report the discovery of a stimuli-responsive
+      molecular rotor, the rotational speed of which in the slow-to-fast range
+      could be modulated to at least four stages triggered by acid/base and
+      metal cations. The rotor itself rotates rapidly at ambient or elevated
+      temperature but displays a restricted rotation after deprotonation due to
+      the produced intramolecular electrostatic repulsion. Subsequent addition
+      of Li + or Na + cations introduces an electrostatic bridge to stabilize
+      the transition state of the deprotonated rotor, thus giving a
+      cation-radius-dependent acceleration of the rotation to render the rotor
+      running at a mid-speed. All the stimuli are highly reversible. Our
+      studies provide a conceptual approach for constructing multistage
+      rotational-speed-changing molecular~rotors, and further, the practical
+      nanomachines.%
+      }
       \field{day}{16}
       \field{issn}{2041-1723}
       \field{journaltitle}{Nature Communications}
@@ -1082,7 +1282,8 @@
       \field{month}{5}
       \field{number}{1}
       \field{shortjournal}{Nat Commun}
-      \field{title}{A Multistage Rotational Speed Changing Molecular Rotor Regulated by {{pH}} and Metal Cations}
+      \field{title}{A Multistage Rotational Speed Changing Molecular Rotor
+      Regulated by {{pH}} and Metal Cations}
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
@@ -1148,13 +1349,43 @@
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{A mechanoresponsive, viscochromic, and unsymmetrical azine NDEA probes Al 3+ and Cu 2+ ions and also co-localizes in the mitochondria of C6 glioma cell lines. , A hydrazone obtained by the reaction of 2-hydroxynaphthaldehyde with hydrazine hydrate was allowed to react further with 4-diethylamino-2-hdroxybenzaldehyde to provide an unsymmetrical azine derivative ( NDEA ). The azine has been characterized using spectroscopic techniques and single crystal X-ray crystallography. It selectively detects Al 3+ and Cu 2+ ions in aqueous methanol (DMSO\,:\,H 2 O\,:\,MeOH = 0.1\,:\,1.9\,:\,8.0, v/v, HEPES buffer, pH 7.4) and exhibits naked eye visible color changes from greenish yellow to bright yellow and brown on the addition of Al 3+ and Cu 2+ ions, respectively, with concomitant changes in their absorption spectra. The corresponding solutions containing Al 3+ and Cu 2+ ions also display changes in their emission spectra via “TURN ON” and “TURN OFF” pathways with a detection limit of 1.65 × 10 −7 M and 1.52 × 10 −7 M, respectively. NDEA works as a reversible probe towards Al 3+ ions and Cu 2+ ions by the addition of F − ions and EDTA 2− ions, respectively. The complexes of NDEA , separately with Al 3+ and Cu 2+ ions, have been optimized by DFT (density functional theory). It also exhibits viscochromic and mechanochromic properties. Most importantly, NDEA significantly detects these ions in rat C6 glioma cell lines and displays good cell permeability. It also co-localizes with the commercially available Mitotracker Red and exhibits a unique application as a live cell mitochondrial tracker. Practically, NDEA detects Al 3+ and Cu 2+ ions in real water samples and blood serum with a high accuracy.}
+      \field{abstract}{%
+      A mechanoresponsive, viscochromic, and unsymmetrical azine NDEA probes Al
+      3+ and Cu 2+ ions and also co-localizes in the mitochondria of C6 glioma
+      cell lines. , A hydrazone obtained by the reaction of
+      2-hydroxynaphthaldehyde with hydrazine hydrate was allowed to react
+      further with 4-diethylamino-2-hdroxybenzaldehyde to provide an
+      unsymmetrical azine derivative ( NDEA ). The azine has been characterized
+      using spectroscopic techniques and single crystal X-ray crystallography.
+      It selectively detects Al 3+ and Cu 2+ ions in aqueous methanol
+      (DMSO\,:\,H 2 O\,:\,MeOH = 0.1\,:\,1.9\,:\,8.0, v/v, HEPES buffer, pH
+      7.4) and exhibits naked eye visible color changes from greenish yellow to
+      bright yellow and brown on the addition of Al 3+ and Cu 2+ ions,
+      respectively, with concomitant changes in their absorption spectra. The
+      corresponding solutions containing Al 3+ and Cu 2+ ions also display
+      changes in their emission spectra via “TURN ON” and “TURN OFF” pathways
+      with a detection limit of 1.65 × 10 −7 M and 1.52 × 10 −7 M,
+      respectively. NDEA works as a reversible probe towards Al 3+ ions and Cu
+      2+ ions by the addition of F − ions and EDTA 2− ions, respectively. The
+      complexes of NDEA , separately with Al 3+ and Cu 2+ ions, have been
+      optimized by DFT (density functional theory). It also exhibits
+      viscochromic and mechanochromic properties. Most importantly, NDEA
+      significantly detects these ions in rat C6 glioma cell lines and displays
+      good cell permeability. It also co-localizes with the commercially
+      available Mitotracker Red and exhibits a unique application as a live
+      cell mitochondrial tracker. Practically, NDEA detects Al 3+ and Cu 2+
+      ions in real water samples and blood serum with a high accuracy.%
+      }
       \field{issn}{1144-0546, 1369-9261}
       \field{journaltitle}{New Journal of Chemistry}
       \field{langid}{english}
       \field{number}{18}
       \field{shortjournal}{New J. Chem.}
-      \field{title}{A Viscochromic, Mechanochromic, and Unsymmetrical Azine for Selective Detection of {{Al}} {\textsuperscript{3+}} and {{Cu}} {\textsuperscript{2+}} Ions and Its Mitotracking Studies}
+      \field{title}{%
+      A Viscochromic, Mechanochromic, and Unsymmetrical Azine for Selective
+      Detection of {{Al}} {\textsuperscript{3+}} and {{Cu}}
+      {\textsuperscript{2+}} Ions and Its Mitotracking Studies%
+      }
       \field{urlday}{17}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
