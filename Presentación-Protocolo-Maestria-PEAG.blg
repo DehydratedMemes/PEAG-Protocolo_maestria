@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'PresentaciÃ³n-Protocolo-Maestria-PEAG.blg'
+[251] biber-darwin:340> INFO - === Tue Nov 14, 2023, 18:49:19
+[593] Biber.pm:419> INFO - Reading './Presentación-Protocolo-Maestria-PEAG.bcf'
+[854] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
+[916] Biber.pm:4419> INFO - Processing section 0
+[942] Biber.pm:4610> INFO - Looking for bibtex file 'http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex' for section 0
+[943] Utils.pm:168> INFO - Data source 'http://127.0.0.1:23119/better-bibtex/export/library?/1/library.biblatex' is a remote BibTeX data source - fetching ...
+[1973] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3724] bibtex.pm:1519> INFO - Found BibTeX data source '/var/folders/s0/5pzy6kd57w59s972wb6632780000gn/T/biber_tmp_UEzL/biber_remote_data_source_uvOTc.bib'
+[4387] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4388] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4389] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[4497] bbl.pm:660> INFO - Writing 'PresentaciÃ³n-Protocolo-Maestria-PEAG.bbl' with encoding 'UTF-8'
+[4551] bbl.pm:763> INFO - Output to PresentaciÃ³n-Protocolo-Maestria-PEAG.bbl

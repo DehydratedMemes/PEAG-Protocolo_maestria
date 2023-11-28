@@ -1,5 +1,9 @@
 % makeindex style file created by the glossaries package
+<<<<<<< HEAD:PEAG-Protocolo_maestria.ist
 % for document 'PEAG-Protocolo_maestria' on 2023-11-28
+=======
+% for document 'Presentación-Protocolo-Maestria-PEAG' on 2023-11-14
+>>>>>>> 42582110b465be1a96108a6027bf2f13d9f027bc:Presentación-Protocolo-Maestria-PEAG.ist
 actual '?'
 encap '|'
 level '!'

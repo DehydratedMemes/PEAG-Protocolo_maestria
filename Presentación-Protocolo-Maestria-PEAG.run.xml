@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>PEAG-Protocolo_maestria.bcf</file>
+      <file>Presentación-Protocolo-Maestria-PEAG.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>PEAG-Protocolo_maestria.bbl</file>
+      <file>Presentación-Protocolo-Maestria-PEAG.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -56,10 +56,7 @@
       <file>biblatex.def</file>
       <file>standard.bbx</file>
       <file>numeric.bbx</file>
-      <file>numeric-comp.bbx</file>
-      <file>science.bbx</file>
-      <file>numeric-comp.cbx</file>
-      <file>science.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>spanish.lbx</file>
     </requires>
@@ -68,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>PEAG-Protocolo_maestria</infile>
+      <infile>Presentación-Protocolo-Maestria-PEAG</infile>
     </cmdline>
     <input>
-      <file>PEAG-Protocolo_maestria.bcf</file>
+      <file>Presentación-Protocolo-Maestria-PEAG.bcf</file>
     </input>
     <output>
-      <file>PEAG-Protocolo_maestria.bbl</file>
+      <file>Presentación-Protocolo-Maestria-PEAG.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>PEAG-Protocolo_maestria.bbl</file>
+      <file>Presentación-Protocolo-Maestria-PEAG.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>PEAG-Protocolo_maestria.bcf</file>
+      <file>Presentación-Protocolo-Maestria-PEAG.bcf</file>
     </requires>
     <requires type="editable">
       <file>Bib-2023-11.bib</file>

@@ -96,15 +96,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>5</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>5</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -172,7 +172,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>none</bcf:value>
+      <bcf:value>nty</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -204,7 +204,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useprefix</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useafterword</bcf:key>
@@ -331,15 +331,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>5</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>5</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -419,7 +419,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useprefix</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useafterword</bcf:key>
@@ -642,8 +642,6 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
-    <bcf:option datatype="boolean">articletitle</bcf:option>
-    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -726,7 +724,6 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
-    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -815,7 +812,6 @@
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
     <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">subentrycomp</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -2365,97 +2361,89 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Bib-2023-11.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">wuMultistageRotationalSpeed2018</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">faulknerAllostericRegulationRotational2016</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">yadavViscochromicMechanochromicUnsymmetrical2019</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">haidekkerEffectsSolventPolarity2005</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">leePyrrolicMolecularRotors2016</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">kimballBODIPYBODIPYDyad2015</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">rautTriazinebasedBODIPYTrimer2016</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">leeFrontCoverFluorescent2018</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">guptaBodipyBasedFluorescent2016</bcf:citekey>
-    <bcf:citekey order="12" intorder="3">liBODIPYBasedTwoPhotonFluorescent2018</bcf:citekey>
-    <bcf:citekey order="12" intorder="4">kimBorondifluorideComplexesHemicurcuminoids2016</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">ibarra-rodriguezFluorescentMolecularRotors2017</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">canton-diazOnepotMicrowaveassistedSynthesis2018</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">corona-lopezSynthesisCharacterizationPhotophysical2017</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">ibarra-rodriguezOrganoboronSchiffBases2019</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">corona-lopezFarRedInfrared2021</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">garcia-lopezNewLuminescentOrganoboron2022</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">lopez-espejelOrganotinSchiffBases2021</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">wuMultistageRotationalSpeed2018</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">faulknerAllostericRegulationRotational2016</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">yadavViscochromicMechanochromicUnsymmetrical2019</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">wuMultistageRotationalSpeed2018</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">faulknerAllostericRegulationRotational2016</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">yadavViscochromicMechanochromicUnsymmetrical2019</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">wuMultistageRotationalSpeed2018</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">faulknerAllostericRegulationRotational2016</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">yadavViscochromicMechanochromicUnsymmetrical2019</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">wuMultistageRotationalSpeed2018</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">faulknerAllostericRegulationRotational2016</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">yadavViscochromicMechanochromicUnsymmetrical2019</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">haidekkerEffectsSolventPolarity2005</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">haidekkerEffectsSolventPolarity2005</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">leePyrrolicMolecularRotors2016</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">kimballBODIPYBODIPYDyad2015</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">rautTriazinebasedBODIPYTrimer2016</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">leePyrrolicMolecularRotors2016</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">kimballBODIPYBODIPYDyad2015</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">rautTriazinebasedBODIPYTrimer2016</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">leeFrontCoverFluorescent2018</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">leeFrontCoverFluorescent2018</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">karpenkoPushPullDioxaborine2016</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">guptaBodipyBasedFluorescent2016</bcf:citekey>
+    <bcf:citekey order="27" intorder="3">liBODIPYBasedTwoPhotonFluorescent2018</bcf:citekey>
+    <bcf:citekey order="27" intorder="4">kimBorondifluorideComplexesHemicurcuminoids2016</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">ibarra-rodriguezFluorescentMolecularRotors2017</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">ibarra-rodriguezFluorescentMolecularRotors2017</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">prachtAutomatedExplorationLowenergy2020</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">gasevicOptimizationSCAN3cComposite2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="none">
+  <bcf:sortingtemplate name="nty">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="2">
-      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="none/global//global/global"
+                name="nty/global//global/global"
                 type="entry"
-                sortingtemplatename="none"
+                sortingtemplatename="nty"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

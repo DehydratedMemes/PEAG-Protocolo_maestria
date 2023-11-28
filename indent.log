@@ -1,10 +1,18 @@
 INFO:  latexindent version 3.23.3, 2023-10-13, a script to indent .tex files
        latexindent lives here: /usr/local/texlive/2023/texmf-dist/scripts/latexindent/
+<<<<<<< HEAD
        Mon Nov 27 17:34:41 2023
        Filename: /Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Documents/Maestria/Tesis/PEAG-Protocolo_maestria/PEAG-Protocolo_maestria.tex
 INFO:  Processing switches:
 INFO:  Directory for backup files and indent.log:
        /Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Documents/Maestria/Tesis/PEAG-Protocolo_maestria
+=======
+       Sun Oct 29 22:45:16 2023
+       Filename: /Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Documents/Maestria/Tesis/Presentación PEAG-Protocolo_maestria/Presentación-Protocolo-Maestria-PEAG.tex
+INFO:  Processing switches:
+INFO:  Directory for backup files and indent.log:
+       /Users/pabloalanis/Library/Mobile Documents/com~apple~CloudDocs/Documents/Maestria/Tesis/Presentación PEAG-Protocolo_maestria
+>>>>>>> 42582110b465be1a96108a6027bf2f13d9f027bc
 INFO:  YAML settings read: defaultSettings.yaml
        Reading defaultSettings.yaml from /usr/local/texlive/2023/texmf-dist/scripts/latexindent/defaultSettings.yaml
 INFO:  YAML reading settings
