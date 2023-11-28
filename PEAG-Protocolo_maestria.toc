@@ -1,26 +1,27 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción}{1}{}%
-\contentsline {section}{\numberline {2}Antecedentes}{3}{}%
+\contentsline {section}{\numberline {2}Antecedentes}{4}{}%
 \contentsline {subsection}{\numberline {2.1}Análisis crítico de los antecedentes}{4}{}%
-\contentsline {section}{\numberline {3}Aportación científica}{5}{}%
-\contentsline {section}{\numberline {4}Hipótesis}{5}{}%
-\contentsline {section}{\numberline {5}Objetivos y metas}{5}{}%
-\contentsline {subsection}{\numberline {5.1}Objetivo general}{5}{}%
-\contentsline {subsection}{\numberline {5.2}Objetivos específicos}{5}{}%
-\contentsline {section}{\numberline {6}Metodología}{6}{}%
-\contentsline {subsection}{\numberline {6.1}Materiales}{6}{}%
-\contentsline {subsection}{\numberline {6.2}Experimental}{6}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}Síntesis}{6}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}Determinación de propiedades ópticas}{7}{}%
-\contentsline {subsubsection}{\numberline {6.2.3}Determinación de citotoxicidad}{7}{}%
-\contentsline {subsubsection}{\numberline {6.2.4}Modelado molecular}{7}{}%
-\contentsline {paragraph}{\numberline {6.2.4.1}Preoptimización}{7}{}%
-\contentsline {paragraph}{\numberline {6.2.4.2}Optimización geométrica}{7}{}%
-\contentsline {paragraph}{\numberline {6.2.4.3}Obtención de espectro de emisión}{8}{}%
-\contentsline {subsection}{\numberline {6.3}Disposición de resiudos}{8}{}%
-\contentsline {subsection}{\numberline {6.4}Costos}{8}{}%
-\contentsline {subsubsection}{\numberline {6.4.1}Materiales}{8}{}%
-\contentsline {subsubsection}{\numberline {6.4.2}Reactivos}{9}{}%
-\contentsline {subsubsection}{\numberline {6.4.3}Métodos de caracterización}{10}{}%
-\contentsline {section}{\numberline {7}Planificación}{10}{}%
+\contentsline {section}{\numberline {3}Aportación científica}{6}{}%
+\contentsline {section}{\numberline {4}Hipótesis}{7}{}%
+\contentsline {section}{\numberline {5}Objetivos y metas}{7}{}%
+\contentsline {subsection}{\numberline {5.1}Objetivo general}{7}{}%
+\contentsline {subsection}{\numberline {5.2}Objetivos específicos}{7}{}%
+\contentsline {section}{\numberline {6}Metodología}{8}{}%
+\contentsline {subsection}{\numberline {6.1}Materiales}{8}{}%
+\contentsline {subsection}{\numberline {6.2}Experimental}{8}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Síntesis}{8}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Determinación de propiedades ópticas}{9}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}Determinación de citotoxicidad}{9}{}%
+\contentsline {subsection}{\numberline {6.3}Ensayo de tinción celular}{9}{}%
+\contentsline {subsubsection}{\numberline {6.3.1}Modelado molecular}{9}{}%
+\contentsline {paragraph}{\numberline {6.3.1.1}Preoptimización}{9}{}%
+\contentsline {paragraph}{\numberline {6.3.1.2}Optimización geométrica}{10}{}%
+\contentsline {paragraph}{\numberline {6.3.1.3}Obtención de espectro de emisión}{10}{}%
+\contentsline {subsection}{\numberline {6.4}Disposición de residuos}{10}{}%
+\contentsline {subsection}{\numberline {6.5}Costos}{10}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}Materiales}{11}{}%
+\contentsline {subsubsection}{\numberline {6.5.2}Reactivos}{11}{}%
+\contentsline {subsubsection}{\numberline {6.5.3}Métodos de caracterización}{12}{}%
+\contentsline {section}{\numberline {7}Planificación}{13}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

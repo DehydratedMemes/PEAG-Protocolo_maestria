@@ -106,4 +106,79 @@
     <change idref="t1" attribute="title" type="string" from="Tarea 1" to="Hacer investigación preliminar"/>
     <change idref="t1" attribute="effort" type="real" from="28800" to="288000"/>
   </change-set>
+  <change-set user="Pablo Alanis González" date="2023-11-28T09:23:36.689Z" order="3">
+    <change idref="m1" attribute="fixedDate" type="date" from="2023-09-01T14:00:00.000Z" to="2023-11-28T14:00:00.000Z"/>
+  </change-set>
+  <change-set user="Pablo Alanis González" date="2023-11-28T09:23:36.689Z" order="4">
+    <change idref="t26" to="t-1" to-position="8" resurrection="yes">
+      <change idref="t26" attribute="noEarlierThanConstrainedTaskEnd" type="real" to="1"/>
+      <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" to="2024-02-24T14:00:00.000Z"/>
+      <change idref="t26" attribute="title" type="string" to="Presentación de protocolo de investigación"/>
+    </change>
+    <change idref="t27" to="t-1" to-position="9" resurrection="yes">
+      <change idref="t27" attribute="noEarlierThanConstrainedTaskEnd" type="real" to="1"/>
+      <change idref="t27" attribute="noEarlierThanConstraintDate" type="date" to="2024-02-25T14:00:00.000Z"/>
+      <change idref="t27" attribute="title" type="string" to="Tarea 1"/>
+    </change>
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" from="2023-09-15T14:00:00.000Z" to="2023-12-12T14:00:00.000Z"/>
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" from="2023-09-14T14:00:00.000Z" to="2023-12-11T14:00:00.000Z"/>
+    <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" from="2023-09-26T14:00:00.000Z" to="2023-12-23T14:00:00.000Z"/>
+    <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" from="2023-09-28T14:00:00.000Z" to="2023-12-25T14:00:00.000Z"/>
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" from="2023-10-12T14:00:00.000Z" to="2024-01-08T14:00:00.000Z"/>
+    <change idref="t14" attribute="internalPrerequisitesString" type="string" from="13FS" to=""/>
+    <change idref="t14" attribute="title" type="string" from="Sintesis de compuestos" to="Síntesis de compuestos"/>
+    <change idref="t14" attribute="manualDate" type="date" from="2023-10-16T14:00:00.000Z" to="2024-03-03T14:00:00.000Z"/>
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" from="2023-10-16T14:00:00.000Z" to="2024-01-12T14:00:00.000Z"/>
+    <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" from="2023-11-06T14:00:00.000Z" to="2024-02-02T14:00:00.000Z"/>
+    <change idref="t19" attribute="title" type="string" from="Hacer busqueda bibliografica adicional" to="Hacer búsqueda bibliográfica adicional"/>
+    <change idref="t23" attribute="title" type="string" from="Correción de pruebas" to="Corrección de pruebas"/>
+  </change-set>
+  <change-set user="Pablo Alanis González" date="2023-11-28T09:24:57.952Z" order="5">
+    <change idref="m1" attribute="hasFixedEndDate" type="real" from="0" to="1"/>
+    <change idref="m1" attribute="fixedDate" type="date" from="2023-11-28T14:00:00.000Z" to="2024-09-26T23:00:00.000Z"/>
+  </change-set>
+  <change-set user="Pablo Alanis González" date="2023-11-28T09:24:57.954Z" order="6">
+    <change idref="t1" attribute="manualDate" type="date" to="2024-01-02T14:00:00.000Z"/>
+    <change idref="t3" attribute="manualDate" type="date" to="2024-01-17T14:00:00.000Z"/>
+    <change idref="t4" attribute="manualDate" type="date" to="2024-01-16T14:00:00.000Z"/>
+    <change idref="t6" attribute="manualDate" type="date" to="2024-01-26T14:00:00.000Z"/>
+    <change idref="t8" attribute="manualDate" type="date" to="2024-01-30T14:00:00.000Z"/>
+    <change idref="t9" attribute="manualDate" type="date" to="2024-02-07T14:00:00.000Z"/>
+    <change idref="t11" attribute="manualDate" type="date" to="2024-02-09T14:00:00.000Z"/>
+    <change idref="t13" attribute="manualDate" type="date" to="2024-02-13T14:00:00.000Z"/>
+    <change idref="t14" attribute="manualDate" type="date" from="2024-03-03T14:00:00.000Z" to="2024-01-18T14:00:00.000Z"/>
+    <change idref="t15" attribute="manualDate" type="date" to="2024-02-22T14:00:00.000Z"/>
+    <change idref="t16" attribute="manualDate" type="date" to="2024-03-14T14:00:00.000Z"/>
+    <change idref="t17" attribute="manualDate" type="date" to="2024-04-04T14:00:00.000Z"/>
+    <change idref="t19" attribute="manualDate" type="date" to="2024-05-03T14:00:00.000Z"/>
+    <change idref="t20" attribute="manualDate" type="date" to="2024-05-24T14:00:00.000Z"/>
+    <change idref="t21" attribute="manualDate" type="date" to="2024-06-21T14:00:00.000Z"/>
+    <change idref="t22" attribute="manualDate" type="date" to="2024-07-05T14:00:00.000Z"/>
+    <change idref="t23" attribute="manualDate" type="date" to="2024-07-26T14:00:00.000Z"/>
+    <change idref="t24" attribute="manualDate" type="date" to="2024-08-02T14:00:00.000Z"/>
+    <change idref="t26" attribute="manualDate" type="date" to="2024-02-14T14:00:00.000Z"/>
+    <change idref="t27" attribute="manualDate" type="date" to="2024-02-14T14:00:00.000Z"/>
+  </change-set>
+  <change-set user="Pablo Alanis González" date="2023-11-28T09:26:29.235Z" order="7">
+    <change idref="m1" attribute="baselineInfo" type="dict">
+      <from>
+        <key>info</key>
+        <array/>
+      </from>
+      <to>
+        <key>info</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>Línea base 28/11/23</string>
+            <key>uuid</key>
+            <string>j0T9PPXfNx2</string>
+          </dict>
+        </array>
+      </to>
+    </change>
+  </change-set>
+  <change-set user="Pablo Alanis González" date="2023-11-28T09:26:29.235Z" order="8">
+    <change idref="t1" attribute="manualDate" type="date" from="2024-01-02T14:00:00.000Z" to="2023-09-04T14:00:00.000Z"/>
+  </change-set>
 </changelog>

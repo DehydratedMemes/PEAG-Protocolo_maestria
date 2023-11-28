@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>PEAG-Protocolo_maestria.bcf</file>
@@ -81,6 +81,9 @@
     </provides>
     <requires type="dynamic">
       <file>PEAG-Protocolo_maestria.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>Bib-2023-11.bib</file>
     </requires>
   </external>
 </requests>

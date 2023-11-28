@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="iUF53FfaR8y">
-  <start-date>2023-09-01T14:00:00.000Z</start-date>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" fixed-end="true" id="iUF53FfaR8y">
+  <end-date>2024-09-26T23:00:00.000Z</end-date>
   <granularity>days</granularity>
   <prototype-task>
     <task id="t-2">
@@ -28,15 +28,6 @@
   </prototype-task>
   <prototype-resource>
     <resource id="r-2"/>
-  </prototype-resource>
-  <prototype-resource>
-    <resource id="r-3"/>
-  </prototype-resource>
-  <prototype-resource>
-    <resource id="r-4"/>
-  </prototype-resource>
-  <prototype-resource>
-    <resource id="r-5"/>
   </prototype-resource>
   <top-resource idref="r-1"/>
   <resource id="r-1">
@@ -151,6 +142,8 @@
     <child-task idref="t9"/>
     <child-task idref="t11"/>
     <child-task idref="t13"/>
+    <child-task idref="t26"/>
+    <child-task idref="t27"/>
     <child-task idref="t14"/>
     <child-task idref="t15"/>
     <child-task idref="t16"/>
@@ -164,136 +157,188 @@
   </task>
   <task id="t1">
     <title>Hacer investigación preliminar</title>
+    <schedule-type>asap</schedule-type>
     <effort>288000</effort>
+    <locked-start-date>2023-09-04T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
   </task>
   <task id="t3">
     <title>Buscar y leer bibliografía</title>
+    <schedule-type>asap</schedule-type>
     <effort>201600</effort>
+    <locked-start-date>2024-01-17T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t4"/>
-    <start-no-earlier-than>2023-09-15T14:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2023-12-12T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t4">
     <title>Pregunta de investigación</title>
+    <schedule-type>asap</schedule-type>
     <effort>28800</effort>
+    <locked-start-date>2024-01-16T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t1"/>
-    <start-no-earlier-than>2023-09-14T14:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2023-12-11T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t6">
     <title>Llegar a tesis tentativa y outline</title>
+    <schedule-type>asap</schedule-type>
     <effort>57600</effort>
+    <locked-start-date>2024-01-26T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t3"/>
-    <start-no-earlier-than>2023-09-26T14:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2023-12-23T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t8">
     <title>Preparar manuscrito del protocolo</title>
+    <schedule-type>asap</schedule-type>
     <effort>172800</effort>
+    <locked-start-date>2024-01-30T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t6"/>
-    <start-no-earlier-than>2023-09-28T14:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2023-12-25T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t9">
     <title>Corrección del protocolo</title>
+    <schedule-type>asap</schedule-type>
     <effort>57600</effort>
+    <locked-start-date>2024-02-07T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t8"/>
   </task>
   <task id="t11">
     <title>Revisión del protocolo</title>
+    <schedule-type>asap</schedule-type>
     <effort>57600</effort>
+    <locked-start-date>2024-02-09T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t9"/>
   </task>
   <task id="t13">
     <title>Entrega del protocolo</title>
+    <schedule-type>asap</schedule-type>
     <effort>28800</effort>
+    <locked-start-date>2024-02-13T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t11"/>
-    <start-no-earlier-than>2023-10-12T14:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2024-01-08T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t14">
-    <title>Sintesis de compuestos</title>
+    <title>Síntesis de compuestos</title>
+    <schedule-type>asap</schedule-type>
     <effort>720000</effort>
-    <locked-start-date>2023-10-16T14:00:00.000Z</locked-start-date>
+    <locked-start-date>2024-01-18T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
-    <prerequisite-task idref="t13"/>
-    <start-no-earlier-than>2023-10-16T14:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2024-01-12T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t15">
     <title>Caracterización</title>
+    <schedule-type>asap</schedule-type>
     <effort>432000</effort>
+    <locked-start-date>2024-02-22T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t14"/>
-    <start-no-earlier-than>2023-11-06T14:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2024-02-02T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t16">
     <title>Estudio en DFT</title>
+    <schedule-type>asap</schedule-type>
     <effort>432000</effort>
+    <locked-start-date>2024-03-14T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t15"/>
   </task>
   <task id="t17">
     <title>Comparación con resultados experimentales</title>
+    <schedule-type>asap</schedule-type>
     <effort>604800</effort>
+    <locked-start-date>2024-04-04T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t16"/>
   </task>
   <task id="t19">
-    <title>Hacer busqueda bibliografica adicional</title>
+    <title>Hacer búsqueda bibliográfica adicional</title>
+    <schedule-type>asap</schedule-type>
     <effort>432000</effort>
+    <locked-start-date>2024-05-03T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t17"/>
   </task>
   <task id="t20">
     <title>Preparación del manuscrito</title>
+    <schedule-type>asap</schedule-type>
     <effort>576000</effort>
+    <locked-start-date>2024-05-24T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t19"/>
   </task>
   <task id="t21">
     <title>Revisión del manuscrito</title>
+    <schedule-type>asap</schedule-type>
     <effort>288000</effort>
+    <locked-start-date>2024-06-21T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t20"/>
   </task>
   <task id="t22">
     <title>Preparación de manuscrito final</title>
+    <schedule-type>asap</schedule-type>
     <effort>432000</effort>
+    <locked-start-date>2024-07-05T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t21"/>
   </task>
   <task id="t23">
-    <title>Correción de pruebas</title>
+    <title>Corrección de pruebas</title>
+    <schedule-type>asap</schedule-type>
     <effort>144000</effort>
+    <locked-start-date>2024-07-26T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t22"/>
   </task>
   <task id="t24">
     <title>Entregar manuscrito final</title>
+    <schedule-type>asap</schedule-type>
     <effort>230400</effort>
+    <locked-start-date>2024-08-02T14:00:00.000Z</locked-start-date>
     <recalculate>duration</recalculate>
     <static-cost>0</static-cost>
     <prerequisite-task idref="t23"/>
+  </task>
+  <task id="t26">
+    <title>Presentación de protocolo de investigación</title>
+    <schedule-type>asap</schedule-type>
+    <effort>28800</effort>
+    <locked-start-date>2024-02-14T14:00:00.000Z</locked-start-date>
+    <recalculate>duration</recalculate>
+    <static-cost>0</static-cost>
+    <start-no-earlier-than>2024-02-24T14:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t27">
+    <title>Tarea 1</title>
+    <schedule-type>asap</schedule-type>
+    <effort>28800</effort>
+    <locked-start-date>2024-02-14T14:00:00.000Z</locked-start-date>
+    <recalculate>duration</recalculate>
+    <static-cost>0</static-cost>
+    <start-no-earlier-than>2024-02-25T14:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color space="srgb" r="1" g="0.5" b="0.5"/>
